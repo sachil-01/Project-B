@@ -1,2 +1,0 @@
-# PorjectB
-# Project Bioscoop 
