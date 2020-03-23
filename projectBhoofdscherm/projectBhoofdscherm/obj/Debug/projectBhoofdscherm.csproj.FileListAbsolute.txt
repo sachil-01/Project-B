@@ -1,0 +1,9 @@
+C:\Users\moham\Desktop\projectBhoofdscherm\projectBhoofdscherm\bin\Debug\projectBhoofdscherm.exe.config
+C:\Users\moham\Desktop\projectBhoofdscherm\projectBhoofdscherm\bin\Debug\projectBhoofdscherm.exe
+C:\Users\moham\Desktop\projectBhoofdscherm\projectBhoofdscherm\bin\Debug\projectBhoofdscherm.pdb
+C:\Users\moham\Desktop\projectBhoofdscherm\projectBhoofdscherm\obj\Debug\projectBhoofdscherm.csprojAssemblyReference.cache
+C:\Users\moham\Desktop\projectBhoofdscherm\projectBhoofdscherm\obj\Debug\projectBhoofdscherm.Form1.resources
+C:\Users\moham\Desktop\projectBhoofdscherm\projectBhoofdscherm\obj\Debug\projectBhoofdscherm.Properties.Resources.resources
+C:\Users\moham\Desktop\projectBhoofdscherm\projectBhoofdscherm\obj\Debug\projectBhoofdscherm.csproj.GenerateResource.cache
+C:\Users\moham\Desktop\projectBhoofdscherm\projectBhoofdscherm\obj\Debug\projectBhoofdscherm.exe
+C:\Users\moham\Desktop\projectBhoofdscherm\projectBhoofdscherm\obj\Debug\projectBhoofdscherm.pdb
