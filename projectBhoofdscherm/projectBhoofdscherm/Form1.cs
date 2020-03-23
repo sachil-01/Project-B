@@ -16,7 +16,7 @@ namespace projectBhoofdscherm
         {
             InitializeComponent();
             panelStartScherm.Show();
-            panelBoven.Show();
+
             panel2Next.Hide();
         }
 
@@ -28,14 +28,14 @@ namespace projectBhoofdscherm
         private void NextKnopRecht_Click(object sender, EventArgs e)
         {
             panel2Next.Show();
-            panelBoven.Show();
+
             panelStartScherm.Hide();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             panelStartScherm.Show();
-            panelBoven.Show();
+
             panel2Next.Hide();
         }
 
