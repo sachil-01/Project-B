@@ -129,5 +129,155 @@ namespace HoofdschermProjectB
         {
             Close();
         }
+        
+
+        // sachil code
+
+        private void panelBoven2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            onward.Show();
+        }
+
+        private void pictureBoxMovis_Click(object sender, EventArgs e)
+        {
+            onward.Hide();
+        }
+
+        private void labelMovis_Click(object sender, EventArgs e)
+        {
+            onward.Hide();
+        }
+
+        private void onward_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelMovis_Click_1(object sender, EventArgs e)
+        {
+            onward.Hide();
+        }
+
+        private void OnwardDescription_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBoxMovis_Click_1(object sender, EventArgs e)
+        {
+            onward.Hide();
+            BrooklynAffairs.Visible = false;
+            LikeABoss.Visible = false;
+            MIDWAY.Visible = false;
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            BrooklynAffairs.Show();
+            LikeABoss.Hide();
+            MIDWAY.Hide();
+            onward.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            
+            LikeABoss.Show();
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            MIDWAY.Visible = true;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
