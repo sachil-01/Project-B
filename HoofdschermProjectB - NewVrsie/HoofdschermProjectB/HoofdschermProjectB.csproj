@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8044D7D2-4DDA-47FB-B870-A5B1CAF5601D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HoofdschermProjectB</RootNamespace>
+    <AssemblyName>HoofdschermProjectB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="contactForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="contactForm.Designer.cs">
+      <DependentUpon>contactForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="contactForm.resx">
+      <DependentUpon>contactForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\83519.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_542845.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_568656.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51it0D0mX2L._SX336_BO1,204,203,200_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81aDHiDYcVL._AC_SL1200_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29419_121971_ps_sd-high.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\209192.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad boys for life.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e28f8a0f43ee0d2e3932b30e2cf65627%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hors_normes_banner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM%40._V1_UY1200_CR90,0,630,1200_AL_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no-time-to-die.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scapin_poster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thefopreformed_poster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-nun-movie-reviews-1013906.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8e74a3747c3cd965a0735f5a5ce1720b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A124--.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AQP2_Dom_Online_Vertical_Family.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ContactPagina - Copy\ContactPagina\ContactPagina.csproj">
+      <Project>{f2d0fad9-5437-4afd-ad31-dd5a26396435}</Project>
+      <Name>ContactPagina</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
