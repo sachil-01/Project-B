@@ -8,3 +8,13 @@ C:\Users\esmai\source\repos\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.
 C:\Users\esmai\source\repos\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.csproj.CoreCompileInputs.cache
 C:\Users\esmai\source\repos\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.exe
 C:\Users\esmai\source\repos\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.pdb
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\bin\Debug\stoelenscherm.exe.config
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\bin\Debug\stoelenscherm.exe
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\bin\Debug\stoelenscherm.pdb
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.csprojAssemblyReference.cache
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.Form1.resources
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.Properties.Resources.resources
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.csproj.GenerateResource.cache
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.csproj.CoreCompileInputs.cache
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.exe
+D:\Projectb\PorjectB\stoelenscherm\stoelenscherm\obj\Debug\stoelenscherm.pdb

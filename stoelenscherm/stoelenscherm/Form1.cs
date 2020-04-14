@@ -17,6 +17,7 @@ namespace stoelenscherm
         const int ButtonWidth = 45;
         const int ButtonHeight = 45;
         int n = 1;
+        Button reserved;
         public Form1()
 
 
@@ -38,22 +39,38 @@ namespace stoelenscherm
                     chair.BackColor = Color.PeachPuff;
                     panel1.Controls.Add(chair);
                     chairs.Add(chair);
-                  
+                    chair.Click += new EventHandler(this.clickfun);
+
 
                 }
 
 
-
             }
-
-
-
-
-
-
-
+             reserved=chairs[0];
 
         }
+
+         void clickfun(object sender, EventArgs e)
+        {
+            reserved.BackColor= Color.PeachPuff;
+            Button chair = (Button)sender;
+            chair.BackColor = Color.Blue;
+            reserved = chair;
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
     }
-}
+    }
+
 
