@@ -702,20 +702,22 @@
             // BioscoopDetails
             // 
             this.BioscoopDetails.AutoSize = true;
+            this.BioscoopDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BioscoopDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.BioscoopDetails.Location = new System.Drawing.Point(923, 2);
             this.BioscoopDetails.Name = "BioscoopDetails";
-            this.BioscoopDetails.Size = new System.Drawing.Size(41, 13);
+            this.BioscoopDetails.Size = new System.Drawing.Size(60, 20);
             this.BioscoopDetails.TabIndex = 4;
             this.BioscoopDetails.Text = "label16";
             // 
             // MovieDetails
             // 
             this.MovieDetails.AutoSize = true;
+            this.MovieDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MovieDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.MovieDetails.Location = new System.Drawing.Point(40, 462);
             this.MovieDetails.Name = "MovieDetails";
-            this.MovieDetails.Size = new System.Drawing.Size(41, 13);
+            this.MovieDetails.Size = new System.Drawing.Size(60, 20);
             this.MovieDetails.TabIndex = 3;
             this.MovieDetails.Text = "label16";
             // 
