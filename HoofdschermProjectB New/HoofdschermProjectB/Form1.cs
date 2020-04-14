@@ -584,5 +584,11 @@ namespace HoofdschermProjectB
             Reserveerknop.Text = "Reserveer\n" + "een plek";
             pictureBox6.Image = Image.FromFile("resources\\thenun.jpg");
         }
+
+        private void labelMovisClick(object sender, EventArgs e)
+        {
+            MovieDescriptionPanel.Hide();
+            panel1.Show();
+        }
     }
 }

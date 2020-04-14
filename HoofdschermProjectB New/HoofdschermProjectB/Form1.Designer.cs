@@ -36,13 +36,6 @@
             this.pictureBoxContact = new System.Windows.Forms.PictureBox();
             this.pictureBoxMovis = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.MovieDescriptionPanel = new System.Windows.Forms.Panel();
-            this.Reserveerknop = new System.Windows.Forms.Button();
-            this.BioscoopDetails = new System.Windows.Forms.Label();
-            this.MovieDetails = new System.Windows.Forms.Label();
-            this.MovieTitle = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.MovieDescription = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -76,13 +69,18 @@
             this.AlladinPicture = new System.Windows.Forms.PictureBox();
             this.LikeabossPicture = new System.Windows.Forms.PictureBox();
             this.BadBoysPicture = new System.Windows.Forms.PictureBox();
+            this.MovieDescriptionPanel = new System.Windows.Forms.Panel();
+            this.Reserveerknop = new System.Windows.Forms.Button();
+            this.BioscoopDetails = new System.Windows.Forms.Label();
+            this.MovieDetails = new System.Windows.Forms.Label();
+            this.MovieTitle = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.MovieDescription = new System.Windows.Forms.Label();
             this.panelBoven2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyaccount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxContact)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMovis)).BeginInit();
             this.panel1.SuspendLayout();
-            this.MovieDescriptionPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MusePicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DachraPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AquietplacePicture)).BeginInit();
@@ -98,6 +96,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.AlladinPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LikeabossPicture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BadBoysPicture)).BeginInit();
+            this.MovieDescriptionPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panelBoven2
@@ -152,6 +152,7 @@
             this.labelMovis.TabIndex = 11;
             this.labelMovis.Tag = "";
             this.labelMovis.Text = "Movies";
+            this.labelMovis.Click += new System.EventHandler(this.labelMovisClick);
             this.labelMovis.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
             this.labelMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
             // 
@@ -240,83 +241,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1126, 1198);
             this.panel1.TabIndex = 13;
-            // 
-            // MovieDescriptionPanel
-            // 
-            this.MovieDescriptionPanel.AutoScroll = true;
-            this.MovieDescriptionPanel.BackColor = System.Drawing.SystemColors.ControlText;
-            this.MovieDescriptionPanel.Controls.Add(this.Reserveerknop);
-            this.MovieDescriptionPanel.Controls.Add(this.BioscoopDetails);
-            this.MovieDescriptionPanel.Controls.Add(this.MovieDetails);
-            this.MovieDescriptionPanel.Controls.Add(this.MovieTitle);
-            this.MovieDescriptionPanel.Controls.Add(this.pictureBox6);
-            this.MovieDescriptionPanel.Controls.Add(this.MovieDescription);
-            this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 104);
-            this.MovieDescriptionPanel.Name = "MovieDescriptionPanel";
-            this.MovieDescriptionPanel.Size = new System.Drawing.Size(1126, 638);
-            this.MovieDescriptionPanel.TabIndex = 34;
-            this.MovieDescriptionPanel.Visible = false;
-            // 
-            // Reserveerknop
-            // 
-            this.Reserveerknop.BackColor = System.Drawing.Color.Lime;
-            this.Reserveerknop.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
-            this.Reserveerknop.Location = new System.Drawing.Point(881, 482);
-            this.Reserveerknop.Name = "Reserveerknop";
-            this.Reserveerknop.Size = new System.Drawing.Size(182, 82);
-            this.Reserveerknop.TabIndex = 5;
-            this.Reserveerknop.Text = "button1";
-            this.Reserveerknop.UseVisualStyleBackColor = false;
-            // 
-            // BioscoopDetails
-            // 
-            this.BioscoopDetails.AutoSize = true;
-            this.BioscoopDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BioscoopDetails.Location = new System.Drawing.Point(923, 2);
-            this.BioscoopDetails.Name = "BioscoopDetails";
-            this.BioscoopDetails.Size = new System.Drawing.Size(41, 13);
-            this.BioscoopDetails.TabIndex = 4;
-            this.BioscoopDetails.Text = "label16";
-            // 
-            // MovieDetails
-            // 
-            this.MovieDetails.AutoSize = true;
-            this.MovieDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.MovieDetails.Location = new System.Drawing.Point(40, 462);
-            this.MovieDetails.Name = "MovieDetails";
-            this.MovieDetails.Size = new System.Drawing.Size(41, 13);
-            this.MovieDetails.TabIndex = 3;
-            this.MovieDetails.Text = "label16";
-            // 
-            // MovieTitle
-            // 
-            this.MovieTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F);
-            this.MovieTitle.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.MovieTitle.Location = new System.Drawing.Point(325, 69);
-            this.MovieTitle.Name = "MovieTitle";
-            this.MovieTitle.Size = new System.Drawing.Size(424, 42);
-            this.MovieTitle.TabIndex = 2;
-            this.MovieTitle.Text = "label16";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Location = new System.Drawing.Point(45, 29);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(233, 345);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 1;
-            this.pictureBox6.TabStop = false;
-            // 
-            // MovieDescription
-            // 
-            this.MovieDescription.AutoSize = true;
-            this.MovieDescription.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MovieDescription.ForeColor = System.Drawing.SystemColors.Control;
-            this.MovieDescription.Location = new System.Drawing.Point(328, 181);
-            this.MovieDescription.Name = "MovieDescription";
-            this.MovieDescription.Size = new System.Drawing.Size(75, 23);
-            this.MovieDescription.TabIndex = 0;
-            this.MovieDescription.Text = "label16";
             // 
             // label15
             // 
@@ -748,6 +672,83 @@
             this.BadBoysPicture.Tag = "Comedy";
             this.BadBoysPicture.Click += new System.EventHandler(this.BadBoysPictureClick);
             // 
+            // MovieDescriptionPanel
+            // 
+            this.MovieDescriptionPanel.AutoScroll = true;
+            this.MovieDescriptionPanel.BackColor = System.Drawing.SystemColors.ControlText;
+            this.MovieDescriptionPanel.Controls.Add(this.Reserveerknop);
+            this.MovieDescriptionPanel.Controls.Add(this.BioscoopDetails);
+            this.MovieDescriptionPanel.Controls.Add(this.MovieDetails);
+            this.MovieDescriptionPanel.Controls.Add(this.MovieTitle);
+            this.MovieDescriptionPanel.Controls.Add(this.pictureBox6);
+            this.MovieDescriptionPanel.Controls.Add(this.MovieDescription);
+            this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 104);
+            this.MovieDescriptionPanel.Name = "MovieDescriptionPanel";
+            this.MovieDescriptionPanel.Size = new System.Drawing.Size(1126, 638);
+            this.MovieDescriptionPanel.TabIndex = 34;
+            this.MovieDescriptionPanel.Visible = false;
+            // 
+            // Reserveerknop
+            // 
+            this.Reserveerknop.BackColor = System.Drawing.Color.Lime;
+            this.Reserveerknop.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Reserveerknop.Location = new System.Drawing.Point(881, 482);
+            this.Reserveerknop.Name = "Reserveerknop";
+            this.Reserveerknop.Size = new System.Drawing.Size(182, 82);
+            this.Reserveerknop.TabIndex = 5;
+            this.Reserveerknop.Text = "button1";
+            this.Reserveerknop.UseVisualStyleBackColor = false;
+            // 
+            // BioscoopDetails
+            // 
+            this.BioscoopDetails.AutoSize = true;
+            this.BioscoopDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BioscoopDetails.Location = new System.Drawing.Point(923, 2);
+            this.BioscoopDetails.Name = "BioscoopDetails";
+            this.BioscoopDetails.Size = new System.Drawing.Size(41, 13);
+            this.BioscoopDetails.TabIndex = 4;
+            this.BioscoopDetails.Text = "label16";
+            // 
+            // MovieDetails
+            // 
+            this.MovieDetails.AutoSize = true;
+            this.MovieDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.MovieDetails.Location = new System.Drawing.Point(40, 462);
+            this.MovieDetails.Name = "MovieDetails";
+            this.MovieDetails.Size = new System.Drawing.Size(41, 13);
+            this.MovieDetails.TabIndex = 3;
+            this.MovieDetails.Text = "label16";
+            // 
+            // MovieTitle
+            // 
+            this.MovieTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F);
+            this.MovieTitle.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.MovieTitle.Location = new System.Drawing.Point(325, 69);
+            this.MovieTitle.Name = "MovieTitle";
+            this.MovieTitle.Size = new System.Drawing.Size(424, 42);
+            this.MovieTitle.TabIndex = 2;
+            this.MovieTitle.Text = "label16";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Location = new System.Drawing.Point(45, 29);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(233, 345);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
+            // 
+            // MovieDescription
+            // 
+            this.MovieDescription.AutoSize = true;
+            this.MovieDescription.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MovieDescription.ForeColor = System.Drawing.SystemColors.Control;
+            this.MovieDescription.Location = new System.Drawing.Point(328, 181);
+            this.MovieDescription.Name = "MovieDescription";
+            this.MovieDescription.Size = new System.Drawing.Size(75, 23);
+            this.MovieDescription.TabIndex = 0;
+            this.MovieDescription.Text = "label16";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -767,9 +768,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMovis)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.MovieDescriptionPanel.ResumeLayout(false);
-            this.MovieDescriptionPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MusePicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DachraPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AquietplacePicture)).EndInit();
@@ -785,6 +783,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.AlladinPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LikeabossPicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BadBoysPicture)).EndInit();
+            this.MovieDescriptionPanel.ResumeLayout(false);
+            this.MovieDescriptionPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
