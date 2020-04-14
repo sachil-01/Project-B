@@ -7,13 +7,63 @@ C:\Users\moham\Desktop\HoofdschermProjectB\HoofdschermProjectB\obj\Debug\Hoofdsc
 C:\Users\moham\Desktop\HoofdschermProjectB\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.GenerateResource.cache
 C:\Users\moham\Desktop\HoofdschermProjectB\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.exe
 C:\Users\moham\Desktop\HoofdschermProjectB\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.pdb
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe.config
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.pdb
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csprojAssemblyReference.cache
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Form1.resources
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Properties.Resources.resources
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.GenerateResource.cache
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.exe
-C:\Users\Admin\Desktop\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.pdb
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe.config
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.pdb
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csprojAssemblyReference.cache
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Form1.resources
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Properties.Resources.resources
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.exe
+C:\Users\Admin\Downloads\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.pdb
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Form1.resources
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Properties.Resources.resources
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.exe
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.pdb
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe.config
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.pdb
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\bad boys for life.jpg
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\Onward.png
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\Brooklyn.jpg
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\like a boss.png
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\midway.jpg
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\trainingday.png
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\hors_normes_banner.jpg
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\Alladin.jpg
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\no-time-to-die.png
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\scapin_poster.jpg
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\Muse.png
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\dachra.jpg
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\aquietplace.jpg
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\thefopreformed_poster.jpg
+C:\Users\Admin\Desktop\Project B original\PorjectB-master\PorjectB-master\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\thenun.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\Onward.png
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\Brooklyn.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\like a boss.png
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\midway.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\bad boys for life.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\trainingday.png
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\hors_normes_banner.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\Alladin.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\no-time-to-die.png
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\scapin_poster.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\thefopreformed_poster.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\thenun.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\Muse.png
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\dachra.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\Resources\aquietplace.jpg
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe.config
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.pdb
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Form1.resources
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.exe
+C:\Users\Admin\Documents\GitHub\PorjectB\HoofdschermProjectB New\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.pdb

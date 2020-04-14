@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelBoven2 = new System.Windows.Forms.Panel();
             this.labelMyaccount = new System.Windows.Forms.Label();
             this.labelContact = new System.Windows.Forms.Label();
@@ -37,33 +36,19 @@
             this.pictureBoxContact = new System.Windows.Forms.PictureBox();
             this.pictureBoxMovis = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.LikeABoss = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.MIDWAY = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.onward = new System.Windows.Forms.Panel();
-            this.OnwardDetails = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.OnwardFilmDetails = new System.Windows.Forms.Label();
-            this.OnwardTitle = new System.Windows.Forms.Label();
-            this.OnwardDescription = new System.Windows.Forms.Label();
+            this.MovieDescriptionPanel = new System.Windows.Forms.Panel();
+            this.Reserveerknop = new System.Windows.Forms.Button();
+            this.BioscoopDetails = new System.Windows.Forms.Label();
+            this.MovieDetails = new System.Windows.Forms.Label();
+            this.MovieTitle = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.MovieDescription = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.MusePicture = new System.Windows.Forms.PictureBox();
+            this.DachraPicture = new System.Windows.Forms.PictureBox();
+            this.AquietplacePicture = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.Button();
             this.labelGenre = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -79,59 +64,44 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.OnwardMovie = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.BrooklynAffairs = new System.Windows.Forms.Panel();
-            this.BrooklynDetails2 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.BrooklynDetails1 = new System.Windows.Forms.Label();
-            this.BrookynAffairsTitle = new System.Windows.Forms.Label();
-            this.BrooklynOverview = new System.Windows.Forms.Label();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.MidwayPicture = new System.Windows.Forms.PictureBox();
+            this.OnwardPicture = new System.Windows.Forms.PictureBox();
+            this.BrooklynPicture = new System.Windows.Forms.PictureBox();
+            this.ScapintheschemerPicture = new System.Windows.Forms.PictureBox();
+            this.NotimetodiePicture = new System.Windows.Forms.PictureBox();
+            this.HorsNormesPicture = new System.Windows.Forms.PictureBox();
+            this.TrainingDayPicture = new System.Windows.Forms.PictureBox();
+            this.TheNunPicture = new System.Windows.Forms.PictureBox();
+            this.TheFopRevormedPicture = new System.Windows.Forms.PictureBox();
+            this.AlladinPicture = new System.Windows.Forms.PictureBox();
+            this.LikeabossPicture = new System.Windows.Forms.PictureBox();
+            this.BadBoysPicture = new System.Windows.Forms.PictureBox();
             this.panelBoven2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyaccount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxContact)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMovis)).BeginInit();
             this.panel1.SuspendLayout();
-            this.LikeABoss.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            this.MIDWAY.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            this.onward.SuspendLayout();
+            this.MovieDescriptionPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OnwardMovie)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.BrooklynAffairs.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MusePicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DachraPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AquietplacePicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MidwayPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OnwardPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BrooklynPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ScapintheschemerPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NotimetodiePicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HorsNormesPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TrainingDayPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TheNunPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TheFopRevormedPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AlladinPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LikeabossPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BadBoysPicture)).BeginInit();
             this.SuspendLayout();
             // 
             // panelBoven2
             // 
-            this.panelBoven2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelBoven2.BackColor = System.Drawing.SystemColors.Highlight;
             this.panelBoven2.Controls.Add(this.labelMyaccount);
             this.panelBoven2.Controls.Add(this.labelContact);
@@ -139,10 +109,10 @@
             this.panelBoven2.Controls.Add(this.pictureBoxMyaccount);
             this.panelBoven2.Controls.Add(this.pictureBoxContact);
             this.panelBoven2.Controls.Add(this.pictureBoxMovis);
-            this.panelBoven2.Location = new System.Drawing.Point(1, 0);
+            this.panelBoven2.Location = new System.Drawing.Point(0, 0);
             this.panelBoven2.Margin = new System.Windows.Forms.Padding(2);
             this.panelBoven2.Name = "panelBoven2";
-            this.panelBoven2.Size = new System.Drawing.Size(1513, 106);
+            this.panelBoven2.Size = new System.Drawing.Size(1125, 106);
             this.panelBoven2.TabIndex = 11;
             // 
             // labelMyaccount
@@ -182,7 +152,6 @@
             this.labelMovis.TabIndex = 11;
             this.labelMovis.Tag = "";
             this.labelMovis.Text = "Movies";
-            this.labelMovis.Click += new System.EventHandler(this.labelMovis_Click_1);
             this.labelMovis.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
             this.labelMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
             // 
@@ -223,23 +192,19 @@
             this.pictureBoxMovis.TabIndex = 8;
             this.pictureBoxMovis.TabStop = false;
             this.pictureBoxMovis.Tag = "";
-            this.pictureBoxMovis.Click += new System.EventHandler(this.pictureBoxMovis_Click_1);
+            this.pictureBoxMovis.Click += new System.EventHandler(this.pictureBoxMovis_Click);
             this.pictureBoxMovis.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
             this.pictureBoxMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Controls.Add(this.LikeABoss);
-            this.panel1.Controls.Add(this.BrooklynAffairs);
-            this.panel1.Controls.Add(this.MIDWAY);
             this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.onward);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.MusePicture);
+            this.panel1.Controls.Add(this.DachraPicture);
+            this.panel1.Controls.Add(this.AquietplacePicture);
             this.panel1.Controls.Add(this.btnExit);
             this.panel1.Controls.Add(this.labelGenre);
             this.panel1.Controls.Add(this.comboBox1);
@@ -255,193 +220,103 @@
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.pictureBox16);
-            this.panel1.Controls.Add(this.OnwardMovie);
-            this.panel1.Controls.Add(this.pictureBox14);
-            this.panel1.Controls.Add(this.pictureBox13);
-            this.panel1.Controls.Add(this.pictureBox12);
-            this.panel1.Controls.Add(this.pictureBox11);
-            this.panel1.Controls.Add(this.pictureBox10);
-            this.panel1.Controls.Add(this.pictureBox9);
-            this.panel1.Controls.Add(this.pictureBox8);
-            this.panel1.Controls.Add(this.pictureBox7);
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Controls.Add(this.MidwayPicture);
+            this.panel1.Controls.Add(this.OnwardPicture);
+            this.panel1.Controls.Add(this.BrooklynPicture);
+            this.panel1.Controls.Add(this.ScapintheschemerPicture);
+            this.panel1.Controls.Add(this.NotimetodiePicture);
+            this.panel1.Controls.Add(this.HorsNormesPicture);
+            this.panel1.Controls.Add(this.TrainingDayPicture);
+            this.panel1.Controls.Add(this.TheNunPicture);
+            this.panel1.Controls.Add(this.TheFopRevormedPicture);
+            this.panel1.Controls.Add(this.AlladinPicture);
+            this.panel1.Controls.Add(this.LikeabossPicture);
+            this.panel1.Controls.Add(this.BadBoysPicture);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel1.Location = new System.Drawing.Point(1, 106);
+            this.panel1.Location = new System.Drawing.Point(0, 742);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1125, 1198);
+            this.panel1.Size = new System.Drawing.Size(1126, 1198);
             this.panel1.TabIndex = 13;
             // 
-            // LikeABoss
+            // MovieDescriptionPanel
             // 
-            this.LikeABoss.Controls.Add(this.label16);
-            this.LikeABoss.Controls.Add(this.button3);
-            this.LikeABoss.Controls.Add(this.label17);
-            this.LikeABoss.Controls.Add(this.label18);
-            this.LikeABoss.Controls.Add(this.label19);
-            this.LikeABoss.Controls.Add(this.pictureBox15);
-            this.LikeABoss.Location = new System.Drawing.Point(0, 0);
-            this.LikeABoss.Name = "LikeABoss";
-            this.LikeABoss.Size = new System.Drawing.Size(1105, 1195);
-            this.LikeABoss.TabIndex = 36;
-            this.LikeABoss.Visible = false;
+            this.MovieDescriptionPanel.AutoScroll = true;
+            this.MovieDescriptionPanel.BackColor = System.Drawing.SystemColors.ControlText;
+            this.MovieDescriptionPanel.Controls.Add(this.Reserveerknop);
+            this.MovieDescriptionPanel.Controls.Add(this.BioscoopDetails);
+            this.MovieDescriptionPanel.Controls.Add(this.MovieDetails);
+            this.MovieDescriptionPanel.Controls.Add(this.MovieTitle);
+            this.MovieDescriptionPanel.Controls.Add(this.pictureBox6);
+            this.MovieDescriptionPanel.Controls.Add(this.MovieDescription);
+            this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 104);
+            this.MovieDescriptionPanel.Name = "MovieDescriptionPanel";
+            this.MovieDescriptionPanel.Size = new System.Drawing.Size(1126, 638);
+            this.MovieDescriptionPanel.TabIndex = 34;
+            this.MovieDescriptionPanel.Visible = false;
             // 
-            // label16
+            // Reserveerknop
             // 
-            this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label16.Location = new System.Drawing.Point(923, 2);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(199, 234);
-            this.label16.TabIndex = 30;
-            this.label16.Text = "Bioscoop kinepolis \r\n(Zaal 2)\r\n\r\n\r\nTijdstip:\r\n\r\n14 april 2020\r\n16:00 - 17:30\r\n\r\n";
+            this.Reserveerknop.BackColor = System.Drawing.Color.Lime;
+            this.Reserveerknop.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
+            this.Reserveerknop.Location = new System.Drawing.Point(881, 482);
+            this.Reserveerknop.Name = "Reserveerknop";
+            this.Reserveerknop.Size = new System.Drawing.Size(182, 82);
+            this.Reserveerknop.TabIndex = 5;
+            this.Reserveerknop.Text = "button1";
+            this.Reserveerknop.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // BioscoopDetails
             // 
-            this.button3.BackColor = System.Drawing.Color.Lime;
-            this.button3.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(909, 523);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(182, 82);
-            this.button3.TabIndex = 29;
-            this.button3.Text = "Reserveer een plek";
-            this.button3.UseVisualStyleBackColor = false;
+            this.BioscoopDetails.AutoSize = true;
+            this.BioscoopDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.BioscoopDetails.Location = new System.Drawing.Point(923, 2);
+            this.BioscoopDetails.Name = "BioscoopDetails";
+            this.BioscoopDetails.Size = new System.Drawing.Size(41, 13);
+            this.BioscoopDetails.TabIndex = 4;
+            this.BioscoopDetails.Text = "label16";
             // 
-            // label17
+            // MovieDetails
             // 
-            this.label17.AutoSize = true;
-            this.label17.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label17.Location = new System.Drawing.Point(40, 462);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(361, 130);
-            this.label17.TabIndex = 28;
-            this.label17.Text = "Genre:  Comedy\r\nLeeftijd: 12+\r\nPrijs: $12\r\nFilmduur:  1h 23m\r\nTe zien in: 3D, IMA" +
-    "X, Dolby Cinema";
+            this.MovieDetails.AutoSize = true;
+            this.MovieDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.MovieDetails.Location = new System.Drawing.Point(40, 462);
+            this.MovieDetails.Name = "MovieDetails";
+            this.MovieDetails.Size = new System.Drawing.Size(41, 13);
+            this.MovieDetails.TabIndex = 3;
+            this.MovieDetails.Text = "label16";
             // 
-            // label18
+            // MovieTitle
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.Location = new System.Drawing.Point(325, 69);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(247, 42);
-            this.label18.TabIndex = 27;
-            this.label18.Text = "LIKE A BOSS";
+            this.MovieTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F);
+            this.MovieTitle.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.MovieTitle.Location = new System.Drawing.Point(325, 69);
+            this.MovieTitle.Name = "MovieTitle";
+            this.MovieTitle.Size = new System.Drawing.Size(424, 42);
+            this.MovieTitle.TabIndex = 2;
+            this.MovieTitle.Text = "label16";
             // 
-            // label19
+            // pictureBox6
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.Control;
-            this.label19.Location = new System.Drawing.Point(283, 149);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(462, 144);
-            this.label19.TabIndex = 26;
-            this.label19.Text = "Film beschrijving:\r\n\r\nIn de hilarische nieuwe komedie Like a Boss lijkt het \r\nde " +
-    "beste vriendinnen Mia en Mel\r\n(Tiffany Haddish en Rose Byrne) voor de wind te ga" +
-    "an\r\nmet hun eigen cosmeticabedrijf.";
+            this.pictureBox6.Location = new System.Drawing.Point(45, 29);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(233, 345);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 1;
+            this.pictureBox6.TabStop = false;
             // 
-            // pictureBox15
+            // MovieDescription
             // 
-            this.pictureBox15.Image = global::HoofdschermProjectB.Properties.Resources._29419_121971_ps_sd_high;
-            this.pictureBox15.Location = new System.Drawing.Point(45, 29);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(233, 345);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox15.TabIndex = 2;
-            this.pictureBox15.TabStop = false;
-            this.pictureBox15.Tag = "Comedy";
-            // 
-            // MIDWAY
-            // 
-            this.MIDWAY.Controls.Add(this.label20);
-            this.MIDWAY.Controls.Add(this.button4);
-            this.MIDWAY.Controls.Add(this.label21);
-            this.MIDWAY.Controls.Add(this.label22);
-            this.MIDWAY.Controls.Add(this.label23);
-            this.MIDWAY.Controls.Add(this.pictureBox18);
-            this.MIDWAY.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MIDWAY.Location = new System.Drawing.Point(0, 0);
-            this.MIDWAY.Name = "MIDWAY";
-            this.MIDWAY.Size = new System.Drawing.Size(1125, 1198);
-            this.MIDWAY.TabIndex = 25;
-            this.MIDWAY.Visible = false;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.Location = new System.Drawing.Point(906, 2);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(199, 234);
-            this.label20.TabIndex = 30;
-            this.label20.Text = "Bioscoop kinepolis \r\n(Zaal 1)\r\n\r\n\r\nTijdstip:\r\n\r\n14 april 2020\r\n14:00 - 17:00\r\n\r\n";
-            this.label20.Click += new System.EventHandler(this.label20_Click);
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Lime;
-            this.button4.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(892, 523);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(182, 82);
-            this.button4.TabIndex = 29;
-            this.button4.Text = "Reserveer een plek";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label21.Location = new System.Drawing.Point(23, 462);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(361, 130);
-            this.label21.TabIndex = 28;
-            this.label21.Text = "Genre:  Crime, Drama, Mystery\r\nLeeftijd: 16+\r\nPrijs: $12\r\nFilmduur:  2h 42m\r\nTe z" +
-    "ien in: 3D, IMAX, Dolby Cinema";
-            this.label21.Click += new System.EventHandler(this.label21_Click);
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label22.Location = new System.Drawing.Point(308, 69);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(170, 42);
-            this.label22.TabIndex = 27;
-            this.label22.Text = "MIDWAY";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.SystemColors.Control;
-            this.label23.Location = new System.Drawing.Point(266, 149);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(714, 264);
-            this.label23.TabIndex = 26;
-            this.label23.Text = resources.GetString("label23.Text");
-            this.label23.Click += new System.EventHandler(this.label23_Click);
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.Image = global::HoofdschermProjectB.Properties.Resources._81aDHiDYcVL__AC_SL1200_;
-            this.pictureBox18.Location = new System.Drawing.Point(28, 34);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(230, 345);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 25;
-            this.pictureBox18.TabStop = false;
-            this.pictureBox18.Tag = "Action";
-            this.pictureBox18.Click += new System.EventHandler(this.pictureBox18_Click);
+            this.MovieDescription.AutoSize = true;
+            this.MovieDescription.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MovieDescription.ForeColor = System.Drawing.SystemColors.Control;
+            this.MovieDescription.Location = new System.Drawing.Point(328, 181);
+            this.MovieDescription.Name = "MovieDescription";
+            this.MovieDescription.Size = new System.Drawing.Size(75, 23);
+            this.MovieDescription.TabIndex = 0;
+            this.MovieDescription.Text = "label16";
             // 
             // label15
             // 
@@ -455,87 +330,6 @@
             this.label15.TabIndex = 33;
             this.label15.Tag = "Horror";
             this.label15.Text = "DACHRA";
-            // 
-            // onward
-            // 
-            this.onward.Controls.Add(this.OnwardDetails);
-            this.onward.Controls.Add(this.button1);
-            this.onward.Controls.Add(this.OnwardFilmDetails);
-            this.onward.Controls.Add(this.OnwardTitle);
-            this.onward.Controls.Add(this.OnwardDescription);
-            this.onward.Controls.Add(this.pictureBox6);
-            this.onward.Location = new System.Drawing.Point(0, 0);
-            this.onward.Name = "onward";
-            this.onward.Size = new System.Drawing.Size(1108, 1198);
-            this.onward.TabIndex = 34;
-            this.onward.Visible = false;
-            this.onward.Paint += new System.Windows.Forms.PaintEventHandler(this.onward_Paint);
-            // 
-            // OnwardDetails
-            // 
-            this.OnwardDetails.AutoSize = true;
-            this.OnwardDetails.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.OnwardDetails.Location = new System.Drawing.Point(923, 2);
-            this.OnwardDetails.Name = "OnwardDetails";
-            this.OnwardDetails.Size = new System.Drawing.Size(199, 234);
-            this.OnwardDetails.TabIndex = 18;
-            this.OnwardDetails.Text = "Bioscoop kinepolis \r\n(Zaal 1)\r\n\r\n\r\nTijdstip:\r\n\r\n5 maart 2021\r\n13:00 - 15:00\r\n\r\n";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Lime;
-            this.button1.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(909, 523);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 82);
-            this.button1.TabIndex = 17;
-            this.button1.Text = "Reserveer een plek";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // OnwardFilmDetails
-            // 
-            this.OnwardFilmDetails.AutoSize = true;
-            this.OnwardFilmDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.OnwardFilmDetails.Location = new System.Drawing.Point(40, 462);
-            this.OnwardFilmDetails.Name = "OnwardFilmDetails";
-            this.OnwardFilmDetails.Size = new System.Drawing.Size(361, 130);
-            this.OnwardFilmDetails.TabIndex = 15;
-            this.OnwardFilmDetails.Text = "Genre: Animatie / Fantasy\r\nLeeftijd: 3+\r\nPrijs: $12\r\nFilmduur:  1h 41m\r\nTe zien i" +
-    "n: 3D, IMAX, Dolby Cinema";
-            // 
-            // OnwardTitle
-            // 
-            this.OnwardTitle.AutoSize = true;
-            this.OnwardTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OnwardTitle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.OnwardTitle.Location = new System.Drawing.Point(325, 69);
-            this.OnwardTitle.Name = "OnwardTitle";
-            this.OnwardTitle.Size = new System.Drawing.Size(149, 42);
-            this.OnwardTitle.TabIndex = 14;
-            this.OnwardTitle.Text = "Onward";
-            // 
-            // OnwardDescription
-            // 
-            this.OnwardDescription.AutoSize = true;
-            this.OnwardDescription.ForeColor = System.Drawing.SystemColors.Control;
-            this.OnwardDescription.Location = new System.Drawing.Point(322, 184);
-            this.OnwardDescription.Name = "OnwardDescription";
-            this.OnwardDescription.Size = new System.Drawing.Size(498, 182);
-            this.OnwardDescription.TabIndex = 13;
-            this.OnwardDescription.Text = resources.GetString("OnwardDescription.Text");
-            this.OnwardDescription.Click += new System.EventHandler(this.OnwardDescription_Click);
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::HoofdschermProjectB.Properties.Resources._51it0D0mX2L__SX336_BO1_204_203_200_;
-            this.pictureBox6.Location = new System.Drawing.Point(45, 87);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(230, 345);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 12;
-            this.pictureBox6.TabStop = false;
-            this.pictureBox6.Tag = "Comedy";
             // 
             // label2
             // 
@@ -563,44 +357,44 @@
             this.label1.Tag = "Horror";
             this.label1.Text = "MUSE";
             // 
-            // pictureBox3
+            // MusePicture
             // 
-            this.pictureBox3.Image = global::HoofdschermProjectB.Properties.Resources._8e74a3747c3cd965a0735f5a5ce1720b;
-            this.pictureBox3.Location = new System.Drawing.Point(16, 786);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 30;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Tag = "Horror";
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.MusePicture.Image = global::HoofdschermProjectB.Properties.Resources._8e74a3747c3cd965a0735f5a5ce1720b;
+            this.MusePicture.Location = new System.Drawing.Point(16, 786);
+            this.MusePicture.Margin = new System.Windows.Forms.Padding(2);
+            this.MusePicture.Name = "MusePicture";
+            this.MusePicture.Size = new System.Drawing.Size(173, 277);
+            this.MusePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MusePicture.TabIndex = 30;
+            this.MusePicture.TabStop = false;
+            this.MusePicture.Tag = "Horror";
+            this.MusePicture.Click += new System.EventHandler(this.MusePicture_Click);
             // 
-            // pictureBox2
+            // DachraPicture
             // 
-            this.pictureBox2.Image = global::HoofdschermProjectB.Properties.Resources.A124__;
-            this.pictureBox2.Location = new System.Drawing.Point(246, 787);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 29;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Tag = "Horror";
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.DachraPicture.Image = global::HoofdschermProjectB.Properties.Resources.A124__;
+            this.DachraPicture.Location = new System.Drawing.Point(246, 787);
+            this.DachraPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.DachraPicture.Name = "DachraPicture";
+            this.DachraPicture.Size = new System.Drawing.Size(173, 277);
+            this.DachraPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.DachraPicture.TabIndex = 29;
+            this.DachraPicture.TabStop = false;
+            this.DachraPicture.Tag = "Horror";
+            this.DachraPicture.Click += new System.EventHandler(this.DachraPicture_Click);
             // 
-            // pictureBox1
+            // AquietplacePicture
             // 
-            this.pictureBox1.Image = global::HoofdschermProjectB.Properties.Resources.AQP2_Dom_Online_Vertical_Family;
-            this.pictureBox1.Location = new System.Drawing.Point(470, 786);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Tag = "Horror";
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.AquietplacePicture.Image = global::HoofdschermProjectB.Properties.Resources.AQP2_Dom_Online_Vertical_Family;
+            this.AquietplacePicture.Location = new System.Drawing.Point(470, 786);
+            this.AquietplacePicture.Margin = new System.Windows.Forms.Padding(2);
+            this.AquietplacePicture.Name = "AquietplacePicture";
+            this.AquietplacePicture.Size = new System.Drawing.Size(173, 277);
+            this.AquietplacePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.AquietplacePicture.TabIndex = 28;
+            this.AquietplacePicture.TabStop = false;
+            this.AquietplacePicture.Tag = "Horror";
+            this.AquietplacePicture.Click += new System.EventHandler(this.AquietplacePicture_Click);
             // 
             // btnExit
             // 
@@ -798,242 +592,161 @@
             this.label3.Tag = "Comedy";
             this.label3.Text = "ONWARD";
             // 
-            // pictureBox16
+            // MidwayPicture
             // 
-            this.pictureBox16.Image = global::HoofdschermProjectB.Properties.Resources._209192;
-            this.pictureBox16.Location = new System.Drawing.Point(688, 89);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 12;
-            this.pictureBox16.TabStop = false;
-            this.pictureBox16.Tag = "Action";
-            this.pictureBox16.Click += new System.EventHandler(this.pictureBox16_Click);
+            this.MidwayPicture.Image = global::HoofdschermProjectB.Properties.Resources._209192;
+            this.MidwayPicture.Location = new System.Drawing.Point(688, 89);
+            this.MidwayPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.MidwayPicture.Name = "MidwayPicture";
+            this.MidwayPicture.Size = new System.Drawing.Size(173, 277);
+            this.MidwayPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MidwayPicture.TabIndex = 12;
+            this.MidwayPicture.TabStop = false;
+            this.MidwayPicture.Tag = "Action";
+            this.MidwayPicture.Click += new System.EventHandler(this.MidwayPicture_Click);
             // 
-            // OnwardMovie
+            // OnwardPicture
             // 
-            this.OnwardMovie.Image = global::HoofdschermProjectB.Properties.Resources._51it0D0mX2L__SX336_BO1_204_203_200_;
-            this.OnwardMovie.Location = new System.Drawing.Point(16, 89);
-            this.OnwardMovie.Margin = new System.Windows.Forms.Padding(2);
-            this.OnwardMovie.Name = "OnwardMovie";
-            this.OnwardMovie.Size = new System.Drawing.Size(173, 277);
-            this.OnwardMovie.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.OnwardMovie.TabIndex = 11;
-            this.OnwardMovie.TabStop = false;
-            this.OnwardMovie.Tag = "Comedy";
-            this.OnwardMovie.Click += new System.EventHandler(this.pictureBox15_Click);
+            this.OnwardPicture.Image = global::HoofdschermProjectB.Properties.Resources._51it0D0mX2L__SX336_BO1_204_203_200_;
+            this.OnwardPicture.Location = new System.Drawing.Point(16, 89);
+            this.OnwardPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.OnwardPicture.Name = "OnwardPicture";
+            this.OnwardPicture.Size = new System.Drawing.Size(173, 277);
+            this.OnwardPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.OnwardPicture.TabIndex = 11;
+            this.OnwardPicture.TabStop = false;
+            this.OnwardPicture.Tag = "Comedy";
+            this.OnwardPicture.Click += new System.EventHandler(this.OnwardPicture_Click);
             // 
-            // pictureBox14
+            // BrooklynPicture
             // 
-            this.pictureBox14.Image = global::HoofdschermProjectB.Properties.Resources._81aDHiDYcVL__AC_SL1200_;
-            this.pictureBox14.Location = new System.Drawing.Point(246, 89);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox14.TabIndex = 10;
-            this.pictureBox14.TabStop = false;
-            this.pictureBox14.Tag = "Action";
-            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
+            this.BrooklynPicture.Image = global::HoofdschermProjectB.Properties.Resources._81aDHiDYcVL__AC_SL1200_;
+            this.BrooklynPicture.Location = new System.Drawing.Point(246, 89);
+            this.BrooklynPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.BrooklynPicture.Name = "BrooklynPicture";
+            this.BrooklynPicture.Size = new System.Drawing.Size(173, 277);
+            this.BrooklynPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BrooklynPicture.TabIndex = 10;
+            this.BrooklynPicture.TabStop = false;
+            this.BrooklynPicture.Tag = "Action";
+            this.BrooklynPicture.Click += new System.EventHandler(this.BrooklynPicture_Click);
             // 
-            // pictureBox13
+            // ScapintheschemerPicture
             // 
-            this.pictureBox13.Image = global::HoofdschermProjectB.Properties.Resources.scapin_poster;
-            this.pictureBox13.Location = new System.Drawing.Point(897, 436);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox13.TabIndex = 9;
-            this.pictureBox13.TabStop = false;
-            this.pictureBox13.Tag = "Comedy";
-            this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
+            this.ScapintheschemerPicture.Image = global::HoofdschermProjectB.Properties.Resources.scapin_poster;
+            this.ScapintheschemerPicture.Location = new System.Drawing.Point(897, 436);
+            this.ScapintheschemerPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.ScapintheschemerPicture.Name = "ScapintheschemerPicture";
+            this.ScapintheschemerPicture.Size = new System.Drawing.Size(173, 277);
+            this.ScapintheschemerPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ScapintheschemerPicture.TabIndex = 9;
+            this.ScapintheschemerPicture.TabStop = false;
+            this.ScapintheschemerPicture.Tag = "Comedy";
+            this.ScapintheschemerPicture.Click += new System.EventHandler(this.ScapintheschemerPicture_Click);
             // 
-            // pictureBox12
+            // NotimetodiePicture
             // 
-            this.pictureBox12.Image = global::HoofdschermProjectB.Properties.Resources.no_time_to_die;
-            this.pictureBox12.Location = new System.Drawing.Point(688, 436);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox12.TabIndex = 8;
-            this.pictureBox12.TabStop = false;
-            this.pictureBox12.Tag = "Action";
-            this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
+            this.NotimetodiePicture.Image = global::HoofdschermProjectB.Properties.Resources.no_time_to_die;
+            this.NotimetodiePicture.Location = new System.Drawing.Point(688, 436);
+            this.NotimetodiePicture.Margin = new System.Windows.Forms.Padding(2);
+            this.NotimetodiePicture.Name = "NotimetodiePicture";
+            this.NotimetodiePicture.Size = new System.Drawing.Size(173, 277);
+            this.NotimetodiePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.NotimetodiePicture.TabIndex = 8;
+            this.NotimetodiePicture.TabStop = false;
+            this.NotimetodiePicture.Tag = "Action";
+            this.NotimetodiePicture.Click += new System.EventHandler(this.NotimetodiePicture_Click);
             // 
-            // pictureBox11
+            // HorsNormesPicture
             // 
-            this.pictureBox11.Image = global::HoofdschermProjectB.Properties.Resources.hors_normes_banner;
-            this.pictureBox11.Location = new System.Drawing.Point(246, 436);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox11.TabIndex = 7;
-            this.pictureBox11.TabStop = false;
-            this.pictureBox11.Tag = "Comedy";
-            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
+            this.HorsNormesPicture.Image = global::HoofdschermProjectB.Properties.Resources.hors_normes_banner;
+            this.HorsNormesPicture.Location = new System.Drawing.Point(246, 436);
+            this.HorsNormesPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.HorsNormesPicture.Name = "HorsNormesPicture";
+            this.HorsNormesPicture.Size = new System.Drawing.Size(173, 277);
+            this.HorsNormesPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HorsNormesPicture.TabIndex = 7;
+            this.HorsNormesPicture.TabStop = false;
+            this.HorsNormesPicture.Tag = "Comedy";
+            this.HorsNormesPicture.Click += new System.EventHandler(this.HorsNormesPicture_Click);
             // 
-            // pictureBox10
+            // TrainingDayPicture
             // 
-            this.pictureBox10.Image = global::HoofdschermProjectB.Properties.Resources.e28f8a0f43ee0d2e3932b30e2cf65627_2x;
-            this.pictureBox10.Location = new System.Drawing.Point(16, 436);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox10.TabIndex = 6;
-            this.pictureBox10.TabStop = false;
-            this.pictureBox10.Tag = "Action";
-            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
+            this.TrainingDayPicture.Image = global::HoofdschermProjectB.Properties.Resources.e28f8a0f43ee0d2e3932b30e2cf65627_2x;
+            this.TrainingDayPicture.Location = new System.Drawing.Point(16, 436);
+            this.TrainingDayPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.TrainingDayPicture.Name = "TrainingDayPicture";
+            this.TrainingDayPicture.Size = new System.Drawing.Size(173, 277);
+            this.TrainingDayPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.TrainingDayPicture.TabIndex = 6;
+            this.TrainingDayPicture.TabStop = false;
+            this.TrainingDayPicture.Tag = "Action";
+            this.TrainingDayPicture.Click += new System.EventHandler(this.TrainingDayPicture_Click);
             // 
-            // pictureBox9
+            // TheNunPicture
             // 
-            this.pictureBox9.Image = global::HoofdschermProjectB.Properties.Resources.the_nun_movie_reviews_1013906;
-            this.pictureBox9.Location = new System.Drawing.Point(897, 782);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox9.TabIndex = 5;
-            this.pictureBox9.TabStop = false;
-            this.pictureBox9.Tag = "Horror";
-            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
+            this.TheNunPicture.Image = global::HoofdschermProjectB.Properties.Resources.the_nun_movie_reviews_1013906;
+            this.TheNunPicture.Location = new System.Drawing.Point(897, 782);
+            this.TheNunPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.TheNunPicture.Name = "TheNunPicture";
+            this.TheNunPicture.Size = new System.Drawing.Size(173, 277);
+            this.TheNunPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.TheNunPicture.TabIndex = 5;
+            this.TheNunPicture.TabStop = false;
+            this.TheNunPicture.Tag = "Horror";
+            this.TheNunPicture.Click += new System.EventHandler(this.TheNunPicture_Click);
             // 
-            // pictureBox8
+            // TheFopRevormedPicture
             // 
-            this.pictureBox8.Image = global::HoofdschermProjectB.Properties.Resources.thefopreformed_poster;
-            this.pictureBox8.Location = new System.Drawing.Point(688, 784);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 4;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Tag = "Horror";
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            this.TheFopRevormedPicture.Image = global::HoofdschermProjectB.Properties.Resources.thefopreformed_poster;
+            this.TheFopRevormedPicture.Location = new System.Drawing.Point(688, 784);
+            this.TheFopRevormedPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.TheFopRevormedPicture.Name = "TheFopRevormedPicture";
+            this.TheFopRevormedPicture.Size = new System.Drawing.Size(173, 277);
+            this.TheFopRevormedPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.TheFopRevormedPicture.TabIndex = 4;
+            this.TheFopRevormedPicture.TabStop = false;
+            this.TheFopRevormedPicture.Tag = "Horror";
+            this.TheFopRevormedPicture.Click += new System.EventHandler(this.TheFopRevormedPicture_Click);
             // 
-            // pictureBox7
+            // AlladinPicture
             // 
-            this.pictureBox7.Image = global::HoofdschermProjectB.Properties.Resources.MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM___V1_UY1200_CR90_0_630_1200_AL_;
-            this.pictureBox7.Location = new System.Drawing.Point(470, 436);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 3;
-            this.pictureBox7.TabStop = false;
-            this.pictureBox7.Tag = "Comedy";
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.AlladinPicture.Image = global::HoofdschermProjectB.Properties.Resources.MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM___V1_UY1200_CR90_0_630_1200_AL_;
+            this.AlladinPicture.Location = new System.Drawing.Point(470, 436);
+            this.AlladinPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.AlladinPicture.Name = "AlladinPicture";
+            this.AlladinPicture.Size = new System.Drawing.Size(173, 277);
+            this.AlladinPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.AlladinPicture.TabIndex = 3;
+            this.AlladinPicture.TabStop = false;
+            this.AlladinPicture.Tag = "Comedy";
+            this.AlladinPicture.Click += new System.EventHandler(this.AlladinPicture_Click);
             // 
-            // pictureBox5
+            // LikeabossPicture
             // 
-            this.pictureBox5.Image = global::HoofdschermProjectB.Properties.Resources._29419_121971_ps_sd_high;
-            this.pictureBox5.Location = new System.Drawing.Point(470, 89);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            this.pictureBox5.Tag = "Comedy";
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.LikeabossPicture.Image = global::HoofdschermProjectB.Properties.Resources._29419_121971_ps_sd_high;
+            this.LikeabossPicture.Location = new System.Drawing.Point(470, 89);
+            this.LikeabossPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.LikeabossPicture.Name = "LikeabossPicture";
+            this.LikeabossPicture.Size = new System.Drawing.Size(173, 277);
+            this.LikeabossPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.LikeabossPicture.TabIndex = 1;
+            this.LikeabossPicture.TabStop = false;
+            this.LikeabossPicture.Tag = "Comedy";
+            this.LikeabossPicture.Click += new System.EventHandler(this.LikeabossPicture_Click);
             // 
-            // pictureBox4
+            // BadBoysPicture
             // 
-            this.pictureBox4.Image = global::HoofdschermProjectB.Properties.Resources.bad_boys_for_life;
-            this.pictureBox4.Location = new System.Drawing.Point(897, 89);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(173, 277);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Tag = "Comedy";
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // BrooklynAffairs
-            // 
-            this.BrooklynAffairs.Controls.Add(this.BrooklynDetails2);
-            this.BrooklynAffairs.Controls.Add(this.button2);
-            this.BrooklynAffairs.Controls.Add(this.BrooklynDetails1);
-            this.BrooklynAffairs.Controls.Add(this.BrookynAffairsTitle);
-            this.BrooklynAffairs.Controls.Add(this.BrooklynOverview);
-            this.BrooklynAffairs.Controls.Add(this.pictureBox17);
-            this.BrooklynAffairs.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.BrooklynAffairs.Location = new System.Drawing.Point(0, 0);
-            this.BrooklynAffairs.Name = "BrooklynAffairs";
-            this.BrooklynAffairs.Size = new System.Drawing.Size(1125, 1198);
-            this.BrooklynAffairs.TabIndex = 35;
-            this.BrooklynAffairs.Visible = false;
-            // 
-            // BrooklynDetails2
-            // 
-            this.BrooklynDetails2.AutoSize = true;
-            this.BrooklynDetails2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BrooklynDetails2.Location = new System.Drawing.Point(920, 2);
-            this.BrooklynDetails2.Name = "BrooklynDetails2";
-            this.BrooklynDetails2.Size = new System.Drawing.Size(199, 234);
-            this.BrooklynDetails2.TabIndex = 24;
-            this.BrooklynDetails2.Text = "Bioscoop kinepolis \r\n(Zaal 1)\r\n\r\n\r\nTijdstip:\r\n\r\n14 april 2020\r\n14:00 - 17:00\r\n\r\n";
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Lime;
-            this.button2.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(906, 523);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(182, 82);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "Reserveer een plek";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // BrooklynDetails1
-            // 
-            this.BrooklynDetails1.AutoSize = true;
-            this.BrooklynDetails1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BrooklynDetails1.Location = new System.Drawing.Point(37, 462);
-            this.BrooklynDetails1.Name = "BrooklynDetails1";
-            this.BrooklynDetails1.Size = new System.Drawing.Size(361, 130);
-            this.BrooklynDetails1.TabIndex = 22;
-            this.BrooklynDetails1.Text = "Genre:  Crime, Drama, Mystery\r\nLeeftijd: 16+\r\nPrijs: $12\r\nFilmduur:  2h 42m\r\nTe z" +
-    "ien in: 3D, IMAX, Dolby Cinema";
-            // 
-            // BrookynAffairsTitle
-            // 
-            this.BrookynAffairsTitle.AutoSize = true;
-            this.BrookynAffairsTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BrookynAffairsTitle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BrookynAffairsTitle.Location = new System.Drawing.Point(322, 69);
-            this.BrookynAffairsTitle.Name = "BrookynAffairsTitle";
-            this.BrookynAffairsTitle.Size = new System.Drawing.Size(279, 42);
-            this.BrookynAffairsTitle.TabIndex = 21;
-            this.BrookynAffairsTitle.Text = "Brooklyn Affairs";
-            // 
-            // BrooklynOverview
-            // 
-            this.BrooklynOverview.AutoSize = true;
-            this.BrooklynOverview.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BrooklynOverview.ForeColor = System.Drawing.SystemColors.Control;
-            this.BrooklynOverview.Location = new System.Drawing.Point(280, 149);
-            this.BrooklynOverview.Name = "BrooklynOverview";
-            this.BrooklynOverview.Size = new System.Drawing.Size(714, 264);
-            this.BrooklynOverview.TabIndex = 20;
-            this.BrooklynOverview.Text = resources.GetString("BrooklynOverview.Text");
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.Image = global::HoofdschermProjectB.Properties.Resources._81aDHiDYcVL__AC_SL1200_;
-            this.pictureBox17.Location = new System.Drawing.Point(42, 34);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(230, 345);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox17.TabIndex = 11;
-            this.pictureBox17.TabStop = false;
-            this.pictureBox17.Tag = "Action";
+            this.BadBoysPicture.Image = global::HoofdschermProjectB.Properties.Resources.bad_boys_for_life;
+            this.BadBoysPicture.Location = new System.Drawing.Point(897, 89);
+            this.BadBoysPicture.Margin = new System.Windows.Forms.Padding(2);
+            this.BadBoysPicture.Name = "BadBoysPicture";
+            this.BadBoysPicture.Size = new System.Drawing.Size(173, 277);
+            this.BadBoysPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.BadBoysPicture.TabIndex = 0;
+            this.BadBoysPicture.TabStop = false;
+            this.BadBoysPicture.Tag = "Comedy";
+            this.BadBoysPicture.Click += new System.EventHandler(this.BadBoysPicture_Click);
             // 
             // Form1
             // 
@@ -1041,8 +754,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1127, 734);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.MovieDescriptionPanel);
             this.Controls.Add(this.panelBoven2);
+            this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -1053,33 +767,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMovis)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.LikeABoss.ResumeLayout(false);
-            this.LikeABoss.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            this.MIDWAY.ResumeLayout(false);
-            this.MIDWAY.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            this.onward.ResumeLayout(false);
-            this.onward.PerformLayout();
+            this.MovieDescriptionPanel.ResumeLayout(false);
+            this.MovieDescriptionPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.OnwardMovie)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.BrooklynAffairs.ResumeLayout(false);
-            this.BrooklynAffairs.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MusePicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DachraPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AquietplacePicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MidwayPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OnwardPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BrooklynPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ScapintheschemerPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NotimetodiePicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HorsNormesPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TrainingDayPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TheNunPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TheFopRevormedPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AlladinPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LikeabossPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BadBoysPicture)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1106,55 +811,34 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox OnwardMovie;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox MidwayPicture;
+        private System.Windows.Forms.PictureBox OnwardPicture;
+        private System.Windows.Forms.PictureBox BrooklynPicture;
+        private System.Windows.Forms.PictureBox ScapintheschemerPicture;
+        private System.Windows.Forms.PictureBox NotimetodiePicture;
+        private System.Windows.Forms.PictureBox HorsNormesPicture;
+        private System.Windows.Forms.PictureBox TrainingDayPicture;
+        private System.Windows.Forms.PictureBox TheNunPicture;
+        private System.Windows.Forms.PictureBox TheFopRevormedPicture;
+        private System.Windows.Forms.PictureBox AlladinPicture;
+        private System.Windows.Forms.PictureBox LikeabossPicture;
+        private System.Windows.Forms.PictureBox BadBoysPicture;
         private System.Windows.Forms.Label labelGenre;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox MusePicture;
+        private System.Windows.Forms.PictureBox DachraPicture;
+        private System.Windows.Forms.PictureBox AquietplacePicture;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel onward;
+        private System.Windows.Forms.Panel MovieDescriptionPanel;
+        private System.Windows.Forms.Label MovieDescription;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label OnwardDescription;
-        private System.Windows.Forms.Label OnwardTitle;
-        private System.Windows.Forms.Label OnwardFilmDetails;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label OnwardDetails;
-        private System.Windows.Forms.Panel BrooklynAffairs;
-        private System.Windows.Forms.Label BrooklynDetails2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label BrooklynDetails1;
-        private System.Windows.Forms.Label BrookynAffairsTitle;
-        private System.Windows.Forms.Label BrooklynOverview;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.Panel LikeABoss;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.Panel MIDWAY;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.Label MovieTitle;
+        private System.Windows.Forms.Label MovieDetails;
+        private System.Windows.Forms.Label BioscoopDetails;
+        private System.Windows.Forms.Button Reserveerknop;
     }
 }
 
