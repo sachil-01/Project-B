@@ -192,7 +192,7 @@
             this.pictureBoxMovis.TabIndex = 8;
             this.pictureBoxMovis.TabStop = false;
             this.pictureBoxMovis.Tag = "";
-            this.pictureBoxMovis.Click += new System.EventHandler(this.pictureBoxMovis_Click);
+            this.pictureBoxMovis.Click += new System.EventHandler(this.pictureBoxMovisClick);
             this.pictureBoxMovis.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
             this.pictureBoxMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
             // 
@@ -368,7 +368,7 @@
             this.MusePicture.TabIndex = 30;
             this.MusePicture.TabStop = false;
             this.MusePicture.Tag = "Horror";
-            this.MusePicture.Click += new System.EventHandler(this.MusePicture_Click);
+            this.MusePicture.Click += new System.EventHandler(this.MusePictureClick);
             // 
             // DachraPicture
             // 
@@ -381,7 +381,7 @@
             this.DachraPicture.TabIndex = 29;
             this.DachraPicture.TabStop = false;
             this.DachraPicture.Tag = "Horror";
-            this.DachraPicture.Click += new System.EventHandler(this.DachraPicture_Click);
+            this.DachraPicture.Click += new System.EventHandler(this.DachraPictureClick);
             // 
             // AquietplacePicture
             // 
@@ -394,7 +394,7 @@
             this.AquietplacePicture.TabIndex = 28;
             this.AquietplacePicture.TabStop = false;
             this.AquietplacePicture.Tag = "Horror";
-            this.AquietplacePicture.Click += new System.EventHandler(this.AquietplacePicture_Click);
+            this.AquietplacePicture.Click += new System.EventHandler(this.AquietplacePictureClick);
             // 
             // btnExit
             // 
@@ -603,7 +603,7 @@
             this.MidwayPicture.TabIndex = 12;
             this.MidwayPicture.TabStop = false;
             this.MidwayPicture.Tag = "Action";
-            this.MidwayPicture.Click += new System.EventHandler(this.MidwayPicture_Click);
+            this.MidwayPicture.Click += new System.EventHandler(this.MidwayPictureClick);
             // 
             // OnwardPicture
             // 
@@ -616,7 +616,7 @@
             this.OnwardPicture.TabIndex = 11;
             this.OnwardPicture.TabStop = false;
             this.OnwardPicture.Tag = "Comedy";
-            this.OnwardPicture.Click += new System.EventHandler(this.OnwardPicture_Click);
+            this.OnwardPicture.Click += new System.EventHandler(this.OnwardPictureClick);
             // 
             // BrooklynPicture
             // 
@@ -629,7 +629,7 @@
             this.BrooklynPicture.TabIndex = 10;
             this.BrooklynPicture.TabStop = false;
             this.BrooklynPicture.Tag = "Action";
-            this.BrooklynPicture.Click += new System.EventHandler(this.BrooklynPicture_Click);
+            this.BrooklynPicture.Click += new System.EventHandler(this.BrooklynPictureClick);
             // 
             // ScapintheschemerPicture
             // 
@@ -642,7 +642,7 @@
             this.ScapintheschemerPicture.TabIndex = 9;
             this.ScapintheschemerPicture.TabStop = false;
             this.ScapintheschemerPicture.Tag = "Comedy";
-            this.ScapintheschemerPicture.Click += new System.EventHandler(this.ScapintheschemerPicture_Click);
+            this.ScapintheschemerPicture.Click += new System.EventHandler(this.ScapintheschemerPictureClick);
             // 
             // NotimetodiePicture
             // 
@@ -655,7 +655,7 @@
             this.NotimetodiePicture.TabIndex = 8;
             this.NotimetodiePicture.TabStop = false;
             this.NotimetodiePicture.Tag = "Action";
-            this.NotimetodiePicture.Click += new System.EventHandler(this.NotimetodiePicture_Click);
+            this.NotimetodiePicture.Click += new System.EventHandler(this.NotimetodiePictureClick);
             // 
             // HorsNormesPicture
             // 
@@ -668,7 +668,7 @@
             this.HorsNormesPicture.TabIndex = 7;
             this.HorsNormesPicture.TabStop = false;
             this.HorsNormesPicture.Tag = "Comedy";
-            this.HorsNormesPicture.Click += new System.EventHandler(this.HorsNormesPicture_Click);
+            this.HorsNormesPicture.Click += new System.EventHandler(this.HorsNormesPictureClick);
             // 
             // TrainingDayPicture
             // 
@@ -681,7 +681,7 @@
             this.TrainingDayPicture.TabIndex = 6;
             this.TrainingDayPicture.TabStop = false;
             this.TrainingDayPicture.Tag = "Action";
-            this.TrainingDayPicture.Click += new System.EventHandler(this.TrainingDayPicture_Click);
+            this.TrainingDayPicture.Click += new System.EventHandler(this.TrainingDayPictureClick);
             // 
             // TheNunPicture
             // 
@@ -694,7 +694,7 @@
             this.TheNunPicture.TabIndex = 5;
             this.TheNunPicture.TabStop = false;
             this.TheNunPicture.Tag = "Horror";
-            this.TheNunPicture.Click += new System.EventHandler(this.TheNunPicture_Click);
+            this.TheNunPicture.Click += new System.EventHandler(this.TheNunPictureClick);
             // 
             // TheFopRevormedPicture
             // 
@@ -707,7 +707,7 @@
             this.TheFopRevormedPicture.TabIndex = 4;
             this.TheFopRevormedPicture.TabStop = false;
             this.TheFopRevormedPicture.Tag = "Horror";
-            this.TheFopRevormedPicture.Click += new System.EventHandler(this.TheFopRevormedPicture_Click);
+            this.TheFopRevormedPicture.Click += new System.EventHandler(this.TheFopRevormedPictureClick);
             // 
             // AlladinPicture
             // 
@@ -720,7 +720,7 @@
             this.AlladinPicture.TabIndex = 3;
             this.AlladinPicture.TabStop = false;
             this.AlladinPicture.Tag = "Comedy";
-            this.AlladinPicture.Click += new System.EventHandler(this.AlladinPicture_Click);
+            this.AlladinPicture.Click += new System.EventHandler(this.AlladinPictureClick);
             // 
             // LikeabossPicture
             // 
@@ -733,7 +733,7 @@
             this.LikeabossPicture.TabIndex = 1;
             this.LikeabossPicture.TabStop = false;
             this.LikeabossPicture.Tag = "Comedy";
-            this.LikeabossPicture.Click += new System.EventHandler(this.LikeabossPicture_Click);
+            this.LikeabossPicture.Click += new System.EventHandler(this.LikeabossPictureClick);
             // 
             // BadBoysPicture
             // 
@@ -746,7 +746,7 @@
             this.BadBoysPicture.TabIndex = 0;
             this.BadBoysPicture.TabStop = false;
             this.BadBoysPicture.Tag = "Comedy";
-            this.BadBoysPicture.Click += new System.EventHandler(this.BadBoysPicture_Click);
+            this.BadBoysPicture.Click += new System.EventHandler(this.BadBoysPictureClick);
             // 
             // Form1
             // 

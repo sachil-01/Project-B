@@ -135,7 +135,7 @@ namespace HoofdschermProjectB
 
 
         //Sachil Code
-        private void OnwardPicture_Click(object sender, EventArgs e)
+        private void OnwardPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -168,7 +168,7 @@ namespace HoofdschermProjectB
 
         }
 
-        private void BrooklynPicture_Click(object sender, EventArgs e)
+        private void BrooklynPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -202,13 +202,13 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\Brooklyn.jpg");
         }
 
-        private void pictureBoxMovis_Click(object sender, EventArgs e)
+        private void pictureBoxMovisClick(object sender, EventArgs e)
         {
             MovieDescriptionPanel.Hide();
             panel1.Show();
         }
 
-        private void LikeabossPicture_Click(object sender, EventArgs e)
+        private void LikeabossPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -237,7 +237,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\like a boss.png");
         }
 
-        private void MidwayPicture_Click(object sender, EventArgs e)
+        private void MidwayPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -267,7 +267,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\midway.jpg");
         }
 
-        private void BadBoysPicture_Click(object sender, EventArgs e)
+        private void BadBoysPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -296,7 +296,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\bad boys for life.jpg");
         }
 
-        private void TrainingDayPicture_Click(object sender, EventArgs e)
+        private void TrainingDayPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -323,7 +323,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\trainingday.png");
         }
 
-        private void HorsNormesPicture_Click(object sender, EventArgs e)
+        private void HorsNormesPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -353,7 +353,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\hors_normes_banner.jpg");
         }
 
-        private void AlladinPicture_Click(object sender, EventArgs e)
+        private void AlladinPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -382,7 +382,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\Alladin.jpg");
         }
 
-        private void NotimetodiePicture_Click(object sender, EventArgs e)
+        private void NotimetodiePictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -412,7 +412,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\no-time-to-die.png");
         }
 
-        private void ScapintheschemerPicture_Click(object sender, EventArgs e)
+        private void ScapintheschemerPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -439,7 +439,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\scapin_poster.jpg");
         }
 
-        private void MusePicture_Click(object sender, EventArgs e)
+        private void MusePictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -466,7 +466,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\Muse.png");
         }
 
-        private void DachraPicture_Click(object sender, EventArgs e)
+        private void DachraPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -498,7 +498,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\dachra.jpg");
         }
 
-        private void AquietplacePicture_Click(object sender, EventArgs e)
+        private void AquietplacePictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -527,7 +527,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\aquietplace.jpg");
         }
 
-        private void TheFopRevormedPicture_Click(object sender, EventArgs e)
+        private void TheFopRevormedPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
@@ -558,7 +558,7 @@ namespace HoofdschermProjectB
             pictureBox6.Image = Image.FromFile("resources\\thefopreformed_poster.jpg");
         }
 
-        private void TheNunPicture_Click(object sender, EventArgs e)
+        private void TheNunPictureClick(object sender, EventArgs e)
         {
             panelBoven2.Show();
             MovieDescriptionPanel.Show();
