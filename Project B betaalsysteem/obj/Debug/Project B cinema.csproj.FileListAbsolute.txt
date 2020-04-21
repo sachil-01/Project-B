@@ -1,0 +1,11 @@
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\bin\Debug\Project B cinema.exe.config
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\bin\Debug\Project B cinema.exe
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\bin\Debug\Project B cinema.pdb
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\obj\Debug\Project B cinema.csprojAssemblyReference.cache
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\obj\Debug\Project_B_cinema.Form1.resources
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\obj\Debug\Project_B_cinema.Properties.Resources.resources
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\obj\Debug\Project B cinema.csproj.GenerateResource.cache
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\obj\Debug\Project B cinema.csproj.CoreCompileInputs.cache
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\obj\Debug\Project B cinema.exe
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\obj\Debug\Project B cinema.pdb
+C:\Users\dhira\source\repos\Project B cinema\Project B cinema\obj\Debug\Project_B_cinema.Form2.resources
