@@ -154,6 +154,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  1h 41m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre: Animatie / Fantasy\n" +
+                "Leeftijd: 3+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  1h 41m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 1)\n\n" +
                 "Tijdstip:\n\n" +
@@ -161,10 +167,9 @@ namespace HoofdschermProjectB
                 "13:00 - 15:00";
             Reserveerknop.Text = "Reserveer\n" + "een plek";
 
-            
-
 
             pictureBox6.Image = Image.FromFile("resources\\Onward.png");
+            MoviePicture.Image = Image.FromFile("resources\\Onward.png");
 
         }
 
@@ -190,6 +195,12 @@ namespace HoofdschermProjectB
                 "Prijs: $12\n" +
                 "Filmduur:  2h 42m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
+            
+            MovieDetails2.Text = "Genre:  Crime, Drama, Mystery\n" +
+                "Leeftijd: 16+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 42m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
 
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 1)\n\n" +
@@ -200,6 +211,7 @@ namespace HoofdschermProjectB
 
 
             pictureBox6.Image = Image.FromFile("resources\\Brooklyn.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\Brooklyn.jpg");
         }
 
         private void pictureBoxMovisClick(object sender, EventArgs e)
@@ -226,6 +238,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  1h 23m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Comedy\n" +
+                "Leeftijd: 12+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  1h 23m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
@@ -235,6 +253,7 @@ namespace HoofdschermProjectB
 
 
             pictureBox6.Image = Image.FromFile("resources\\like a boss.png");
+            MoviePicture.Image = Image.FromFile("resources\\like a boss.png");
         }
 
         private void MidwayPictureClick(object sender, EventArgs e)
@@ -256,6 +275,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  2h 18m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Comedy\n" +
+                "Leeftijd: 16+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 18m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 3)\n\n" +
                 "Tijdstip:\n\n" +
@@ -265,6 +290,7 @@ namespace HoofdschermProjectB
 
 
             pictureBox6.Image = Image.FromFile("resources\\midway.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\midway.jpg");
         }
 
         private void BadBoysPictureClick(object sender, EventArgs e)
@@ -285,6 +311,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  2h 1m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Actie\n" +
+                "Leeftijd: 16+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 1m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
@@ -294,6 +326,7 @@ namespace HoofdschermProjectB
 
 
             pictureBox6.Image = Image.FromFile("resources\\bad boys for life.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\bad boys for life.jpg");
         }
 
         private void TrainingDayPictureClick(object sender, EventArgs e)
@@ -314,6 +347,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  2h 2m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Misdaad/Drama\n" +
+                "Leeftijd: 16+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 2m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 1)\n\n" +
                 "Tijdstip:\n\n" +
@@ -321,6 +360,7 @@ namespace HoofdschermProjectB
                 "16:00 - 17:30";
             Reserveerknop.Text = "Reserveer\n" + "een plek";
             pictureBox6.Image = Image.FromFile("resources\\trainingday.png");
+            MoviePicture.Image = Image.FromFile("resources\\trainingday.png");
         }
 
         private void HorsNormesPictureClick(object sender, EventArgs e)
@@ -343,6 +383,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  2h 4m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Komedie/Drama\n" +
+                "Leeftijd: 12+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 4m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
@@ -351,6 +397,7 @@ namespace HoofdschermProjectB
             Reserveerknop.Text = "Reserveer\n" + "een plek";
 
             pictureBox6.Image = Image.FromFile("resources\\hors_normes_banner.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\hors_normes_banner.jpg");
         }
 
         private void AlladinPictureClick(object sender, EventArgs e)
@@ -371,6 +418,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  2h 8m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Avontuur/Familie\n" +
+                "Leeftijd: 9+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 8m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 3)\n\n" +
                 "Tijdstip:\n\n" +
@@ -380,6 +433,7 @@ namespace HoofdschermProjectB
             
             
             pictureBox6.Image = Image.FromFile("resources\\Alladin.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\Alladin.jpg");
         }
 
         private void NotimetodiePictureClick(object sender, EventArgs e)
@@ -401,6 +455,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  2h 42m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Actie/Avontuur\n" +
+                "Leeftijd: 13+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 42m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 3)\n\n" +
                 "Tijdstip:\n\n" +
@@ -410,6 +470,7 @@ namespace HoofdschermProjectB
 
 
             pictureBox6.Image = Image.FromFile("resources\\no-time-to-die.png");
+            MoviePicture.Image = Image.FromFile("resources\\no-time-to-die.png");
         }
 
         private void ScapintheschemerPictureClick(object sender, EventArgs e)
@@ -430,6 +491,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  2h 42m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Actie/Avontuur\n" +
+                "Leeftijd: 13+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 42m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 3)\n\n" +
                 "Tijdstip:\n\n" +
@@ -437,6 +504,7 @@ namespace HoofdschermProjectB
                 "16:00 - 17:30";
             Reserveerknop.Text = "Reserveer\n" + "een plek";
             pictureBox6.Image = Image.FromFile("resources\\scapin_poster.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\scapin_poster.jpg");
         }
 
         private void MusePictureClick(object sender, EventArgs e)
@@ -457,6 +525,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  1h 47m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Actie/Avontuur\n" +
+                "Leeftijd: 16+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  1h 47m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
@@ -464,6 +538,7 @@ namespace HoofdschermProjectB
                 "16:00 - 17:30";
             Reserveerknop.Text = "Reserveer\n" + "een plek";
             pictureBox6.Image = Image.FromFile("resources\\Muse.png");
+            MoviePicture.Image = Image.FromFile("resources\\Muse.png");
         }
 
         private void DachraPictureClick(object sender, EventArgs e)
@@ -487,6 +562,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  2h 3m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Horror\n" +
+                "Leeftijd: 16+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 3m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
@@ -496,6 +577,7 @@ namespace HoofdschermProjectB
 
 
             pictureBox6.Image = Image.FromFile("resources\\dachra.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\dachra.jpg");
         }
 
         private void AquietplacePictureClick(object sender, EventArgs e)
@@ -517,6 +599,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  1h 30m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Drama/Horror\n" +
+                "Leeftijd: 16+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  1h 30m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
@@ -525,6 +613,7 @@ namespace HoofdschermProjectB
             Reserveerknop.Text = "Reserveer\n" + "een plek";
 
             pictureBox6.Image = Image.FromFile("resources\\aquietplace.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\aquietplace.jpg");
         }
 
         private void TheFopRevormedPictureClick(object sender, EventArgs e)
@@ -547,6 +636,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  2h 16m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Comedy\n" +
+                "Leeftijd: 3+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  2h 16m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 1)\n\n" +
                 "Tijdstip:\n\n" +
@@ -556,6 +651,7 @@ namespace HoofdschermProjectB
 
 
             pictureBox6.Image = Image.FromFile("resources\\thefopreformed_poster.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\thefopreformed_poster.jpg");
         }
 
         private void TheNunPictureClick(object sender, EventArgs e)
@@ -576,6 +672,12 @@ namespace HoofdschermProjectB
                 "Filmduur:  1h 36m\n" +
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
+            MovieDetails2.Text = "Genre:  Horror/Myserie/Thriller\n" +
+                "Leeftijd: 16+\n" +
+                "Prijs: $12\n" +
+                "Filmduur:  1h 36m\n" +
+                "Te zien in: 3D, IMAX, Dolby Cinema";
+
             BioscoopDetails.Text = "Bioscoop kinepolis\n" +
                 "(Zaal 1)\n\n" +
                 "Tijdstip:\n\n" +
@@ -583,12 +685,65 @@ namespace HoofdschermProjectB
                 "16:00 - 17:30";
             Reserveerknop.Text = "Reserveer\n" + "een plek";
             pictureBox6.Image = Image.FromFile("resources\\thenun.jpg");
+            MoviePicture.Image = Image.FromFile("resources\\thenun.jpg");
         }
 
         private void labelMovisClick(object sender, EventArgs e)
         {
             MovieDescriptionPanel.Hide();
             panel1.Show();
+            ReserveerStoel.Hide();
+        }
+
+        private void ReserveerknopClick(object sender, EventArgs e)
+        {
+            panelBoven2.Show();
+            ReserveerStoel.Show();
+            MovieDescriptionPanel.Hide();
+            panel1.Hide();
+
+            
+
+           
+
+           
+
+        }
+
+        private void NumberofPeopleSelectedValueChanged(object sender, EventArgs e)
+        {
+
+            int total = 0;
+            string numberofpeople = NumberofPeople.SelectedItem.ToString();
+
+            if(numberofpeople == "1")
+            {
+                total = 12;
+                LabelTotalprice.Text = "$" + total;
+                
+
+            }
+            else if(numberofpeople == "2")
+            {
+                total = 24;
+                LabelTotalprice.Text = "$" + total;
+            }
+            else if (numberofpeople == "3")
+            {
+                total = 36;
+                LabelTotalprice.Text = "$" + total;
+            }
+            else if (numberofpeople == "4")
+            {
+                total = 48;
+                LabelTotalprice.Text = "$" + total;
+            }
+            else if (numberofpeople == "5")
+            {
+                total = 60;
+                LabelTotalprice.Text = "$" + total;
+            }
+
         }
     }
 }

@@ -76,6 +76,19 @@
             this.MovieTitle = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.MovieDescription = new System.Windows.Forms.Label();
+            this.ReserveerStoel = new System.Windows.Forms.Panel();
+            this.MovieDetails2 = new System.Windows.Forms.Label();
+            this.MoviePicture = new System.Windows.Forms.PictureBox();
+            this.NumberofPeople = new System.Windows.Forms.ComboBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.Labeltotal = new System.Windows.Forms.Label();
+            this.LabelTotalprice = new System.Windows.Forms.Label();
+            this.ButtonKiesStoel = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.Labelvolwassenen = new System.Windows.Forms.Label();
+            this.labelPrice = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.labelaantal = new System.Windows.Forms.Label();
             this.panelBoven2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyaccount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxContact)).BeginInit();
@@ -98,6 +111,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.BadBoysPicture)).BeginInit();
             this.MovieDescriptionPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.ReserveerStoel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MoviePicture)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelBoven2
@@ -236,10 +253,10 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel1.Location = new System.Drawing.Point(0, 742);
+            this.panel1.Location = new System.Drawing.Point(0, 1414);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1126, 1198);
+            this.panel1.Size = new System.Drawing.Size(1125, 1198);
             this.panel1.TabIndex = 13;
             // 
             // label15
@@ -682,9 +699,10 @@
             this.MovieDescriptionPanel.Controls.Add(this.MovieTitle);
             this.MovieDescriptionPanel.Controls.Add(this.pictureBox6);
             this.MovieDescriptionPanel.Controls.Add(this.MovieDescription);
-            this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 104);
+            this.MovieDescriptionPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 769);
             this.MovieDescriptionPanel.Name = "MovieDescriptionPanel";
-            this.MovieDescriptionPanel.Size = new System.Drawing.Size(1126, 638);
+            this.MovieDescriptionPanel.Size = new System.Drawing.Size(1125, 645);
             this.MovieDescriptionPanel.TabIndex = 34;
             this.MovieDescriptionPanel.Visible = false;
             // 
@@ -698,6 +716,7 @@
             this.Reserveerknop.TabIndex = 5;
             this.Reserveerknop.Text = "button1";
             this.Reserveerknop.UseVisualStyleBackColor = false;
+            this.Reserveerknop.Click += new System.EventHandler(this.ReserveerknopClick);
             // 
             // BioscoopDetails
             // 
@@ -751,12 +770,158 @@
             this.MovieDescription.TabIndex = 0;
             this.MovieDescription.Text = "label16";
             // 
+            // ReserveerStoel
+            // 
+            this.ReserveerStoel.BackColor = System.Drawing.SystemColors.ControlText;
+            this.ReserveerStoel.Controls.Add(this.ButtonKiesStoel);
+            this.ReserveerStoel.Controls.Add(this.MovieDetails2);
+            this.ReserveerStoel.Controls.Add(this.MoviePicture);
+            this.ReserveerStoel.Controls.Add(this.panel2);
+            this.ReserveerStoel.Controls.Add(this.panel3);
+            this.ReserveerStoel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ReserveerStoel.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.ReserveerStoel.Location = new System.Drawing.Point(0, 106);
+            this.ReserveerStoel.Name = "ReserveerStoel";
+            this.ReserveerStoel.Size = new System.Drawing.Size(1125, 663);
+            this.ReserveerStoel.TabIndex = 6;
+            this.ReserveerStoel.Visible = false;
+            // 
+            // MovieDetails2
+            // 
+            this.MovieDetails2.AutoSize = true;
+            this.MovieDetails2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.MovieDetails2.Location = new System.Drawing.Point(803, 380);
+            this.MovieDetails2.Name = "MovieDetails2";
+            this.MovieDetails2.Size = new System.Drawing.Size(60, 20);
+            this.MovieDetails2.TabIndex = 5;
+            this.MovieDetails2.Text = "label16";
+            // 
+            // MoviePicture
+            // 
+            this.MoviePicture.Location = new System.Drawing.Point(807, 37);
+            this.MoviePicture.Name = "MoviePicture";
+            this.MoviePicture.Size = new System.Drawing.Size(208, 313);
+            this.MoviePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.MoviePicture.TabIndex = 3;
+            this.MoviePicture.TabStop = false;
+            // 
+            // NumberofPeople
+            // 
+            this.NumberofPeople.BackColor = System.Drawing.SystemColors.Window;
+            this.NumberofPeople.FormattingEnabled = true;
+            this.NumberofPeople.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.NumberofPeople.Location = new System.Drawing.Point(299, 43);
+            this.NumberofPeople.Name = "NumberofPeople";
+            this.NumberofPeople.Size = new System.Drawing.Size(91, 21);
+            this.NumberofPeople.TabIndex = 0;
+            this.NumberofPeople.SelectedValueChanged += new System.EventHandler(this.NumberofPeopleSelectedValueChanged);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.panel2.Controls.Add(this.Labeltotal);
+            this.panel2.Controls.Add(this.LabelTotalprice);
+            this.panel2.Location = new System.Drawing.Point(426, 482);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(171, 67);
+            this.panel2.TabIndex = 4;
+            // 
+            // Labeltotal
+            // 
+            this.Labeltotal.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Labeltotal.Location = new System.Drawing.Point(13, 21);
+            this.Labeltotal.Name = "Labeltotal";
+            this.Labeltotal.Size = new System.Drawing.Size(95, 23);
+            this.Labeltotal.TabIndex = 2;
+            this.Labeltotal.Text = "Totaal: ";
+            // 
+            // LabelTotalprice
+            // 
+            this.LabelTotalprice.BackColor = System.Drawing.Color.Transparent;
+            this.LabelTotalprice.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.LabelTotalprice.Location = new System.Drawing.Point(104, 22);
+            this.LabelTotalprice.Name = "LabelTotalprice";
+            this.LabelTotalprice.Size = new System.Drawing.Size(80, 27);
+            this.LabelTotalprice.TabIndex = 1;
+            this.LabelTotalprice.Text = "$0";
+            // 
+            // ButtonKiesStoel
+            // 
+            this.ButtonKiesStoel.BackColor = System.Drawing.Color.Lime;
+            this.ButtonKiesStoel.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
+            this.ButtonKiesStoel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ButtonKiesStoel.Location = new System.Drawing.Point(898, 531);
+            this.ButtonKiesStoel.Name = "ButtonKiesStoel";
+            this.ButtonKiesStoel.Size = new System.Drawing.Size(182, 82);
+            this.ButtonKiesStoel.TabIndex = 6;
+            this.ButtonKiesStoel.Text = "Kies een stoel";
+            this.ButtonKiesStoel.UseVisualStyleBackColor = false;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Green;
+            this.panel3.Controls.Add(this.labelaantal);
+            this.panel3.Controls.Add(this.label16);
+            this.panel3.Controls.Add(this.labelPrice);
+            this.panel3.Controls.Add(this.Labelvolwassenen);
+            this.panel3.Controls.Add(this.NumberofPeople);
+            this.panel3.Location = new System.Drawing.Point(44, 190);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(460, 106);
+            this.panel3.TabIndex = 7;
+            // 
+            // Labelvolwassenen
+            // 
+            this.Labelvolwassenen.AutoSize = true;
+            this.Labelvolwassenen.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.Labelvolwassenen.Location = new System.Drawing.Point(12, 34);
+            this.Labelvolwassenen.Name = "Labelvolwassenen";
+            this.Labelvolwassenen.Size = new System.Drawing.Size(180, 28);
+            this.Labelvolwassenen.TabIndex = 1;
+            this.Labelvolwassenen.Text = "Volwassenen: ";
+            // 
+            // labelPrice
+            // 
+            this.labelPrice.AutoSize = true;
+            this.labelPrice.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPrice.Location = new System.Drawing.Point(197, 12);
+            this.labelPrice.Name = "labelPrice";
+            this.labelPrice.Size = new System.Drawing.Size(57, 22);
+            this.labelPrice.TabIndex = 2;
+            this.labelPrice.Text = "Prijs:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(198, 40);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(43, 22);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "$12";
+            // 
+            // labelaantal
+            // 
+            this.labelaantal.AutoSize = true;
+            this.labelaantal.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelaantal.Location = new System.Drawing.Point(297, 12);
+            this.labelaantal.Name = "labelaantal";
+            this.labelaantal.Size = new System.Drawing.Size(75, 22);
+            this.labelaantal.TabIndex = 4;
+            this.labelaantal.Text = "Aantal:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1127, 734);
+            this.Controls.Add(this.ReserveerStoel);
             this.Controls.Add(this.MovieDescriptionPanel);
             this.Controls.Add(this.panelBoven2);
             this.Controls.Add(this.panel1);
@@ -788,6 +953,12 @@
             this.MovieDescriptionPanel.ResumeLayout(false);
             this.MovieDescriptionPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.ReserveerStoel.ResumeLayout(false);
+            this.ReserveerStoel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.MoviePicture)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -842,6 +1013,19 @@
         private System.Windows.Forms.Label MovieDetails;
         private System.Windows.Forms.Label BioscoopDetails;
         private System.Windows.Forms.Button Reserveerknop;
+        private System.Windows.Forms.Panel ReserveerStoel;
+        private System.Windows.Forms.ComboBox NumberofPeople;
+        private System.Windows.Forms.Label LabelTotalprice;
+        private System.Windows.Forms.PictureBox MoviePicture;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label Labeltotal;
+        private System.Windows.Forms.Label MovieDetails2;
+        private System.Windows.Forms.Button ButtonKiesStoel;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label labelPrice;
+        private System.Windows.Forms.Label Labelvolwassenen;
+        private System.Windows.Forms.Label labelaantal;
     }
 }
 
