@@ -17,6 +17,7 @@ namespace HoofdschermProjectB
         string[] Horror = { "the Nun", "The Fop Reformed", "MUSE", "DACHRA", "A QUIET PLACE" };
         string[] Comedy = { "bad boys", "Like a boss", "Onward", "Aladdin", "Hors Normes", "Scapin The Schemer" };
         string[] Action = { "no time to die", "Midway", "Training Day", "Brooklyn Affairs" };
+        int total = 0;
         
 
         public Form1()
@@ -710,10 +711,10 @@ namespace HoofdschermProjectB
 
         }
 
-        private void NumberofPeopleSelectedValueChanged(object sender, EventArgs e)
+        public void NumberofPeopleSelectedValueChanged(object sender, EventArgs e)
         {
 
-            int total = 0;
+             total = 0;
             string numberofpeople = NumberofPeople.SelectedItem.ToString();
 
             if(numberofpeople == "1")
@@ -743,6 +744,25 @@ namespace HoofdschermProjectB
                 total = 60;
                 LabelTotalprice.Text = "$" + total;
             }
+
+        }
+
+        private void ButtonKiesStoelClick(object sender, EventArgs e)
+        {
+
+            if (total < 12)
+            {
+                MessageBox.Show("Kies minimaal 1 persoon");
+
+            }
+
+            else if(total >= 12)
+            {
+                ReserveerStoel.Hide();
+                KiesEenStoelPanel.Show();
+            }
+
+            
 
         }
     }

@@ -77,18 +77,20 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.MovieDescription = new System.Windows.Forms.Label();
             this.ReserveerStoel = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.ButtonKiesStoel = new System.Windows.Forms.Button();
             this.MovieDetails2 = new System.Windows.Forms.Label();
             this.MoviePicture = new System.Windows.Forms.PictureBox();
-            this.NumberofPeople = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Labeltotal = new System.Windows.Forms.Label();
             this.LabelTotalprice = new System.Windows.Forms.Label();
-            this.ButtonKiesStoel = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.Labelvolwassenen = new System.Windows.Forms.Label();
-            this.labelPrice = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
             this.labelaantal = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.labelPrice = new System.Windows.Forms.Label();
+            this.Labelvolwassenen = new System.Windows.Forms.Label();
+            this.NumberofPeople = new System.Windows.Forms.ComboBox();
+            this.KiesEenStoelPanel = new System.Windows.Forms.Panel();
             this.panelBoven2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyaccount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxContact)).BeginInit();
@@ -253,10 +255,10 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel1.Location = new System.Drawing.Point(0, 1414);
+            this.panel1.Location = new System.Drawing.Point(0, 2037);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1125, 1198);
+            this.panel1.Size = new System.Drawing.Size(1110, 1198);
             this.panel1.TabIndex = 13;
             // 
             // label15
@@ -700,9 +702,9 @@
             this.MovieDescriptionPanel.Controls.Add(this.pictureBox6);
             this.MovieDescriptionPanel.Controls.Add(this.MovieDescription);
             this.MovieDescriptionPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 769);
+            this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 1392);
             this.MovieDescriptionPanel.Name = "MovieDescriptionPanel";
-            this.MovieDescriptionPanel.Size = new System.Drawing.Size(1125, 645);
+            this.MovieDescriptionPanel.Size = new System.Drawing.Size(1110, 645);
             this.MovieDescriptionPanel.TabIndex = 34;
             this.MovieDescriptionPanel.Visible = false;
             // 
@@ -773,6 +775,7 @@
             // ReserveerStoel
             // 
             this.ReserveerStoel.BackColor = System.Drawing.SystemColors.ControlText;
+            this.ReserveerStoel.Controls.Add(this.label17);
             this.ReserveerStoel.Controls.Add(this.ButtonKiesStoel);
             this.ReserveerStoel.Controls.Add(this.MovieDetails2);
             this.ReserveerStoel.Controls.Add(this.MoviePicture);
@@ -780,11 +783,34 @@
             this.ReserveerStoel.Controls.Add(this.panel3);
             this.ReserveerStoel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.ReserveerStoel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.ReserveerStoel.Location = new System.Drawing.Point(0, 106);
+            this.ReserveerStoel.Location = new System.Drawing.Point(0, 757);
             this.ReserveerStoel.Name = "ReserveerStoel";
-            this.ReserveerStoel.Size = new System.Drawing.Size(1125, 663);
+            this.ReserveerStoel.Size = new System.Drawing.Size(1110, 635);
             this.ReserveerStoel.TabIndex = 6;
             this.ReserveerStoel.Visible = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.label17.Location = new System.Drawing.Point(40, 130);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(458, 28);
+            this.label17.TabIndex = 5;
+            this.label17.Text = "Let op: Maximaal 5 tickets per persoon";
+            // 
+            // ButtonKiesStoel
+            // 
+            this.ButtonKiesStoel.BackColor = System.Drawing.Color.Lime;
+            this.ButtonKiesStoel.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
+            this.ButtonKiesStoel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ButtonKiesStoel.Location = new System.Drawing.Point(898, 531);
+            this.ButtonKiesStoel.Name = "ButtonKiesStoel";
+            this.ButtonKiesStoel.Size = new System.Drawing.Size(182, 82);
+            this.ButtonKiesStoel.TabIndex = 6;
+            this.ButtonKiesStoel.Text = "Kies een stoel";
+            this.ButtonKiesStoel.UseVisualStyleBackColor = false;
+            this.ButtonKiesStoel.Click += new System.EventHandler(this.ButtonKiesStoelClick);
             // 
             // MovieDetails2
             // 
@@ -804,22 +830,6 @@
             this.MoviePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MoviePicture.TabIndex = 3;
             this.MoviePicture.TabStop = false;
-            // 
-            // NumberofPeople
-            // 
-            this.NumberofPeople.BackColor = System.Drawing.SystemColors.Window;
-            this.NumberofPeople.FormattingEnabled = true;
-            this.NumberofPeople.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
-            this.NumberofPeople.Location = new System.Drawing.Point(299, 43);
-            this.NumberofPeople.Name = "NumberofPeople";
-            this.NumberofPeople.Size = new System.Drawing.Size(91, 21);
-            this.NumberofPeople.TabIndex = 0;
-            this.NumberofPeople.SelectedValueChanged += new System.EventHandler(this.NumberofPeopleSelectedValueChanged);
             // 
             // panel2
             // 
@@ -850,18 +860,6 @@
             this.LabelTotalprice.TabIndex = 1;
             this.LabelTotalprice.Text = "$0";
             // 
-            // ButtonKiesStoel
-            // 
-            this.ButtonKiesStoel.BackColor = System.Drawing.Color.Lime;
-            this.ButtonKiesStoel.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
-            this.ButtonKiesStoel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ButtonKiesStoel.Location = new System.Drawing.Point(898, 531);
-            this.ButtonKiesStoel.Name = "ButtonKiesStoel";
-            this.ButtonKiesStoel.Size = new System.Drawing.Size(182, 82);
-            this.ButtonKiesStoel.TabIndex = 6;
-            this.ButtonKiesStoel.Text = "Kies een stoel";
-            this.ButtonKiesStoel.UseVisualStyleBackColor = false;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Green;
@@ -875,25 +873,15 @@
             this.panel3.Size = new System.Drawing.Size(460, 106);
             this.panel3.TabIndex = 7;
             // 
-            // Labelvolwassenen
+            // labelaantal
             // 
-            this.Labelvolwassenen.AutoSize = true;
-            this.Labelvolwassenen.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
-            this.Labelvolwassenen.Location = new System.Drawing.Point(12, 34);
-            this.Labelvolwassenen.Name = "Labelvolwassenen";
-            this.Labelvolwassenen.Size = new System.Drawing.Size(180, 28);
-            this.Labelvolwassenen.TabIndex = 1;
-            this.Labelvolwassenen.Text = "Volwassenen: ";
-            // 
-            // labelPrice
-            // 
-            this.labelPrice.AutoSize = true;
-            this.labelPrice.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrice.Location = new System.Drawing.Point(197, 12);
-            this.labelPrice.Name = "labelPrice";
-            this.labelPrice.Size = new System.Drawing.Size(57, 22);
-            this.labelPrice.TabIndex = 2;
-            this.labelPrice.Text = "Prijs:";
+            this.labelaantal.AutoSize = true;
+            this.labelaantal.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelaantal.Location = new System.Drawing.Point(297, 12);
+            this.labelaantal.Name = "labelaantal";
+            this.labelaantal.Size = new System.Drawing.Size(75, 22);
+            this.labelaantal.TabIndex = 4;
+            this.labelaantal.Text = "Aantal:";
             // 
             // label16
             // 
@@ -905,15 +893,51 @@
             this.label16.TabIndex = 3;
             this.label16.Text = "$12";
             // 
-            // labelaantal
+            // labelPrice
             // 
-            this.labelaantal.AutoSize = true;
-            this.labelaantal.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelaantal.Location = new System.Drawing.Point(297, 12);
-            this.labelaantal.Name = "labelaantal";
-            this.labelaantal.Size = new System.Drawing.Size(75, 22);
-            this.labelaantal.TabIndex = 4;
-            this.labelaantal.Text = "Aantal:";
+            this.labelPrice.AutoSize = true;
+            this.labelPrice.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPrice.Location = new System.Drawing.Point(197, 12);
+            this.labelPrice.Name = "labelPrice";
+            this.labelPrice.Size = new System.Drawing.Size(57, 22);
+            this.labelPrice.TabIndex = 2;
+            this.labelPrice.Text = "Prijs:";
+            // 
+            // Labelvolwassenen
+            // 
+            this.Labelvolwassenen.AutoSize = true;
+            this.Labelvolwassenen.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F);
+            this.Labelvolwassenen.Location = new System.Drawing.Point(12, 34);
+            this.Labelvolwassenen.Name = "Labelvolwassenen";
+            this.Labelvolwassenen.Size = new System.Drawing.Size(180, 28);
+            this.Labelvolwassenen.TabIndex = 1;
+            this.Labelvolwassenen.Text = "Volwassenen: ";
+            // 
+            // NumberofPeople
+            // 
+            this.NumberofPeople.BackColor = System.Drawing.SystemColors.Window;
+            this.NumberofPeople.FormattingEnabled = true;
+            this.NumberofPeople.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.NumberofPeople.Location = new System.Drawing.Point(299, 43);
+            this.NumberofPeople.Name = "NumberofPeople";
+            this.NumberofPeople.Size = new System.Drawing.Size(91, 21);
+            this.NumberofPeople.TabIndex = 0;
+            this.NumberofPeople.SelectedValueChanged += new System.EventHandler(this.NumberofPeopleSelectedValueChanged);
+            // 
+            // KiesEenStoelPanel
+            // 
+            this.KiesEenStoelPanel.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.KiesEenStoelPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.KiesEenStoelPanel.Location = new System.Drawing.Point(0, 106);
+            this.KiesEenStoelPanel.Name = "KiesEenStoelPanel";
+            this.KiesEenStoelPanel.Size = new System.Drawing.Size(1110, 651);
+            this.KiesEenStoelPanel.TabIndex = 8;
+            this.KiesEenStoelPanel.Visible = false;
             // 
             // Form1
             // 
@@ -921,6 +945,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1127, 734);
+            this.Controls.Add(this.KiesEenStoelPanel);
             this.Controls.Add(this.ReserveerStoel);
             this.Controls.Add(this.MovieDescriptionPanel);
             this.Controls.Add(this.panelBoven2);
@@ -1026,6 +1051,8 @@
         private System.Windows.Forms.Label labelPrice;
         private System.Windows.Forms.Label Labelvolwassenen;
         private System.Windows.Forms.Label labelaantal;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel KiesEenStoelPanel;
     }
 }
 
