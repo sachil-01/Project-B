@@ -78,3 +78,15 @@ C:\Users\moham\Desktop\PojectB Schermen Toevoegen - goed\HoofdschermProjectB\obj
 C:\Users\moham\Desktop\PojectB Schermen Toevoegen - goed\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.GenerateResource.cache
 C:\Users\moham\Desktop\PojectB Schermen Toevoegen - goed\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.exe
 C:\Users\moham\Desktop\PojectB Schermen Toevoegen - goed\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.pdb
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe.config
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.exe
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\bin\Debug\HoofdschermProjectB.pdb
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csprojAssemblyReference.cache
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\obj\Debug\ProjectB.contactForm.resources
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\obj\Debug\ProjectB.Form1.resources
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\obj\Debug\ProjectB.FormProfiel.resources
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\obj\Debug\ProjectB.FormStoelen.resources
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Properties.Resources.resources
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.GenerateResource.cache
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.exe
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen -\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.pdb
