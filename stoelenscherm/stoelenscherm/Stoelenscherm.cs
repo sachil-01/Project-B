@@ -10,37 +10,38 @@ using System.Windows.Forms;
 
 namespace stoelenscherm
 {
-    public partial class Form1 : Form
+    public partial class StoelenScherm : Form
     {
         List<Button> chairs = new List<Button>();
 
         const int ButtonWidth = 45;
         const int ButtonHeight = 45;
-        int n = 1;
+        int counter = 1;
         Button reserved;
-        public Form1()
+        public StoelenScherm()
 
 
         
         {
             InitializeComponent();
-            for (int j = 1, ButtonY=100; j <11; j++,ButtonY+=50)
+            for (int countVertical = 1, buttonY=100; countVertical < 11; countVertical++,buttonY+=50)
             {
-                for ( int i = 1, ButtonX = 502; i < 11; ButtonX += 50,n++,i++)
+                for ( int countHorizontal = 1, buttonX = 502; countHorizontal < 11; buttonX += 50,counter++, countHorizontal++)
                 {
                     Button chair = new Button();
-                    chair.Location = new Point(ButtonX, ButtonY);
+                    chair.Location = new Point(buttonX, buttonY);
                     chair.Size = new Size(ButtonWidth, ButtonHeight);
-                    chair.Name = "chair " + n;
-                    chair.Text = "" + n;
+                    chair.Name = "chair " + counter;
+                    chair.Text = "" + counter;
                     chair.TabStop = false;
                     chair.FlatStyle = FlatStyle.Flat;
                     chair.FlatAppearance.BorderSize = 0;
                     chair.BackColor = Color.PeachPuff;
+                    chair.Anchor = (AnchorStyles.None);
                     panel1.Controls.Add(chair);
                     chairs.Add(chair);
-                    chair.Click += new EventHandler(this.clickfun);
-
+                    chair.Click += new EventHandler(this.SelectChair);
+                    
 
                 }
 
@@ -50,12 +51,12 @@ namespace stoelenscherm
 
         }
 
-         void clickfun(object sender, EventArgs e)
+         void SelectChair(object sender, EventArgs e)
         {
             reserved.BackColor= Color.PeachPuff;
-            Button chair = (Button)sender;
-            chair.BackColor = Color.Blue;
-            reserved = chair;
+            Button Chair = (Button)sender;
+            Chair.BackColor = Color.Blue;
+            reserved = Chair;
             
         }
 
