@@ -62,9 +62,76 @@ namespace ProjectB
             button2.Visible = true;
         }
 
-        private void paneltop_Paint(object sender, PaintEventArgs e)
+        private void labelMovis_MouseMove(object sender, MouseEventArgs e)
         {
+            labelMovis.ForeColor = Color.White;
+        }
 
+        private void labelMovis_MouseLeave(object sender, EventArgs e)
+        {
+            labelMovis.ForeColor = Color.Black;
+        }
+
+        private void labelContact_MouseMove(object sender, MouseEventArgs e)
+        {
+            labelContact.ForeColor = Color.White;
+        }
+
+        private void labelContact_MouseLeave(object sender, EventArgs e)
+        {
+            labelContact.ForeColor = Color.Black;
+        }
+
+        private void labelMyaccount_MouseMove(object sender, MouseEventArgs e)
+        {
+            labelMyaccount.ForeColor = Color.White;
+        }
+
+        private void labelMyaccount_MouseLeave(object sender, EventArgs e)
+        {
+            labelMyaccount.ForeColor = Color.Black;
+        }
+
+        private void labelMovis_Click(object sender, EventArgs e)
+        {
+            Form1 hoofdScherm = new Form1();
+            this.Hide();
+            hoofdScherm.Show();
+        }
+
+        private void pictureBoxMovis_Click(object sender, EventArgs e)
+        {
+            Form1 hoofdScherm = new Form1();
+            this.Hide();
+            hoofdScherm.Show();
+        }
+
+        private void labelContact_Click(object sender, EventArgs e)
+        {
+            contactForm contactPagina = new contactForm();
+            this.Hide();
+            contactPagina.Show();
+        }
+
+        private void pictureBoxContact_Click(object sender, EventArgs e)
+        {
+            contactForm contactPagina = new contactForm();
+            this.Hide();
+            contactPagina.Show();
+        }
+
+        private void labelMyaccount_Click(object sender, EventArgs e)
+        {
+            FormProfiel profielPagina = new FormProfiel();
+            this.Hide();
+            profielPagina.Show();
+        }
+
+        private void pictureBoxMyaccount_Click(object sender, EventArgs e)
+        {
+            FormProfiel profielPagina = new FormProfiel();
+            this.Hide();
+            profielPagina.Show();
         }
     }
 }
