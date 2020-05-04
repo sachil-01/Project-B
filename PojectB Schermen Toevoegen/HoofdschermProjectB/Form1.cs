@@ -14,11 +14,14 @@ namespace ProjectB
 {
     public partial class Form1 : Form
 
-    {
 
+    {
+        public static int aantalTickets;
         public Form1()
         {
+            
             InitializeComponent();
+            
             Showpanel(panelMovies);
 
         }
@@ -774,36 +777,40 @@ namespace ProjectB
         private void NumberofPeople_SelectedValueChanged(object sender, EventArgs e)
         {
             total = 0;
-            string numberofpeople = NumberofPeople.SelectedItem.ToString();
+            string numberOfPeople = NumberofPeople.SelectedItem.ToString();
 
-            if (numberofpeople == "1")
+
+            if (numberOfPeople == "1")
             {
                 total = 12;
                 LabelTotalprice.Text = "$" + total;
 
 
             }
-            else if (numberofpeople == "2")
+            else if (numberOfPeople == "2")
             {
                 total = 24;
                 LabelTotalprice.Text = "$" + total;
             }
-            else if (numberofpeople == "3")
+            else if (numberOfPeople == "3")
             {
                 total = 36;
                 LabelTotalprice.Text = "$" + total;
             }
-            else if (numberofpeople == "4")
+            else if (numberOfPeople == "4")
             {
                 total = 48;
                 LabelTotalprice.Text = "$" + total;
             }
-            else if (numberofpeople == "5")
+            else if (numberOfPeople == "5")
             {
                 total = 60;
                 LabelTotalprice.Text = "$" + total;
             }
+
+            aantalTickets = Int32.Parse(numberOfPeople);
         }
+        
 
         private void ButtonKiesStoel_Click(object sender, EventArgs e)
         {

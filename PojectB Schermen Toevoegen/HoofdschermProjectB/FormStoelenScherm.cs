@@ -13,19 +13,21 @@ namespace ProjectB
     public partial class FormStoelenScherm : Form
     {
         List<Button> chairs = new List<Button>();
-
+        
+        
         const int ButtonWidth = 45;
         const int ButtonHeight = 45;
-        int counter = 1;
+        int counter = 1, chairCounter = 1;
         Button RedChair;
         Button reserved;
       
+      
         public FormStoelenScherm()
 
-
-        
-        {
+                      {
+           
             InitializeComponent();
+            stoelNummer.Text = "Kiez stoel nummer " + chairCounter;
             for (int countVertical = 1, buttonY=100; countVertical < 11; countVertical++,buttonY+=50)
             {
                 for ( int countHorizontal = 1, buttonX = 502; countHorizontal < 11; buttonX += 50,counter++, countHorizontal++)
@@ -54,16 +56,42 @@ namespace ProjectB
 
         }
 
-         void SelectChair(object sender, EventArgs e)
-        {
-            
+        private void SelectChair(object sender, EventArgs e)
+        {         
             reserved.BackColor = Color.PeachPuff;
             Button Chair = (Button)sender;
             Chair.BackColor = Color.Blue;
             reserved = Chair;
             RedChair = reserved;
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (chairCounter < Form1.aantalTickets)
+            {
+                RedChair.BackColor = Color.Red;
+                reserved = Helper;
+                chairCounter += 1;
+                stoelNummer.Text = "Kies stoel nummer " + chairCounter;
+            }
+            else
+            {   
+                foreach(Button Chair in chairs)
+                {
+                    Chair.Enabled = false;
+                }
+                RedChair.BackColor = Color.Red;
+                stoelNummer.Visible = false;
+                Volgende.Visible = false;
+                ReserveerKnop.Visible = true;
+            }
+        }
 
+        private void ReserveerKnop_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            betalen BetalenScherm = new betalen();
+            BetalenScherm.Show();
 
         }
 
@@ -139,19 +167,9 @@ namespace ProjectB
             profielScherm.Show();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
 
-            RedChair.BackColor = Color.Red;
-            reserved = Helper;
-        }
 
-        private void ReserveerKnop_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            betalen BetalenScherm = new betalen();
-            BetalenScherm.Show();
-        }
+
     }
     }
 
