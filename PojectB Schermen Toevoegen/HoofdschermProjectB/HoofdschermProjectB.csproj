@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="betalen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="betalen.Designer.cs">
+      <DependentUpon>betalen.cs</DependentUpon>
+    </Compile>
     <Compile Include="contactForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,8 +76,17 @@
     <Compile Include="FormStoelenScherm.Designer.cs">
       <DependentUpon>FormStoelenScherm.cs</DependentUpon>
     </Compile>
+    <Compile Include="IDEAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IDEAL.Designer.cs">
+      <DependentUpon>IDEAL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="betalen.resx">
+      <DependentUpon>betalen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="contactForm.resx">
       <DependentUpon>contactForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormStoelenScherm.resx">
       <DependentUpon>FormStoelenScherm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IDEAL.resx">
+      <DependentUpon>IDEAL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -166,6 +184,33 @@
       <Project>{f2d0fad9-5437-4afd-ad31-dd5a26396435}</Project>
       <Name>ContactPagina</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iDEAL_1024x1024.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iDEAL_1024x1024.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JD-16-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marvel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PAYPAL-ICON.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\betaal.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirm-icon-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card-2761073_960_720.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gegevens.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -153,6 +153,36 @@ namespace HoofdschermProjectB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap betaal {
+            get {
+                object obj = ResourceManager.GetObject("betaal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap confirm_icon_png {
+            get {
+                object obj = ResourceManager.GetObject("confirm_icon_png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap credit_card_2761073_960_720 {
+            get {
+                object obj = ResourceManager.GetObject("credit_card_2761073_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap e28f8a0f43ee0d2e3932b30e2cf65627_2x {
             get {
                 object obj = ResourceManager.GetObject("e28f8a0f43ee0d2e3932b30e2cf65627@2x", resourceCulture);
@@ -163,9 +193,29 @@ namespace HoofdschermProjectB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gegevens {
+            get {
+                object obj = ResourceManager.GetObject("gegevens", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hors_normes_banner {
             get {
                 object obj = ResourceManager.GetObject("hors_normes_banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iDEAL_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("iDEAL_1024x1024", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,6 +243,26 @@ namespace HoofdschermProjectB.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap JD_16_512 {
+            get {
+                object obj = ResourceManager.GetObject("JD_16_512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap marvel {
+            get {
+                object obj = ResourceManager.GetObject("marvel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM___V1_UY1200_CR90_0_630_1200_AL_ {
             get {
                 object obj = ResourceManager.GetObject("MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_UY1200_CR90,0,630,1200_AL_", resourceCulture);
@@ -206,6 +276,16 @@ namespace HoofdschermProjectB.Properties {
         internal static System.Drawing.Bitmap no_time_to_die {
             get {
                 object obj = ResourceManager.GetObject("no-time-to-die", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PAYPAL_ICON {
+            get {
+                object obj = ResourceManager.GetObject("PAYPAL_ICON", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

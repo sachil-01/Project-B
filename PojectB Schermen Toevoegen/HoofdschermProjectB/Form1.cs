@@ -89,6 +89,7 @@ namespace ProjectB
             panelComedy.Hide();
             panelHorror.Hide();
             MovieDescriptionPanel.Hide();
+            ReserveerStoel.Hide();
         }
 
         private void labelContactClick(object sender, EventArgs e)
@@ -815,7 +816,6 @@ namespace ProjectB
             else
             {
                 this.Hide();
-
                 FormStoelenScherm formStoelen = new FormStoelenScherm();
                 formStoelen.Show();
             }

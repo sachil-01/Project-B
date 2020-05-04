@@ -17,7 +17,9 @@ namespace ProjectB
         const int ButtonWidth = 45;
         const int ButtonHeight = 45;
         int counter = 1;
+        Button RedChair;
         Button reserved;
+      
         public FormStoelenScherm()
 
 
@@ -45,19 +47,24 @@ namespace ProjectB
 
                 }
 
-
+                reserved = Helper;
             }
-             reserved=chairs[0];
+             
+             
 
         }
 
          void SelectChair(object sender, EventArgs e)
         {
-            reserved.BackColor= Color.PeachPuff;
+            
+            reserved.BackColor = Color.PeachPuff;
             Button Chair = (Button)sender;
             Chair.BackColor = Color.Blue;
             reserved = Chair;
-            
+            RedChair = reserved;
+
+
+
         }
 
         private void labelMovis_MouseMove(object sender, MouseEventArgs e)
@@ -130,6 +137,20 @@ namespace ProjectB
             FormProfiel profielScherm = new FormProfiel();
             this.Hide();
             profielScherm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            RedChair.BackColor = Color.Red;
+            reserved = Helper;
+        }
+
+        private void ReserveerKnop_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            betalen BetalenScherm = new betalen();
+            BetalenScherm.Show();
         }
     }
     }
