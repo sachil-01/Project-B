@@ -43,7 +43,7 @@ namespace ProjectB
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+           
             var newForm = new IDEAL();
             newForm.Show(); 
 
@@ -132,6 +132,11 @@ namespace ProjectB
             FormProfiel profielPagina = new FormProfiel();
             this.Hide();
             profielPagina.Show();
+        }
+
+        private void betalen_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

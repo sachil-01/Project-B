@@ -1443,6 +1443,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.panelBoven2.ResumeLayout(false);
             this.panelBoven2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyaccount)).EndInit();

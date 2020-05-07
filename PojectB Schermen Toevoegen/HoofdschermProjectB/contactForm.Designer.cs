@@ -89,7 +89,7 @@
             this.panelContact.Controls.Add(this.label3);
             this.panelContact.Controls.Add(this.labelContact);
             this.panelContact.Location = new System.Drawing.Point(0, 103);
-            this.panelContact.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelContact.Margin = new System.Windows.Forms.Padding(2);
             this.panelContact.Name = "panelContact";
             this.panelContact.Size = new System.Drawing.Size(1141, 667);
             this.panelContact.TabIndex = 17;
@@ -104,7 +104,7 @@
             this.panelBoven2.Controls.Add(this.pictureBox2);
             this.panelBoven2.Controls.Add(this.pictureBox1);
             this.panelBoven2.Location = new System.Drawing.Point(2, -2);
-            this.panelBoven2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelBoven2.Margin = new System.Windows.Forms.Padding(2);
             this.panelBoven2.Name = "panelBoven2";
             this.panelBoven2.Size = new System.Drawing.Size(1125, 106);
             this.panelBoven2.TabIndex = 18;
@@ -159,7 +159,7 @@
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::HoofdschermProjectB.Properties.Resources.img_568656;
             this.pictureBox3.Location = new System.Drawing.Point(761, 13);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(93, 83);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -174,7 +174,7 @@
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::HoofdschermProjectB.Properties.Resources.img_542845;
             this.pictureBox2.Location = new System.Drawing.Point(381, 8);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(93, 88);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -188,7 +188,7 @@
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::HoofdschermProjectB.Properties.Resources._83519;
             this.pictureBox1.Location = new System.Drawing.Point(20, 6);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(88, 93);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -208,11 +208,12 @@
             this.Controls.Add(this.panelBoven2);
             this.Controls.Add(this.panelContact);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "contactForm";
             this.Text = "contactForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.contactForm_FormClosed);
             this.panelContact.ResumeLayout(false);
             this.panelContact.PerformLayout();
             this.panelBoven2.ResumeLayout(false);

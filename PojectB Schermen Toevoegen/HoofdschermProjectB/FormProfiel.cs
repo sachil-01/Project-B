@@ -94,5 +94,10 @@ namespace ProjectB
            Form1 Hoofdscherm = new Form1();
             Hoofdscherm.Show();
         }
+
+        private void FormProfiel_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

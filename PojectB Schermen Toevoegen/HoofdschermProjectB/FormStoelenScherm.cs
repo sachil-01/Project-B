@@ -12,16 +12,15 @@ namespace ProjectB
 {
     public partial class FormStoelenScherm : Form
     {
-        List<Button> chairs = new List<Button>();
+        List<Button> chairs = new List<Button>(), reservedChairs = new List<Button>(Form1.aantalTickets-1);
+
+
+
+        const int ButtonWidth = 45, ButtonHeight = 45;
+        int counter = 1, chairCounter = 1, listCounter=0;
+        Button RedChair, reserved;
         
         
-        const int ButtonWidth = 45;
-        const int ButtonHeight = 45;
-        int counter = 1, chairCounter = 1;
-        Button RedChair;
-        Button reserved;
-      
-      
         public FormStoelenScherm()
 
                       {
@@ -58,8 +57,10 @@ namespace ProjectB
 
         private void SelectChair(object sender, EventArgs e)
         {         
+
             reserved.BackColor = Color.PeachPuff;
             Button Chair = (Button)sender;
+            //reservedChairs[listCounter] = Chair;
             Chair.BackColor = Color.Blue;
             reserved = Chair;
             RedChair = reserved;
@@ -67,6 +68,7 @@ namespace ProjectB
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             if (chairCounter < Form1.aantalTickets)
             {
                 RedChair.BackColor = Color.Red;
@@ -158,6 +160,11 @@ namespace ProjectB
             FormProfiel profielScherm = new FormProfiel();
             this.Hide();
             profielScherm.Show();
+        }
+
+        private void FormStoelenScherm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

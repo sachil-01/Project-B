@@ -76,7 +76,7 @@
             this.panelBoven.Controls.Add(this.iconMyAccount);
             this.panelBoven.Controls.Add(this.iconMovis);
             this.panelBoven.Location = new System.Drawing.Point(-1, 0);
-            this.panelBoven.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelBoven.Margin = new System.Windows.Forms.Padding(2);
             this.panelBoven.Name = "panelBoven";
             this.panelBoven.Size = new System.Drawing.Size(1129, 106);
             this.panelBoven.TabIndex = 0;
@@ -131,7 +131,7 @@
             this.iconContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconContact.Image = global::HoofdschermProjectB.Properties.Resources.img_542845;
             this.iconContact.Location = new System.Drawing.Point(381, 8);
-            this.iconContact.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconContact.Margin = new System.Windows.Forms.Padding(2);
             this.iconContact.Name = "iconContact";
             this.iconContact.Size = new System.Drawing.Size(93, 88);
             this.iconContact.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -147,7 +147,7 @@
             this.iconMyAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconMyAccount.Image = global::HoofdschermProjectB.Properties.Resources.img_568656;
             this.iconMyAccount.Location = new System.Drawing.Point(761, 13);
-            this.iconMyAccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconMyAccount.Margin = new System.Windows.Forms.Padding(2);
             this.iconMyAccount.Name = "iconMyAccount";
             this.iconMyAccount.Size = new System.Drawing.Size(93, 83);
             this.iconMyAccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -162,7 +162,7 @@
             this.iconMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconMovis.Image = global::HoofdschermProjectB.Properties.Resources._83519;
             this.iconMovis.Location = new System.Drawing.Point(20, 6);
-            this.iconMovis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconMovis.Margin = new System.Windows.Forms.Padding(2);
             this.iconMovis.Name = "iconMovis";
             this.iconMovis.Size = new System.Drawing.Size(88, 93);
             this.iconMovis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -193,7 +193,7 @@
             this.panelAanmelden.Controls.Add(this.textBoxGebruiksnaam);
             this.panelAanmelden.Controls.Add(this.label1);
             this.panelAanmelden.Location = new System.Drawing.Point(0, 106);
-            this.panelAanmelden.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelAanmelden.Margin = new System.Windows.Forms.Padding(2);
             this.panelAanmelden.Name = "panelAanmelden";
             this.panelAanmelden.Size = new System.Drawing.Size(1141, 665);
             this.panelAanmelden.TabIndex = 1;
@@ -204,7 +204,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button2.Location = new System.Drawing.Point(234, 409);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(179, 41);
             this.button2.TabIndex = 15;
@@ -262,7 +262,7 @@
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(145, 85);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(266, 20);
             this.textBox6.TabIndex = 10;
@@ -270,7 +270,7 @@
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(148, 165);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(266, 20);
             this.textBox5.TabIndex = 9;
@@ -278,7 +278,7 @@
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(148, 244);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(266, 20);
             this.textBox4.TabIndex = 8;
@@ -286,7 +286,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(148, 325);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(266, 20);
             this.textBox3.TabIndex = 7;
@@ -309,7 +309,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button1.Location = new System.Drawing.Point(907, 232);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(119, 41);
             this.button1.TabIndex = 5;
@@ -345,7 +345,7 @@
             // textBoxWachtword
             // 
             this.textBoxWachtword.Location = new System.Drawing.Point(760, 155);
-            this.textBoxWachtword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxWachtword.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxWachtword.Name = "textBoxWachtword";
             this.textBoxWachtword.Size = new System.Drawing.Size(266, 20);
             this.textBoxWachtword.TabIndex = 2;
@@ -353,7 +353,7 @@
             // textBoxGebruiksnaam
             // 
             this.textBoxGebruiksnaam.Location = new System.Drawing.Point(760, 85);
-            this.textBoxGebruiksnaam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxGebruiksnaam.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxGebruiksnaam.Name = "textBoxGebruiksnaam";
             this.textBoxGebruiksnaam.Size = new System.Drawing.Size(266, 20);
             this.textBoxGebruiksnaam.TabIndex = 1;
@@ -426,7 +426,7 @@
             this.panelMyProfile.Controls.Add(this.label10);
             this.panelMyProfile.Controls.Add(this.label9);
             this.panelMyProfile.Location = new System.Drawing.Point(0, 107);
-            this.panelMyProfile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelMyProfile.Margin = new System.Windows.Forms.Padding(2);
             this.panelMyProfile.Name = "panelMyProfile";
             this.panelMyProfile.Size = new System.Drawing.Size(1141, 665);
             this.panelMyProfile.TabIndex = 16;
@@ -440,11 +440,12 @@
             this.Controls.Add(this.panelMyProfile);
             this.Controls.Add(this.panelAanmelden);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormProfiel";
             this.Text = "Form1";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormProfiel_FormClosed);
             this.panelBoven.ResumeLayout(false);
             this.panelBoven.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconContact)).EndInit();

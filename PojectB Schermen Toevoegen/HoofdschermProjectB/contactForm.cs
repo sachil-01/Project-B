@@ -90,5 +90,10 @@ namespace ProjectB
             this.Hide();
             formProfiel.Show();
         }
+
+        private void contactForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
