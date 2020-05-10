@@ -39,7 +39,7 @@
             this.panelMovies = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBoxAll = new System.Windows.Forms.ComboBox();
             this.labelGenre = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -94,6 +94,8 @@
             this.label20 = new System.Windows.Forms.Label();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.panelAction = new System.Windows.Forms.Panel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.comboBoxAction = new System.Windows.Forms.ComboBox();
             this.label28 = new System.Windows.Forms.Label();
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.label27 = new System.Windows.Forms.Label();
@@ -103,6 +105,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.MovieDescriptionPanel = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
             this.Reserveerknop = new System.Windows.Forms.Button();
             this.BioscoopDetails = new System.Windows.Forms.Label();
             this.MovieDescription = new System.Windows.Forms.Label();
@@ -123,6 +126,13 @@
             this.labelPrice = new System.Windows.Forms.Label();
             this.Labelvolwassenen = new System.Windows.Forms.Label();
             this.NumberofPeople = new System.Windows.Forms.ComboBox();
+            this.comboBoxComedy = new System.Windows.Forms.ComboBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.comboBoxHorror = new System.Windows.Forms.ComboBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
             this.panelBoven2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMyaccount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxContact)).BeginInit();
@@ -179,9 +189,9 @@
             this.panelBoven2.Controls.Add(this.pictureBoxContact);
             this.panelBoven2.Controls.Add(this.pictureBoxMovis);
             this.panelBoven2.Location = new System.Drawing.Point(0, 0);
-            this.panelBoven2.Margin = new System.Windows.Forms.Padding(2);
+            this.panelBoven2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelBoven2.Name = "panelBoven2";
-            this.panelBoven2.Size = new System.Drawing.Size(1125, 110);
+            this.panelBoven2.Size = new System.Drawing.Size(1505, 135);
             this.panelBoven2.TabIndex = 11;
             // 
             // labelMyaccount
@@ -189,10 +199,9 @@
             this.labelMyaccount.AutoSize = true;
             this.labelMyaccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelMyaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMyaccount.Location = new System.Drawing.Point(872, 37);
-            this.labelMyaccount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelMyaccount.Location = new System.Drawing.Point(1163, 46);
             this.labelMyaccount.Name = "labelMyaccount";
-            this.labelMyaccount.Size = new System.Drawing.Size(236, 46);
+            this.labelMyaccount.Size = new System.Drawing.Size(291, 58);
             this.labelMyaccount.TabIndex = 13;
             this.labelMyaccount.Text = "My account";
             this.labelMyaccount.Click += new System.EventHandler(this.labelMyaccount_Click);
@@ -204,10 +213,9 @@
             this.labelContact.AutoSize = true;
             this.labelContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelContact.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelContact.Location = new System.Drawing.Point(491, 37);
-            this.labelContact.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelContact.Location = new System.Drawing.Point(655, 46);
             this.labelContact.Name = "labelContact";
-            this.labelContact.Size = new System.Drawing.Size(166, 46);
+            this.labelContact.Size = new System.Drawing.Size(205, 58);
             this.labelContact.TabIndex = 12;
             this.labelContact.Text = "Contact";
             this.labelContact.Click += new System.EventHandler(this.labelContactClick);
@@ -219,10 +227,9 @@
             this.labelMovis.AutoSize = true;
             this.labelMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelMovis.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMovis.Location = new System.Drawing.Point(123, 37);
-            this.labelMovis.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelMovis.Location = new System.Drawing.Point(164, 46);
             this.labelMovis.Name = "labelMovis";
-            this.labelMovis.Size = new System.Drawing.Size(152, 46);
+            this.labelMovis.Size = new System.Drawing.Size(190, 58);
             this.labelMovis.TabIndex = 11;
             this.labelMovis.Tag = "";
             this.labelMovis.Text = "Movies";
@@ -234,10 +241,10 @@
             // 
             this.pictureBoxMyaccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxMyaccount.Image = global::HoofdschermProjectB.Properties.Resources.img_568656;
-            this.pictureBoxMyaccount.Location = new System.Drawing.Point(761, 13);
-            this.pictureBoxMyaccount.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxMyaccount.Location = new System.Drawing.Point(1015, 16);
+            this.pictureBoxMyaccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxMyaccount.Name = "pictureBoxMyaccount";
-            this.pictureBoxMyaccount.Size = new System.Drawing.Size(93, 83);
+            this.pictureBoxMyaccount.Size = new System.Drawing.Size(124, 102);
             this.pictureBoxMyaccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxMyaccount.TabIndex = 10;
             this.pictureBoxMyaccount.TabStop = false;
@@ -249,10 +256,10 @@
             // 
             this.pictureBoxContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxContact.Image = global::HoofdschermProjectB.Properties.Resources.img_542845;
-            this.pictureBoxContact.Location = new System.Drawing.Point(381, 8);
-            this.pictureBoxContact.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxContact.Location = new System.Drawing.Point(508, 10);
+            this.pictureBoxContact.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxContact.Name = "pictureBoxContact";
-            this.pictureBoxContact.Size = new System.Drawing.Size(93, 88);
+            this.pictureBoxContact.Size = new System.Drawing.Size(124, 108);
             this.pictureBoxContact.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxContact.TabIndex = 9;
             this.pictureBoxContact.TabStop = false;
@@ -264,10 +271,10 @@
             // 
             this.pictureBoxMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxMovis.Image = global::HoofdschermProjectB.Properties.Resources._83519;
-            this.pictureBoxMovis.Location = new System.Drawing.Point(20, 6);
-            this.pictureBoxMovis.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBoxMovis.Location = new System.Drawing.Point(27, 7);
+            this.pictureBoxMovis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBoxMovis.Name = "pictureBoxMovis";
-            this.pictureBoxMovis.Size = new System.Drawing.Size(88, 93);
+            this.pictureBoxMovis.Size = new System.Drawing.Size(117, 114);
             this.pictureBoxMovis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxMovis.TabIndex = 8;
             this.pictureBoxMovis.TabStop = false;
@@ -281,7 +288,7 @@
             this.panelMovies.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panelMovies.Controls.Add(this.label15);
             this.panelMovies.Controls.Add(this.label2);
-            this.panelMovies.Controls.Add(this.comboBox1);
+            this.panelMovies.Controls.Add(this.comboBoxAll);
             this.panelMovies.Controls.Add(this.labelGenre);
             this.panelMovies.Controls.Add(this.label1);
             this.panelMovies.Controls.Add(this.pictureBox3);
@@ -313,10 +320,10 @@
             this.panelMovies.Controls.Add(this.pictureBox4);
             this.panelMovies.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelMovies.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panelMovies.Location = new System.Drawing.Point(-2, 112);
-            this.panelMovies.Margin = new System.Windows.Forms.Padding(2);
+            this.panelMovies.Location = new System.Drawing.Point(-3, 138);
+            this.panelMovies.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelMovies.Name = "panelMovies";
-            this.panelMovies.Size = new System.Drawing.Size(1126, 1204);
+            this.panelMovies.Size = new System.Drawing.Size(1480, 1482);
             this.panelMovies.TabIndex = 13;
             // 
             // label15
@@ -324,10 +331,9 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label15.Location = new System.Drawing.Point(244, 1095);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Location = new System.Drawing.Point(325, 1348);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(65, 17);
+            this.label15.Size = new System.Drawing.Size(81, 20);
             this.label15.TabIndex = 33;
             this.label15.Tag = "Horror";
             this.label15.Text = "DACHRA";
@@ -337,29 +343,28 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(467, 1098);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(623, 1351);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(111, 17);
+            this.label2.Size = new System.Drawing.Size(135, 20);
             this.label2.TabIndex = 32;
             this.label2.Tag = "Horror";
             this.label2.Text = "A QUIET PLACE";
             // 
-            // comboBox1
+            // comboBoxAll
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBoxAll.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.comboBoxAll.FormattingEnabled = true;
+            this.comboBoxAll.Items.AddRange(new object[] {
             "All",
             "Horror",
             "Action",
             "Comedy"});
-            this.comboBox1.Location = new System.Drawing.Point(109, 3);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(98, 34);
-            this.comboBox1.TabIndex = 25;
-            this.comboBox1.SelectedValueChanged += new System.EventHandler(this.ComboBox1SelectedValueChanged);
+            this.comboBoxAll.Location = new System.Drawing.Point(145, 4);
+            this.comboBoxAll.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxAll.Name = "comboBoxAll";
+            this.comboBoxAll.Size = new System.Drawing.Size(129, 39);
+            this.comboBoxAll.TabIndex = 25;
+            this.comboBoxAll.SelectedValueChanged += new System.EventHandler(this.ComboBox1SelectedValueChanged);
             // 
             // labelGenre
             // 
@@ -367,10 +372,9 @@
             this.labelGenre.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.labelGenre.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelGenre.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelGenre.Location = new System.Drawing.Point(31, 3);
-            this.labelGenre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelGenre.Location = new System.Drawing.Point(41, 4);
             this.labelGenre.Name = "labelGenre";
-            this.labelGenre.Size = new System.Drawing.Size(63, 24);
+            this.labelGenre.Size = new System.Drawing.Size(80, 29);
             this.labelGenre.TabIndex = 26;
             this.labelGenre.Text = "Genre";
             // 
@@ -379,10 +383,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(28, 1095);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(37, 1348);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 17);
+            this.label1.Size = new System.Drawing.Size(57, 20);
             this.label1.TabIndex = 31;
             this.label1.Tag = "Horror";
             this.label1.Text = "MUSE";
@@ -390,10 +393,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::HoofdschermProjectB.Properties.Resources._8e74a3747c3cd965a0735f5a5ce1720b;
-            this.pictureBox3.Location = new System.Drawing.Point(31, 808);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(41, 994);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox3.Size = new System.Drawing.Size(231, 341);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 30;
             this.pictureBox3.TabStop = false;
@@ -403,10 +406,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::HoofdschermProjectB.Properties.Resources.A124__;
-            this.pictureBox2.Location = new System.Drawing.Point(247, 806);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(329, 992);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox2.Size = new System.Drawing.Size(231, 341);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 29;
             this.pictureBox2.TabStop = false;
@@ -416,10 +419,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::HoofdschermProjectB.Properties.Resources.AQP2_Dom_Online_Vertical_Family;
-            this.pictureBox1.Location = new System.Drawing.Point(461, 807);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(615, 993);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox1.Size = new System.Drawing.Size(231, 341);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
@@ -431,10 +434,9 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label14.Location = new System.Drawing.Point(896, 1098);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Location = new System.Drawing.Point(1195, 1351);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 17);
+            this.label14.Size = new System.Drawing.Size(84, 20);
             this.label14.TabIndex = 24;
             this.label14.Tag = "Horror";
             this.label14.Text = "THE NUN";
@@ -444,10 +446,9 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label13.Location = new System.Drawing.Point(685, 1101);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Location = new System.Drawing.Point(913, 1355);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(150, 17);
+            this.label13.Size = new System.Drawing.Size(183, 20);
             this.label13.TabIndex = 23;
             this.label13.Tag = "Horror";
             this.label13.Text = "THE FOP REFORMED";
@@ -457,10 +458,9 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label12.Location = new System.Drawing.Point(903, 731);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(1204, 900);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(160, 17);
+            this.label12.Size = new System.Drawing.Size(198, 20);
             this.label12.TabIndex = 22;
             this.label12.Tag = "Comedy";
             this.label12.Text = "SCAPIN THE SCHEMER";
@@ -470,10 +470,9 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label11.Location = new System.Drawing.Point(685, 730);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(913, 898);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(115, 17);
+            this.label11.Size = new System.Drawing.Size(139, 20);
             this.label11.TabIndex = 21;
             this.label11.Tag = "Action";
             this.label11.Text = "NO TIME TO DIE";
@@ -483,10 +482,9 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Location = new System.Drawing.Point(470, 732);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(627, 901);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 17);
+            this.label10.Size = new System.Drawing.Size(83, 20);
             this.label10.TabIndex = 20;
             this.label10.Tag = "Comedy";
             this.label10.Text = "ALADDIN";
@@ -496,10 +494,9 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label9.Location = new System.Drawing.Point(253, 734);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(337, 903);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(112, 17);
+            this.label9.Size = new System.Drawing.Size(136, 20);
             this.label9.TabIndex = 19;
             this.label9.Tag = "Comedy";
             this.label9.Text = "HORS NORMES";
@@ -509,10 +506,9 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Location = new System.Drawing.Point(32, 734);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(43, 903);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(105, 17);
+            this.label8.Size = new System.Drawing.Size(126, 20);
             this.label8.TabIndex = 18;
             this.label8.Tag = "Action";
             this.label8.Text = "TRAINING DAY";
@@ -522,10 +518,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Location = new System.Drawing.Point(903, 377);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(1204, 464);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(78, 17);
+            this.label7.Size = new System.Drawing.Size(96, 20);
             this.label7.TabIndex = 17;
             this.label7.Tag = "Comedy";
             this.label7.Text = "BAD BOYS";
@@ -535,10 +530,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(680, 377);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(907, 464);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 17);
+            this.label6.Size = new System.Drawing.Size(77, 20);
             this.label6.TabIndex = 16;
             this.label6.Tag = "Action";
             this.label6.Text = "MIDWAY";
@@ -548,10 +542,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(470, 377);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(627, 464);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 17);
+            this.label5.Size = new System.Drawing.Size(113, 20);
             this.label5.TabIndex = 15;
             this.label5.Tag = "Comedy";
             this.label5.Text = "LIKE A BOSS";
@@ -561,10 +554,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(253, 377);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(337, 464);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(145, 17);
+            this.label4.Size = new System.Drawing.Size(176, 20);
             this.label4.TabIndex = 14;
             this.label4.Tag = "Action";
             this.label4.Text = "BROOKLYN AFFAIRS";
@@ -574,10 +566,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(32, 377);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(43, 464);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 17);
+            this.label3.Size = new System.Drawing.Size(86, 20);
             this.label3.TabIndex = 13;
             this.label3.Tag = "Comedy";
             this.label3.Text = "ONWARD";
@@ -585,10 +576,10 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = global::HoofdschermProjectB.Properties.Resources._209192;
-            this.pictureBox16.Location = new System.Drawing.Point(682, 81);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox16.Location = new System.Drawing.Point(909, 100);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox16.Size = new System.Drawing.Size(231, 341);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.TabIndex = 12;
             this.pictureBox16.TabStop = false;
@@ -598,10 +589,10 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = global::HoofdschermProjectB.Properties.Resources._51it0D0mX2L__SX336_BO1_204_203_200_;
-            this.pictureBox15.Location = new System.Drawing.Point(34, 81);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox15.Location = new System.Drawing.Point(45, 100);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox15.Size = new System.Drawing.Size(231, 341);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 11;
             this.pictureBox15.TabStop = false;
@@ -611,10 +602,10 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::HoofdschermProjectB.Properties.Resources._81aDHiDYcVL__AC_SL1200_;
-            this.pictureBox14.Location = new System.Drawing.Point(256, 81);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox14.Location = new System.Drawing.Point(341, 100);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox14.Size = new System.Drawing.Size(231, 341);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.TabIndex = 10;
             this.pictureBox14.TabStop = false;
@@ -624,10 +615,10 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = global::HoofdschermProjectB.Properties.Resources.scapin_poster;
-            this.pictureBox13.Location = new System.Drawing.Point(906, 436);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox13.Location = new System.Drawing.Point(1208, 537);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox13.Size = new System.Drawing.Size(231, 341);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.TabIndex = 9;
             this.pictureBox13.TabStop = false;
@@ -637,10 +628,10 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::HoofdschermProjectB.Properties.Resources.no_time_to_die;
-            this.pictureBox12.Location = new System.Drawing.Point(688, 436);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox12.Location = new System.Drawing.Point(917, 537);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox12.Size = new System.Drawing.Size(231, 341);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.TabIndex = 8;
             this.pictureBox12.TabStop = false;
@@ -650,10 +641,10 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::HoofdschermProjectB.Properties.Resources.hors_normes_banner;
-            this.pictureBox11.Location = new System.Drawing.Point(256, 436);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox11.Location = new System.Drawing.Point(341, 537);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox11.Size = new System.Drawing.Size(231, 341);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.TabIndex = 7;
             this.pictureBox11.TabStop = false;
@@ -663,10 +654,10 @@
             // pictureBox10
             // 
             this.pictureBox10.Image = global::HoofdschermProjectB.Properties.Resources.e28f8a0f43ee0d2e3932b30e2cf65627_2x;
-            this.pictureBox10.Location = new System.Drawing.Point(34, 436);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox10.Location = new System.Drawing.Point(45, 537);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox10.Size = new System.Drawing.Size(231, 341);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.TabIndex = 6;
             this.pictureBox10.TabStop = false;
@@ -676,10 +667,10 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = global::HoofdschermProjectB.Properties.Resources.the_nun_movie_reviews_1013906;
-            this.pictureBox9.Location = new System.Drawing.Point(898, 808);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox9.Location = new System.Drawing.Point(1197, 994);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox9.Size = new System.Drawing.Size(231, 341);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.TabIndex = 5;
             this.pictureBox9.TabStop = false;
@@ -689,10 +680,10 @@
             // pictureBox8
             // 
             this.pictureBox8.Image = global::HoofdschermProjectB.Properties.Resources.thefopreformed_poster;
-            this.pictureBox8.Location = new System.Drawing.Point(688, 806);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox8.Location = new System.Drawing.Point(917, 992);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox8.Size = new System.Drawing.Size(231, 341);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 4;
             this.pictureBox8.TabStop = false;
@@ -702,10 +693,10 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::HoofdschermProjectB.Properties.Resources.MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM___V1_UY1200_CR90_0_630_1200_AL_;
-            this.pictureBox7.Location = new System.Drawing.Point(473, 436);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox7.Location = new System.Drawing.Point(631, 537);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox7.Size = new System.Drawing.Size(231, 341);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 3;
             this.pictureBox7.TabStop = false;
@@ -715,10 +706,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::HoofdschermProjectB.Properties.Resources._29419_121971_ps_sd_high;
-            this.pictureBox5.Location = new System.Drawing.Point(473, 81);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox5.Location = new System.Drawing.Point(631, 100);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox5.Size = new System.Drawing.Size(231, 341);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 1;
             this.pictureBox5.TabStop = false;
@@ -728,10 +719,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::HoofdschermProjectB.Properties.Resources.bad_boys_for_life;
-            this.pictureBox4.Location = new System.Drawing.Point(906, 81);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox4.Location = new System.Drawing.Point(1208, 100);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox4.Size = new System.Drawing.Size(231, 341);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
@@ -741,6 +732,10 @@
             // panelComedy
             // 
             this.panelComedy.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelComedy.Controls.Add(this.label38);
+            this.panelComedy.Controls.Add(this.label37);
+            this.panelComedy.Controls.Add(this.label36);
+            this.panelComedy.Controls.Add(this.comboBoxComedy);
             this.panelComedy.Controls.Add(this.label30);
             this.panelComedy.Controls.Add(this.pictureBox30);
             this.panelComedy.Controls.Add(this.label29);
@@ -753,10 +748,10 @@
             this.panelComedy.Controls.Add(this.pictureBox17);
             this.panelComedy.Controls.Add(this.label16);
             this.panelComedy.Controls.Add(this.pictureBox6);
-            this.panelComedy.Location = new System.Drawing.Point(2, 149);
-            this.panelComedy.Margin = new System.Windows.Forms.Padding(2);
+            this.panelComedy.Location = new System.Drawing.Point(3, 140);
+            this.panelComedy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelComedy.Name = "panelComedy";
-            this.panelComedy.Size = new System.Drawing.Size(1125, 665);
+            this.panelComedy.Size = new System.Drawing.Size(1480, 800);
             this.panelComedy.TabIndex = 34;
             // 
             // label30
@@ -764,10 +759,9 @@
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label30.Location = new System.Drawing.Point(22, 635);
-            this.label30.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label30.Location = new System.Drawing.Point(27, 780);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(112, 17);
+            this.label30.Size = new System.Drawing.Size(136, 20);
             this.label30.TabIndex = 27;
             this.label30.Tag = "Comedy";
             this.label30.Text = "HORS NORMES";
@@ -775,10 +769,10 @@
             // pictureBox30
             // 
             this.pictureBox30.Image = global::HoofdschermProjectB.Properties.Resources.hors_normes_banner;
-            this.pictureBox30.Location = new System.Drawing.Point(25, 339);
-            this.pictureBox30.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox30.Location = new System.Drawing.Point(24, 436);
+            this.pictureBox30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox30.Size = new System.Drawing.Size(231, 341);
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox30.TabIndex = 26;
             this.pictureBox30.TabStop = false;
@@ -790,10 +784,9 @@
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label29.Location = new System.Drawing.Point(914, 307);
-            this.label29.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label29.Location = new System.Drawing.Point(1198, 414);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(115, 17);
+            this.label29.Size = new System.Drawing.Size(139, 20);
             this.label29.TabIndex = 25;
             this.label29.Tag = "Action";
             this.label29.Text = "NO TIME TO DIE";
@@ -801,10 +794,10 @@
             // pictureBox29
             // 
             this.pictureBox29.Image = global::HoofdschermProjectB.Properties.Resources.bad_boys_for_life;
-            this.pictureBox29.Location = new System.Drawing.Point(917, 18);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox29.Location = new System.Drawing.Point(1202, 63);
+            this.pictureBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox29.Size = new System.Drawing.Size(231, 341);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox29.TabIndex = 24;
             this.pictureBox29.TabStop = false;
@@ -816,10 +809,9 @@
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label19.Location = new System.Drawing.Point(692, 307);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Location = new System.Drawing.Point(901, 414);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(160, 17);
+            this.label19.Size = new System.Drawing.Size(198, 20);
             this.label19.TabIndex = 23;
             this.label19.Tag = "Comedy";
             this.label19.Text = "SCAPIN THE SCHEMER";
@@ -827,10 +819,10 @@
             // pictureBox19
             // 
             this.pictureBox19.Image = global::HoofdschermProjectB.Properties.Resources.scapin_poster;
-            this.pictureBox19.Location = new System.Drawing.Point(694, 18);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox19.Location = new System.Drawing.Point(905, 63);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox19.Size = new System.Drawing.Size(231, 341);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.TabIndex = 22;
             this.pictureBox19.TabStop = false;
@@ -842,10 +834,9 @@
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label18.Location = new System.Drawing.Point(467, 307);
-            this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label18.Location = new System.Drawing.Point(621, 414);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(67, 17);
+            this.label18.Size = new System.Drawing.Size(83, 20);
             this.label18.TabIndex = 21;
             this.label18.Tag = "Comedy";
             this.label18.Text = "ALADDIN";
@@ -853,10 +844,10 @@
             // pictureBox18
             // 
             this.pictureBox18.Image = global::HoofdschermProjectB.Properties.Resources.MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM___V1_UY1200_CR90_0_630_1200_AL_;
-            this.pictureBox18.Location = new System.Drawing.Point(470, 18);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox18.Location = new System.Drawing.Point(625, 63);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox18.Size = new System.Drawing.Size(231, 341);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.TabIndex = 17;
             this.pictureBox18.TabStop = false;
@@ -868,10 +859,9 @@
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label17.Location = new System.Drawing.Point(240, 307);
-            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Location = new System.Drawing.Point(318, 414);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(92, 17);
+            this.label17.Size = new System.Drawing.Size(113, 20);
             this.label17.TabIndex = 16;
             this.label17.Tag = "Comedy";
             this.label17.Text = "LIKE A BOSS";
@@ -879,10 +869,10 @@
             // pictureBox17
             // 
             this.pictureBox17.Image = global::HoofdschermProjectB.Properties.Resources._29419_121971_ps_sd_high;
-            this.pictureBox17.Location = new System.Drawing.Point(245, 18);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox17.Location = new System.Drawing.Point(322, 63);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox17.Size = new System.Drawing.Size(231, 341);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.TabIndex = 15;
             this.pictureBox17.TabStop = false;
@@ -894,10 +884,9 @@
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label16.Location = new System.Drawing.Point(22, 307);
-            this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label16.Location = new System.Drawing.Point(27, 414);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(71, 17);
+            this.label16.Size = new System.Drawing.Size(86, 20);
             this.label16.TabIndex = 14;
             this.label16.Tag = "Comedy";
             this.label16.Text = "ONWARD";
@@ -905,10 +894,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::HoofdschermProjectB.Properties.Resources._51it0D0mX2L__SX336_BO1_204_203_200_;
-            this.pictureBox6.Location = new System.Drawing.Point(25, 20);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox6.Location = new System.Drawing.Point(31, 63);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox6.Size = new System.Drawing.Size(231, 341);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 12;
             this.pictureBox6.TabStop = false;
@@ -918,6 +907,8 @@
             // panelHorror
             // 
             this.panelHorror.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelHorror.Controls.Add(this.label39);
+            this.panelHorror.Controls.Add(this.comboBoxHorror);
             this.panelHorror.Controls.Add(this.label24);
             this.panelHorror.Controls.Add(this.pictureBox24);
             this.panelHorror.Controls.Add(this.label23);
@@ -928,10 +919,10 @@
             this.panelHorror.Controls.Add(this.pictureBox21);
             this.panelHorror.Controls.Add(this.label20);
             this.panelHorror.Controls.Add(this.pictureBox20);
-            this.panelHorror.Location = new System.Drawing.Point(2, 149);
-            this.panelHorror.Margin = new System.Windows.Forms.Padding(2);
+            this.panelHorror.Location = new System.Drawing.Point(3, 141);
+            this.panelHorror.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelHorror.Name = "panelHorror";
-            this.panelHorror.Size = new System.Drawing.Size(1125, 665);
+            this.panelHorror.Size = new System.Drawing.Size(1480, 700);
             this.panelHorror.TabIndex = 35;
             // 
             // label24
@@ -939,10 +930,9 @@
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label24.Location = new System.Drawing.Point(892, 307);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label24.Location = new System.Drawing.Point(1190, 413);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(70, 17);
+            this.label24.Size = new System.Drawing.Size(84, 20);
             this.label24.TabIndex = 40;
             this.label24.Tag = "Horror";
             this.label24.Text = "THE NUN";
@@ -950,10 +940,10 @@
             // pictureBox24
             // 
             this.pictureBox24.Image = global::HoofdschermProjectB.Properties.Resources.the_nun_movie_reviews_1013906;
-            this.pictureBox24.Location = new System.Drawing.Point(895, 18);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox24.Location = new System.Drawing.Point(1194, 63);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox24.Size = new System.Drawing.Size(231, 341);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox24.TabIndex = 39;
             this.pictureBox24.TabStop = false;
@@ -965,10 +955,9 @@
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label23.Location = new System.Drawing.Point(673, 307);
-            this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label23.Location = new System.Drawing.Point(888, 413);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(150, 17);
+            this.label23.Size = new System.Drawing.Size(183, 20);
             this.label23.TabIndex = 38;
             this.label23.Tag = "Horror";
             this.label23.Text = "THE FOP REFORMED";
@@ -976,10 +965,10 @@
             // pictureBox23
             // 
             this.pictureBox23.Image = global::HoofdschermProjectB.Properties.Resources.thefopreformed_poster;
-            this.pictureBox23.Location = new System.Drawing.Point(676, 18);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox23.Location = new System.Drawing.Point(892, 62);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox23.Size = new System.Drawing.Size(231, 341);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.TabIndex = 37;
             this.pictureBox23.TabStop = false;
@@ -991,10 +980,9 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label22.Location = new System.Drawing.Point(454, 307);
-            this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label22.Location = new System.Drawing.Point(599, 413);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(111, 17);
+            this.label22.Size = new System.Drawing.Size(135, 20);
             this.label22.TabIndex = 36;
             this.label22.Tag = "Horror";
             this.label22.Text = "A QUIET PLACE";
@@ -1002,10 +990,10 @@
             // pictureBox22
             // 
             this.pictureBox22.Image = global::HoofdschermProjectB.Properties.Resources.AQP2_Dom_Online_Vertical_Family;
-            this.pictureBox22.Location = new System.Drawing.Point(458, 18);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox22.Location = new System.Drawing.Point(603, 62);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox22.Size = new System.Drawing.Size(231, 341);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.TabIndex = 35;
             this.pictureBox22.TabStop = false;
@@ -1017,10 +1005,9 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label21.Location = new System.Drawing.Point(240, 307);
-            this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label21.Location = new System.Drawing.Point(318, 413);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(65, 17);
+            this.label21.Size = new System.Drawing.Size(81, 20);
             this.label21.TabIndex = 34;
             this.label21.Tag = "Horror";
             this.label21.Text = "DACHRA";
@@ -1028,10 +1015,10 @@
             // pictureBox21
             // 
             this.pictureBox21.Image = global::HoofdschermProjectB.Properties.Resources.A124__;
-            this.pictureBox21.Location = new System.Drawing.Point(243, 18);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox21.Location = new System.Drawing.Point(322, 62);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox21.Size = new System.Drawing.Size(231, 341);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.TabIndex = 33;
             this.pictureBox21.TabStop = false;
@@ -1043,10 +1030,9 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label20.Location = new System.Drawing.Point(28, 307);
-            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Location = new System.Drawing.Point(27, 413);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(47, 17);
+            this.label20.Size = new System.Drawing.Size(57, 20);
             this.label20.TabIndex = 32;
             this.label20.Tag = "Horror";
             this.label20.Text = "MUSE";
@@ -1054,10 +1040,10 @@
             // pictureBox20
             // 
             this.pictureBox20.Image = global::HoofdschermProjectB.Properties.Resources._8e74a3747c3cd965a0735f5a5ce1720b;
-            this.pictureBox20.Location = new System.Drawing.Point(31, 18);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox20.Location = new System.Drawing.Point(31, 63);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox20.Size = new System.Drawing.Size(231, 341);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.TabIndex = 31;
             this.pictureBox20.TabStop = false;
@@ -1067,6 +1053,9 @@
             // panelAction
             // 
             this.panelAction.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelAction.Controls.Add(this.label35);
+            this.panelAction.Controls.Add(this.label34);
+            this.panelAction.Controls.Add(this.comboBoxAction);
             this.panelAction.Controls.Add(this.label28);
             this.panelAction.Controls.Add(this.pictureBox28);
             this.panelAction.Controls.Add(this.label27);
@@ -1075,21 +1064,48 @@
             this.panelAction.Controls.Add(this.pictureBox26);
             this.panelAction.Controls.Add(this.label25);
             this.panelAction.Controls.Add(this.pictureBox25);
-            this.panelAction.Location = new System.Drawing.Point(2, 149);
-            this.panelAction.Margin = new System.Windows.Forms.Padding(2);
+            this.panelAction.Location = new System.Drawing.Point(3, 140);
+            this.panelAction.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelAction.Name = "panelAction";
-            this.panelAction.Size = new System.Drawing.Size(1125, 665);
+            this.panelAction.Size = new System.Drawing.Size(1480, 700);
             this.panelAction.TabIndex = 41;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label34.Location = new System.Drawing.Point(41, 4);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(80, 29);
+            this.label34.TabIndex = 27;
+            this.label34.Text = "Genre";
+            // 
+            // comboBoxAction
+            // 
+            this.comboBoxAction.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.comboBoxAction.FormattingEnabled = true;
+            this.comboBoxAction.Items.AddRange(new object[] {
+            "All",
+            "Horror",
+            "Action",
+            "Comedy"});
+            this.comboBoxAction.Location = new System.Drawing.Point(145, 4);
+            this.comboBoxAction.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxAction.Name = "comboBoxAction";
+            this.comboBoxAction.Size = new System.Drawing.Size(129, 24);
+            this.comboBoxAction.TabIndex = 26;
+            this.comboBoxAction.SelectedValueChanged += new System.EventHandler(this.comboBox2_SelectedValueChanged);
             // 
             // label28
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label28.Location = new System.Drawing.Point(862, 320);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label28.Location = new System.Drawing.Point(1140, 414);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(115, 17);
+            this.label28.Size = new System.Drawing.Size(139, 20);
             this.label28.TabIndex = 22;
             this.label28.Tag = "Action";
             this.label28.Text = "NO TIME TO DIE";
@@ -1097,10 +1113,10 @@
             // pictureBox28
             // 
             this.pictureBox28.Image = global::HoofdschermProjectB.Properties.Resources.no_time_to_die;
-            this.pictureBox28.Location = new System.Drawing.Point(866, 28);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox28.Location = new System.Drawing.Point(1140, 63);
+            this.pictureBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox28.Size = new System.Drawing.Size(231, 341);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox28.TabIndex = 20;
             this.pictureBox28.TabStop = false;
@@ -1112,10 +1128,9 @@
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label27.Location = new System.Drawing.Point(581, 320);
-            this.label27.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label27.Location = new System.Drawing.Point(775, 414);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(105, 17);
+            this.label27.Size = new System.Drawing.Size(126, 20);
             this.label27.TabIndex = 19;
             this.label27.Tag = "Action";
             this.label27.Text = "TRAINING DAY";
@@ -1123,10 +1138,10 @@
             // pictureBox27
             // 
             this.pictureBox27.Image = global::HoofdschermProjectB.Properties.Resources.e28f8a0f43ee0d2e3932b30e2cf65627_2x;
-            this.pictureBox27.Location = new System.Drawing.Point(584, 28);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox27.Location = new System.Drawing.Point(779, 64);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox27.Size = new System.Drawing.Size(231, 341);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox27.TabIndex = 18;
             this.pictureBox27.TabStop = false;
@@ -1138,10 +1153,9 @@
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label26.Location = new System.Drawing.Point(302, 320);
-            this.label26.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label26.Location = new System.Drawing.Point(403, 414);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(63, 17);
+            this.label26.Size = new System.Drawing.Size(77, 20);
             this.label26.TabIndex = 17;
             this.label26.Tag = "Action";
             this.label26.Text = "MIDWAY";
@@ -1149,10 +1163,10 @@
             // pictureBox26
             // 
             this.pictureBox26.Image = global::HoofdschermProjectB.Properties.Resources._209192;
-            this.pictureBox26.Location = new System.Drawing.Point(305, 23);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox26.Location = new System.Drawing.Point(398, 64);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox26.Size = new System.Drawing.Size(231, 341);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox26.TabIndex = 16;
             this.pictureBox26.TabStop = false;
@@ -1164,10 +1178,9 @@
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label25.Location = new System.Drawing.Point(38, 320);
-            this.label25.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label25.Location = new System.Drawing.Point(27, 414);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(145, 17);
+            this.label25.Size = new System.Drawing.Size(176, 20);
             this.label25.TabIndex = 15;
             this.label25.Tag = "Action";
             this.label25.Text = "BROOKLYN AFFAIRS";
@@ -1175,10 +1188,10 @@
             // pictureBox25
             // 
             this.pictureBox25.Image = global::HoofdschermProjectB.Properties.Resources._81aDHiDYcVL__AC_SL1200_;
-            this.pictureBox25.Location = new System.Drawing.Point(41, 28);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox25.Location = new System.Drawing.Point(31, 63);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(173, 277);
+            this.pictureBox25.Size = new System.Drawing.Size(231, 341);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox25.TabIndex = 11;
             this.pictureBox25.TabStop = false;
@@ -1188,25 +1201,39 @@
             // MovieDescriptionPanel
             // 
             this.MovieDescriptionPanel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.MovieDescriptionPanel.Controls.Add(this.label33);
             this.MovieDescriptionPanel.Controls.Add(this.Reserveerknop);
             this.MovieDescriptionPanel.Controls.Add(this.BioscoopDetails);
             this.MovieDescriptionPanel.Controls.Add(this.MovieDescription);
             this.MovieDescriptionPanel.Controls.Add(this.MovieTitle);
             this.MovieDescriptionPanel.Controls.Add(this.MovieDetails);
             this.MovieDescriptionPanel.Controls.Add(this.pictureBoxBeschrijving);
-            this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 112);
-            this.MovieDescriptionPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 138);
+            this.MovieDescriptionPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MovieDescriptionPanel.Name = "MovieDescriptionPanel";
-            this.MovieDescriptionPanel.Size = new System.Drawing.Size(1125, 703);
+            this.MovieDescriptionPanel.Size = new System.Drawing.Size(1480, 700);
             this.MovieDescriptionPanel.TabIndex = 42;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label33.Location = new System.Drawing.Point(710, 336);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(80, 29);
+            this.label33.TabIndex = 27;
+            this.label33.Text = "Genre";
             // 
             // Reserveerknop
             // 
             this.Reserveerknop.BackColor = System.Drawing.Color.Lime;
             this.Reserveerknop.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
-            this.Reserveerknop.Location = new System.Drawing.Point(908, 506);
+            this.Reserveerknop.Location = new System.Drawing.Point(1211, 584);
+            this.Reserveerknop.Margin = new System.Windows.Forms.Padding(4);
             this.Reserveerknop.Name = "Reserveerknop";
-            this.Reserveerknop.Size = new System.Drawing.Size(182, 82);
+            this.Reserveerknop.Size = new System.Drawing.Size(243, 101);
             this.Reserveerknop.TabIndex = 8;
             this.Reserveerknop.Text = "Reserveer een plek";
             this.Reserveerknop.UseVisualStyleBackColor = false;
@@ -1217,9 +1244,10 @@
             this.BioscoopDetails.AutoSize = true;
             this.BioscoopDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BioscoopDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.BioscoopDetails.Location = new System.Drawing.Point(871, 0);
+            this.BioscoopDetails.Location = new System.Drawing.Point(1161, 0);
+            this.BioscoopDetails.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.BioscoopDetails.Name = "BioscoopDetails";
-            this.BioscoopDetails.Size = new System.Drawing.Size(60, 20);
+            this.BioscoopDetails.Size = new System.Drawing.Size(75, 25);
             this.BioscoopDetails.TabIndex = 7;
             this.BioscoopDetails.Text = "label16";
             // 
@@ -1228,9 +1256,10 @@
             this.MovieDescription.AutoSize = true;
             this.MovieDescription.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MovieDescription.ForeColor = System.Drawing.SystemColors.Control;
-            this.MovieDescription.Location = new System.Drawing.Point(299, 201);
+            this.MovieDescription.Location = new System.Drawing.Point(399, 247);
+            this.MovieDescription.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MovieDescription.Name = "MovieDescription";
-            this.MovieDescription.Size = new System.Drawing.Size(75, 23);
+            this.MovieDescription.Size = new System.Drawing.Size(89, 28);
             this.MovieDescription.TabIndex = 6;
             this.MovieDescription.Text = "label16";
             // 
@@ -1238,9 +1267,10 @@
             // 
             this.MovieTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F);
             this.MovieTitle.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.MovieTitle.Location = new System.Drawing.Point(296, 73);
+            this.MovieTitle.Location = new System.Drawing.Point(395, 90);
+            this.MovieTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MovieTitle.Name = "MovieTitle";
-            this.MovieTitle.Size = new System.Drawing.Size(424, 42);
+            this.MovieTitle.Size = new System.Drawing.Size(565, 52);
             this.MovieTitle.TabIndex = 5;
             this.MovieTitle.Text = "label16";
             // 
@@ -1249,17 +1279,19 @@
             this.MovieDetails.AutoSize = true;
             this.MovieDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MovieDetails.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.MovieDetails.Location = new System.Drawing.Point(3, 392);
+            this.MovieDetails.Location = new System.Drawing.Point(4, 482);
+            this.MovieDetails.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MovieDetails.Name = "MovieDetails";
-            this.MovieDetails.Size = new System.Drawing.Size(60, 20);
+            this.MovieDetails.Size = new System.Drawing.Size(75, 25);
             this.MovieDetails.TabIndex = 4;
             this.MovieDetails.Text = "label16";
             // 
             // pictureBoxBeschrijving
             // 
-            this.pictureBoxBeschrijving.Location = new System.Drawing.Point(8, 30);
+            this.pictureBoxBeschrijving.Location = new System.Drawing.Point(11, 37);
+            this.pictureBoxBeschrijving.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxBeschrijving.Name = "pictureBoxBeschrijving";
-            this.pictureBoxBeschrijving.Size = new System.Drawing.Size(233, 345);
+            this.pictureBoxBeschrijving.Size = new System.Drawing.Size(311, 425);
             this.pictureBoxBeschrijving.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxBeschrijving.TabIndex = 2;
             this.pictureBoxBeschrijving.TabStop = false;
@@ -1275,9 +1307,10 @@
             this.ReserveerStoel.Controls.Add(this.panel3);
             this.ReserveerStoel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.ReserveerStoel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.ReserveerStoel.Location = new System.Drawing.Point(0, 1316);
+            this.ReserveerStoel.Location = new System.Drawing.Point(0, 1620);
+            this.ReserveerStoel.Margin = new System.Windows.Forms.Padding(4);
             this.ReserveerStoel.Name = "ReserveerStoel";
-            this.ReserveerStoel.Size = new System.Drawing.Size(1127, 703);
+            this.ReserveerStoel.Size = new System.Drawing.Size(1505, 700);
             this.ReserveerStoel.TabIndex = 9;
             this.ReserveerStoel.Visible = false;
             // 
@@ -1285,9 +1318,10 @@
             // 
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.label31.Location = new System.Drawing.Point(40, 130);
+            this.label31.Location = new System.Drawing.Point(45, 102);
+            this.label31.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(424, 29);
+            this.label31.Size = new System.Drawing.Size(524, 36);
             this.label31.TabIndex = 5;
             this.label31.Text = "Let op: Maximaal 5 tickets per persoon";
             // 
@@ -1296,9 +1330,10 @@
             this.ButtonKiesStoel.BackColor = System.Drawing.Color.GreenYellow;
             this.ButtonKiesStoel.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
             this.ButtonKiesStoel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ButtonKiesStoel.Location = new System.Drawing.Point(898, 531);
+            this.ButtonKiesStoel.Location = new System.Drawing.Point(1211, 584);
+            this.ButtonKiesStoel.Margin = new System.Windows.Forms.Padding(4);
             this.ButtonKiesStoel.Name = "ButtonKiesStoel";
-            this.ButtonKiesStoel.Size = new System.Drawing.Size(182, 82);
+            this.ButtonKiesStoel.Size = new System.Drawing.Size(243, 101);
             this.ButtonKiesStoel.TabIndex = 6;
             this.ButtonKiesStoel.Text = "Kies een stoel";
             this.ButtonKiesStoel.UseVisualStyleBackColor = false;
@@ -1308,17 +1343,19 @@
             // 
             this.MovieDetails2.AutoSize = true;
             this.MovieDetails2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.MovieDetails2.Location = new System.Drawing.Point(803, 380);
+            this.MovieDetails2.Location = new System.Drawing.Point(1080, 413);
+            this.MovieDetails2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MovieDetails2.Name = "MovieDetails2";
-            this.MovieDetails2.Size = new System.Drawing.Size(60, 20);
+            this.MovieDetails2.Size = new System.Drawing.Size(75, 25);
             this.MovieDetails2.TabIndex = 5;
             this.MovieDetails2.Text = "label16";
             // 
             // MoviePicture
             // 
-            this.MoviePicture.Location = new System.Drawing.Point(807, 37);
+            this.MoviePicture.Location = new System.Drawing.Point(1085, 6);
+            this.MoviePicture.Margin = new System.Windows.Forms.Padding(4);
             this.MoviePicture.Name = "MoviePicture";
-            this.MoviePicture.Size = new System.Drawing.Size(208, 313);
+            this.MoviePicture.Size = new System.Drawing.Size(277, 385);
             this.MoviePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.MoviePicture.TabIndex = 3;
             this.MoviePicture.TabStop = false;
@@ -1328,17 +1365,19 @@
             this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel2.Controls.Add(this.Labeltotal);
             this.panel2.Controls.Add(this.LabelTotalprice);
-            this.panel2.Location = new System.Drawing.Point(426, 482);
+            this.panel2.Location = new System.Drawing.Point(528, 554);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(171, 67);
+            this.panel2.Size = new System.Drawing.Size(228, 82);
             this.panel2.TabIndex = 4;
             // 
             // Labeltotal
             // 
             this.Labeltotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Labeltotal.Location = new System.Drawing.Point(13, 21);
+            this.Labeltotal.Location = new System.Drawing.Point(17, 26);
+            this.Labeltotal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Labeltotal.Name = "Labeltotal";
-            this.Labeltotal.Size = new System.Drawing.Size(95, 23);
+            this.Labeltotal.Size = new System.Drawing.Size(127, 28);
             this.Labeltotal.TabIndex = 2;
             this.Labeltotal.Text = "Totaal: ";
             // 
@@ -1346,9 +1385,10 @@
             // 
             this.LabelTotalprice.BackColor = System.Drawing.Color.Transparent;
             this.LabelTotalprice.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.LabelTotalprice.Location = new System.Drawing.Point(104, 22);
+            this.LabelTotalprice.Location = new System.Drawing.Point(139, 27);
+            this.LabelTotalprice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LabelTotalprice.Name = "LabelTotalprice";
-            this.LabelTotalprice.Size = new System.Drawing.Size(80, 27);
+            this.LabelTotalprice.Size = new System.Drawing.Size(107, 33);
             this.LabelTotalprice.TabIndex = 1;
             this.LabelTotalprice.Text = "$0";
             // 
@@ -1360,18 +1400,20 @@
             this.panel3.Controls.Add(this.labelPrice);
             this.panel3.Controls.Add(this.Labelvolwassenen);
             this.panel3.Controls.Add(this.NumberofPeople);
-            this.panel3.Location = new System.Drawing.Point(44, 190);
+            this.panel3.Location = new System.Drawing.Point(61, 189);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(460, 106);
+            this.panel3.Size = new System.Drawing.Size(613, 130);
             this.panel3.TabIndex = 7;
             // 
             // labelaantal
             // 
             this.labelaantal.AutoSize = true;
             this.labelaantal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelaantal.Location = new System.Drawing.Point(297, 12);
+            this.labelaantal.Location = new System.Drawing.Point(396, 15);
+            this.labelaantal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelaantal.Name = "labelaantal";
-            this.labelaantal.Size = new System.Drawing.Size(67, 24);
+            this.labelaantal.Size = new System.Drawing.Size(85, 29);
             this.labelaantal.TabIndex = 4;
             this.labelaantal.Text = "Aantal:";
             // 
@@ -1379,9 +1421,10 @@
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(198, 40);
+            this.label32.Location = new System.Drawing.Point(264, 49);
+            this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(40, 24);
+            this.label32.Size = new System.Drawing.Size(52, 29);
             this.label32.TabIndex = 3;
             this.label32.Text = "$12";
             // 
@@ -1389,9 +1432,10 @@
             // 
             this.labelPrice.AutoSize = true;
             this.labelPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPrice.Location = new System.Drawing.Point(197, 12);
+            this.labelPrice.Location = new System.Drawing.Point(263, 15);
+            this.labelPrice.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPrice.Name = "labelPrice";
-            this.labelPrice.Size = new System.Drawing.Size(50, 24);
+            this.labelPrice.Size = new System.Drawing.Size(67, 29);
             this.labelPrice.TabIndex = 2;
             this.labelPrice.Text = "Prijs:";
             // 
@@ -1399,9 +1443,10 @@
             // 
             this.Labelvolwassenen.AutoSize = true;
             this.Labelvolwassenen.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-            this.Labelvolwassenen.Location = new System.Drawing.Point(12, 34);
+            this.Labelvolwassenen.Location = new System.Drawing.Point(16, 42);
+            this.Labelvolwassenen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Labelvolwassenen.Name = "Labelvolwassenen";
-            this.Labelvolwassenen.Size = new System.Drawing.Size(169, 29);
+            this.Labelvolwassenen.Size = new System.Drawing.Size(210, 36);
             this.Labelvolwassenen.TabIndex = 1;
             this.Labelvolwassenen.Text = "Volwassenen: ";
             // 
@@ -1415,30 +1460,123 @@
             "3",
             "4",
             "5"});
-            this.NumberofPeople.Location = new System.Drawing.Point(299, 43);
+            this.NumberofPeople.Location = new System.Drawing.Point(399, 53);
+            this.NumberofPeople.Margin = new System.Windows.Forms.Padding(4);
             this.NumberofPeople.Name = "NumberofPeople";
-            this.NumberofPeople.Size = new System.Drawing.Size(91, 21);
+            this.NumberofPeople.Size = new System.Drawing.Size(120, 24);
             this.NumberofPeople.TabIndex = 0;
             this.NumberofPeople.SelectedValueChanged += new System.EventHandler(this.NumberofPeople_SelectedValueChanged);
             // 
+            // comboBoxComedy
+            // 
+            this.comboBoxComedy.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.comboBoxComedy.FormattingEnabled = true;
+            this.comboBoxComedy.Items.AddRange(new object[] {
+            "All",
+            "Horror",
+            "Action",
+            "Comedy"});
+            this.comboBoxComedy.Location = new System.Drawing.Point(145, 4);
+            this.comboBoxComedy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxComedy.Name = "comboBoxComedy";
+            this.comboBoxComedy.Size = new System.Drawing.Size(129, 24);
+            this.comboBoxComedy.TabIndex = 28;
+            this.comboBoxComedy.SelectedValueChanged += new System.EventHandler(this.comboBox3_SelectedValueChanged);
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label35.Location = new System.Drawing.Point(710, 336);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(80, 29);
+            this.label35.TabIndex = 28;
+            this.label35.Text = "Genre";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label36.Location = new System.Drawing.Point(41, 4);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(80, 29);
+            this.label36.TabIndex = 29;
+            this.label36.Text = "Genre";
+            // 
+            // comboBoxHorror
+            // 
+            this.comboBoxHorror.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.comboBoxHorror.FormattingEnabled = true;
+            this.comboBoxHorror.Items.AddRange(new object[] {
+            "All",
+            "Horror",
+            "Action",
+            "Comedy"});
+            this.comboBoxHorror.Location = new System.Drawing.Point(145, 4);
+            this.comboBoxHorror.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comboBoxHorror.Name = "comboBoxHorror";
+            this.comboBoxHorror.Size = new System.Drawing.Size(129, 24);
+            this.comboBoxHorror.TabIndex = 41;
+            this.comboBoxHorror.SelectedValueChanged += new System.EventHandler(this.comboBox4_SelectedValueChanged);
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label37.Location = new System.Drawing.Point(710, 386);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(80, 29);
+            this.label37.TabIndex = 30;
+            this.label37.Text = "Genre";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label38.Location = new System.Drawing.Point(718, 394);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(80, 29);
+            this.label38.TabIndex = 31;
+            this.label38.Text = "Genre";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label39.Location = new System.Drawing.Point(41, 4);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(80, 29);
+            this.label39.TabIndex = 42;
+            this.label39.Text = "Genre";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1127, 629);
+            this.ClientSize = new System.Drawing.Size(1482, 853);
             this.Controls.Add(this.panelBoven2);
             this.Controls.Add(this.ReserveerStoel);
+            this.Controls.Add(this.panelHorror);
+            this.Controls.Add(this.panelMovies);
             this.Controls.Add(this.MovieDescriptionPanel);
             this.Controls.Add(this.panelAction);
             this.Controls.Add(this.panelComedy);
-            this.Controls.Add(this.panelHorror);
-            this.Controls.Add(this.panelMovies);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -1535,7 +1673,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label labelGenre;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBoxAll;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -1596,6 +1734,16 @@
         private System.Windows.Forms.Label labelPrice;
         private System.Windows.Forms.Label Labelvolwassenen;
         private System.Windows.Forms.ComboBox NumberofPeople;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.ComboBox comboBoxAction;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.ComboBox comboBoxComedy;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.ComboBox comboBoxHorror;
     }
 }
 

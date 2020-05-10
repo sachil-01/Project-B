@@ -31,7 +31,7 @@ namespace ProjectB
             this.Hide();
             Form1 a = new Form1();
             a.Show();
-            this.Close();
+           
         }
 
         private void labelMovis_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace ProjectB
             this.Hide();
             Form1 a = new Form1();
             a.Show();
-            this.Close();
+            
         }
 
         private void label2_MouseMove(object sender, MouseEventArgs e)

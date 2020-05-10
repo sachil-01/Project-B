@@ -60,7 +60,8 @@ namespace ProjectB
 
         private void ComboBox1SelectedValueChanged(object sender, EventArgs e)
         {
-            string cBname = comboBox1.SelectedItem.ToString();
+            string cBname = comboBoxAll.SelectedItem.ToString();
+            
             if (cBname == "Horror")
             {
                 Showpanel(panelHorror);
@@ -79,6 +80,72 @@ namespace ProjectB
                 Showpanel(panelMovies);
             }
 
+        }
+        private void comboBox2_SelectedValueChanged(object sender, EventArgs e)
+        {
+            string cBname = comboBoxAction.SelectedItem.ToString();
+
+            if (cBname == "Horror")
+            {
+                Showpanel(panelHorror);
+
+            }
+            else if (cBname == "Comedy")
+            {
+                Showpanel(panelComedy);
+            }
+            else if (cBname == "Action")
+            {
+                Showpanel(panelAction);
+            }
+            else if (cBname == "All")
+            {
+                Showpanel(panelMovies);
+            }
+        }
+        private void comboBox3_SelectedValueChanged(object sender, EventArgs e)
+        {
+            string cBname = comboBoxComedy.SelectedItem.ToString();
+
+            if (cBname == "Horror")
+            {
+                Showpanel(panelHorror);
+
+            }
+            else if (cBname == "Comedy")
+            {
+                Showpanel(panelComedy);
+            }
+            else if (cBname == "Action")
+            {
+                Showpanel(panelAction);
+            }
+            else if (cBname == "All")
+            {
+                Showpanel(panelMovies);
+            }
+        }
+        private void comboBox4_SelectedValueChanged(object sender, EventArgs e)
+        {
+            string cBname = comboBoxHorror.SelectedItem.ToString();
+
+            if (cBname == "Horror")
+            {
+                Showpanel(panelHorror);
+
+            }
+            else if (cBname == "Comedy")
+            {
+                Showpanel(panelComedy);
+            }
+            else if (cBname == "Action")
+            {
+                Showpanel(panelAction);
+            }
+            else if (cBname == "All")
+            {
+                Showpanel(panelMovies);
+            }
         }
         private void Showpanel(Panel panel)
         {
@@ -832,5 +899,7 @@ namespace ProjectB
         {
             Application.Exit();
         }
+
+   
     }
 }
