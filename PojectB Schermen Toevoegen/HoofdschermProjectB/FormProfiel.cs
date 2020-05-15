@@ -125,14 +125,14 @@ namespace ProjectB
 
             dynamic dynJson = JsonConvert.DeserializeObject(rawJson);
             bool checker2 = true;
-            //foreach (var item in dynJson)
-            //{
-            //    if(username.Text == item.username)
-            //    {
-            //        MessageBox.Show("Error: Gebruikersnaam al in gebruik");
-            //        checker2 = false;
-            //    }
-            //}
+            foreach (var item in dynJson)
+            {
+                if (username.Text == item.username.ToString())
+                {
+                    MessageBox.Show("Error: Gebruikersnaam al in gebruik");
+                    checker2 = false;
+                }
+            }
 
 
 
