@@ -42,22 +42,24 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.username = new System.Windows.Forms.TextBox();
+            this.email = new System.Windows.Forms.TextBox();
+            this.password = new System.Windows.Forms.TextBox();
+            this.passwordrepeat = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBoxWachtword = new System.Windows.Forms.TextBox();
-            this.textBoxGebruiksnaam = new System.Windows.Forms.TextBox();
+            this.wachtwoord = new System.Windows.Forms.TextBox();
+            this.gebruikersnaam = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panelMyProfile = new System.Windows.Forms.Panel();
+            this.naam = new System.Windows.Forms.Label();
+            this.mail = new System.Windows.Forms.Label();
             this.panelBoven.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconContact)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMyAccount)).BeginInit();
@@ -181,16 +183,16 @@
             this.panelAanmelden.Controls.Add(this.label7);
             this.panelAanmelden.Controls.Add(this.label6);
             this.panelAanmelden.Controls.Add(this.label5);
-            this.panelAanmelden.Controls.Add(this.textBox6);
-            this.panelAanmelden.Controls.Add(this.textBox5);
-            this.panelAanmelden.Controls.Add(this.textBox4);
-            this.panelAanmelden.Controls.Add(this.textBox3);
+            this.panelAanmelden.Controls.Add(this.username);
+            this.panelAanmelden.Controls.Add(this.email);
+            this.panelAanmelden.Controls.Add(this.password);
+            this.panelAanmelden.Controls.Add(this.passwordrepeat);
             this.panelAanmelden.Controls.Add(this.label4);
             this.panelAanmelden.Controls.Add(this.button1);
             this.panelAanmelden.Controls.Add(this.label3);
             this.panelAanmelden.Controls.Add(this.label2);
-            this.panelAanmelden.Controls.Add(this.textBoxWachtword);
-            this.panelAanmelden.Controls.Add(this.textBoxGebruiksnaam);
+            this.panelAanmelden.Controls.Add(this.wachtwoord);
+            this.panelAanmelden.Controls.Add(this.gebruikersnaam);
             this.panelAanmelden.Controls.Add(this.label1);
             this.panelAanmelden.Location = new System.Drawing.Point(0, 106);
             this.panelAanmelden.Margin = new System.Windows.Forms.Padding(2);
@@ -210,6 +212,7 @@
             this.button2.TabIndex = 15;
             this.button2.Text = "ACCOUNT AANMAKEN";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label8
             // 
@@ -259,37 +262,37 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Naam";
             // 
-            // textBox6
+            // username
             // 
-            this.textBox6.Location = new System.Drawing.Point(145, 85);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(266, 20);
-            this.textBox6.TabIndex = 10;
+            this.username.Location = new System.Drawing.Point(145, 85);
+            this.username.Margin = new System.Windows.Forms.Padding(2);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(266, 20);
+            this.username.TabIndex = 10;
             // 
-            // textBox5
+            // email
             // 
-            this.textBox5.Location = new System.Drawing.Point(148, 165);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(266, 20);
-            this.textBox5.TabIndex = 9;
+            this.email.Location = new System.Drawing.Point(148, 165);
+            this.email.Margin = new System.Windows.Forms.Padding(2);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(266, 20);
+            this.email.TabIndex = 9;
             // 
-            // textBox4
+            // password
             // 
-            this.textBox4.Location = new System.Drawing.Point(148, 244);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(266, 20);
-            this.textBox4.TabIndex = 8;
+            this.password.Location = new System.Drawing.Point(148, 244);
+            this.password.Margin = new System.Windows.Forms.Padding(2);
+            this.password.Name = "password";
+            this.password.Size = new System.Drawing.Size(266, 20);
+            this.password.TabIndex = 8;
             // 
-            // textBox3
+            // passwordrepeat
             // 
-            this.textBox3.Location = new System.Drawing.Point(148, 325);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(266, 20);
-            this.textBox3.TabIndex = 7;
+            this.passwordrepeat.Location = new System.Drawing.Point(148, 325);
+            this.passwordrepeat.Margin = new System.Windows.Forms.Padding(2);
+            this.passwordrepeat.Name = "passwordrepeat";
+            this.passwordrepeat.Size = new System.Drawing.Size(266, 20);
+            this.passwordrepeat.TabIndex = 7;
             // 
             // label4
             // 
@@ -342,21 +345,21 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Gebruikersnaam";
             // 
-            // textBoxWachtword
+            // wachtwoord
             // 
-            this.textBoxWachtword.Location = new System.Drawing.Point(760, 155);
-            this.textBoxWachtword.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxWachtword.Name = "textBoxWachtword";
-            this.textBoxWachtword.Size = new System.Drawing.Size(266, 20);
-            this.textBoxWachtword.TabIndex = 2;
+            this.wachtwoord.Location = new System.Drawing.Point(760, 155);
+            this.wachtwoord.Margin = new System.Windows.Forms.Padding(2);
+            this.wachtwoord.Name = "wachtwoord";
+            this.wachtwoord.Size = new System.Drawing.Size(266, 20);
+            this.wachtwoord.TabIndex = 2;
             // 
-            // textBoxGebruiksnaam
+            // gebruikersnaam
             // 
-            this.textBoxGebruiksnaam.Location = new System.Drawing.Point(760, 85);
-            this.textBoxGebruiksnaam.Margin = new System.Windows.Forms.Padding(2);
-            this.textBoxGebruiksnaam.Name = "textBoxGebruiksnaam";
-            this.textBoxGebruiksnaam.Size = new System.Drawing.Size(266, 20);
-            this.textBoxGebruiksnaam.TabIndex = 1;
+            this.gebruikersnaam.Location = new System.Drawing.Point(760, 85);
+            this.gebruikersnaam.Margin = new System.Windows.Forms.Padding(2);
+            this.gebruikersnaam.Name = "gebruikersnaam";
+            this.gebruikersnaam.Size = new System.Drawing.Size(266, 20);
+            this.gebruikersnaam.TabIndex = 1;
             // 
             // label1
             // 
@@ -421,6 +424,8 @@
             // panelMyProfile
             // 
             this.panelMyProfile.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelMyProfile.Controls.Add(this.mail);
+            this.panelMyProfile.Controls.Add(this.naam);
             this.panelMyProfile.Controls.Add(this.label12);
             this.panelMyProfile.Controls.Add(this.label11);
             this.panelMyProfile.Controls.Add(this.label10);
@@ -431,14 +436,34 @@
             this.panelMyProfile.Size = new System.Drawing.Size(1141, 665);
             this.panelMyProfile.TabIndex = 16;
             // 
+            // naam
+            // 
+            this.naam.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.naam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.naam.Location = new System.Drawing.Point(97, 127);
+            this.naam.Name = "naam";
+            this.naam.Size = new System.Drawing.Size(100, 23);
+            this.naam.TabIndex = 4;
+            this.naam.Text = "label13";
+            // 
+            // mail
+            // 
+            this.mail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.mail.Location = new System.Drawing.Point(97, 202);
+            this.mail.Name = "mail";
+            this.mail.Size = new System.Drawing.Size(389, 23);
+            this.mail.TabIndex = 5;
+            this.mail.Text = "label13";
+            // 
             // FormProfiel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1127, 629);
             this.Controls.Add(this.panelBoven);
-            this.Controls.Add(this.panelMyProfile);
             this.Controls.Add(this.panelAanmelden);
+            this.Controls.Add(this.panelMyProfile);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
@@ -469,8 +494,8 @@
         private System.Windows.Forms.PictureBox iconMyAccount;
         private System.Windows.Forms.PictureBox iconMovis;
         private System.Windows.Forms.Panel panelAanmelden;
-        private System.Windows.Forms.TextBox textBoxWachtword;
-        private System.Windows.Forms.TextBox textBoxGebruiksnaam;
+        private System.Windows.Forms.TextBox wachtwoord;
+        private System.Windows.Forms.TextBox gebruikersnaam;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -480,16 +505,18 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox username;
+        private System.Windows.Forms.TextBox email;
+        private System.Windows.Forms.TextBox password;
+        private System.Windows.Forms.TextBox passwordrepeat;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panelMyProfile;
+        private System.Windows.Forms.Label naam;
+        private System.Windows.Forms.Label mail;
     }
 }
 
