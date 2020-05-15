@@ -15,11 +15,15 @@ namespace ProjectB
 {
     public partial class FormProfiel : Form
     {
+        bool loggedin = false;
         public FormProfiel()
         {
             InitializeComponent();
             panelAanmelden.Show();
             panelMyProfile.Hide();
+            password.PasswordChar = '*';
+            passwordrepeat.PasswordChar = '*';
+            wachtwoord.PasswordChar = '*';
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -179,6 +183,7 @@ namespace ProjectB
 
 
                 MessageBox.Show("Your account has been made!");
+                loggedin = true;
                 panelMyProfile.Show();
                 panelAanmelden.Hide();
 
@@ -199,7 +204,6 @@ namespace ProjectB
                 return true;
             }
         }
-
 
     }
 }

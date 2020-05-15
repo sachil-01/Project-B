@@ -58,8 +58,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.panelMyProfile = new System.Windows.Forms.Panel();
-            this.naam = new System.Windows.Forms.Label();
             this.mail = new System.Windows.Forms.Label();
+            this.naam = new System.Windows.Forms.Label();
             this.panelBoven.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconContact)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMyAccount)).BeginInit();
@@ -436,16 +436,6 @@
             this.panelMyProfile.Size = new System.Drawing.Size(1141, 665);
             this.panelMyProfile.TabIndex = 16;
             // 
-            // naam
-            // 
-            this.naam.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.naam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.naam.Location = new System.Drawing.Point(97, 127);
-            this.naam.Name = "naam";
-            this.naam.Size = new System.Drawing.Size(100, 23);
-            this.naam.TabIndex = 4;
-            this.naam.Text = "label13";
-            // 
             // mail
             // 
             this.mail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -456,14 +446,24 @@
             this.mail.TabIndex = 5;
             this.mail.Text = "label13";
             // 
+            // naam
+            // 
+            this.naam.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.naam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.naam.Location = new System.Drawing.Point(97, 127);
+            this.naam.Name = "naam";
+            this.naam.Size = new System.Drawing.Size(100, 23);
+            this.naam.TabIndex = 4;
+            this.naam.Text = "label13";
+            // 
             // FormProfiel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1127, 629);
             this.Controls.Add(this.panelBoven);
-            this.Controls.Add(this.panelAanmelden);
             this.Controls.Add(this.panelMyProfile);
+            this.Controls.Add(this.panelAanmelden);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
