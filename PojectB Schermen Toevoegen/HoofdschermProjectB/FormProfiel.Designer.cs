@@ -442,7 +442,7 @@
             this.mail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.mail.Location = new System.Drawing.Point(97, 202);
             this.mail.Name = "mail";
-            this.mail.Size = new System.Drawing.Size(389, 23);
+            this.mail.Size = new System.Drawing.Size(389, 39);
             this.mail.TabIndex = 5;
             this.mail.Text = "label13";
             // 
@@ -452,7 +452,7 @@
             this.naam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.naam.Location = new System.Drawing.Point(97, 127);
             this.naam.Name = "naam";
-            this.naam.Size = new System.Drawing.Size(100, 23);
+            this.naam.Size = new System.Drawing.Size(349, 35);
             this.naam.TabIndex = 4;
             this.naam.Text = "label13";
             // 

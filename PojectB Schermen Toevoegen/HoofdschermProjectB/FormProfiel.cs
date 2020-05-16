@@ -43,7 +43,7 @@ namespace ProjectB
                     panelAanmelden.Hide();
 
                     naam.Text = gebruikersnaam.Text;
-                    mail.Text = wachtwoord.Text;
+                    mail.Text = item.email.ToString();
                     checker = true;
                 }
                 
@@ -138,6 +138,14 @@ namespace ProjectB
                 }
             }
 
+            foreach (var item in dynJson)
+            {
+                if (email.Text == item.email.ToString())
+                {
+                    MessageBox.Show("Error: Email al in gebruik");
+                    checker2 = false;
+                }
+            }
 
 
 
