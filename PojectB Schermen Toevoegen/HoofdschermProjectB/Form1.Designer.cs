@@ -112,7 +112,6 @@
             this.label25 = new System.Windows.Forms.Label();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.MovieDescriptionPanel = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
             this.Reserveerknop = new System.Windows.Forms.Button();
             this.BioscoopDetails = new System.Windows.Forms.Label();
             this.MovieDescription = new System.Windows.Forms.Label();
@@ -189,7 +188,7 @@
             this.panelBoven2.Controls.Add(this.pictureBoxContact);
             this.panelBoven2.Controls.Add(this.pictureBoxMovis);
             this.panelBoven2.Location = new System.Drawing.Point(0, 0);
-            this.panelBoven2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelBoven2.Margin = new System.Windows.Forms.Padding(2);
             this.panelBoven2.Name = "panelBoven2";
             this.panelBoven2.Size = new System.Drawing.Size(1129, 110);
             this.panelBoven2.TabIndex = 11;
@@ -245,7 +244,7 @@
             this.pictureBoxMyaccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxMyaccount.Image = global::HoofdschermProjectB.Properties.Resources.img_568656;
             this.pictureBoxMyaccount.Location = new System.Drawing.Point(761, 13);
-            this.pictureBoxMyaccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBoxMyaccount.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxMyaccount.Name = "pictureBoxMyaccount";
             this.pictureBoxMyaccount.Size = new System.Drawing.Size(93, 83);
             this.pictureBoxMyaccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -260,7 +259,7 @@
             this.pictureBoxContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxContact.Image = global::HoofdschermProjectB.Properties.Resources.img_542845;
             this.pictureBoxContact.Location = new System.Drawing.Point(381, 8);
-            this.pictureBoxContact.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBoxContact.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxContact.Name = "pictureBoxContact";
             this.pictureBoxContact.Size = new System.Drawing.Size(93, 88);
             this.pictureBoxContact.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -275,7 +274,7 @@
             this.pictureBoxMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxMovis.Image = global::HoofdschermProjectB.Properties.Resources._83519;
             this.pictureBoxMovis.Location = new System.Drawing.Point(20, 6);
-            this.pictureBoxMovis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBoxMovis.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxMovis.Name = "pictureBoxMovis";
             this.pictureBoxMovis.Size = new System.Drawing.Size(88, 93);
             this.pictureBoxMovis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -324,7 +323,7 @@
             this.panelMovies.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panelMovies.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panelMovies.Location = new System.Drawing.Point(-2, 112);
-            this.panelMovies.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelMovies.Margin = new System.Windows.Forms.Padding(2);
             this.panelMovies.Name = "panelMovies";
             this.panelMovies.Size = new System.Drawing.Size(1110, 1204);
             this.panelMovies.TabIndex = 13;
@@ -365,7 +364,7 @@
             "Action",
             "Comedy"});
             this.comboBoxAll.Location = new System.Drawing.Point(109, 3);
-            this.comboBoxAll.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxAll.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxAll.Name = "comboBoxAll";
             this.comboBoxAll.Size = new System.Drawing.Size(98, 34);
             this.comboBoxAll.TabIndex = 25;
@@ -401,7 +400,7 @@
             // 
             this.pictureBox3.Image = global::HoofdschermProjectB.Properties.Resources._8e74a3747c3cd965a0735f5a5ce1720b;
             this.pictureBox3.Location = new System.Drawing.Point(31, 808);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(173, 277);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -414,7 +413,7 @@
             // 
             this.pictureBox2.Image = global::HoofdschermProjectB.Properties.Resources.A124__;
             this.pictureBox2.Location = new System.Drawing.Point(247, 806);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(173, 277);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -427,7 +426,7 @@
             // 
             this.pictureBox1.Image = global::HoofdschermProjectB.Properties.Resources.AQP2_Dom_Online_Vertical_Family;
             this.pictureBox1.Location = new System.Drawing.Point(461, 807);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(173, 277);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -596,7 +595,7 @@
             // 
             this.pictureBox16.Image = global::HoofdschermProjectB.Properties.Resources._209192;
             this.pictureBox16.Location = new System.Drawing.Point(682, 81);
-            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(173, 277);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -609,7 +608,7 @@
             // 
             this.pictureBox15.Image = global::HoofdschermProjectB.Properties.Resources._51it0D0mX2L__SX336_BO1_204_203_200_;
             this.pictureBox15.Location = new System.Drawing.Point(34, 81);
-            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(173, 277);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -622,7 +621,7 @@
             // 
             this.pictureBox14.Image = global::HoofdschermProjectB.Properties.Resources._81aDHiDYcVL__AC_SL1200_;
             this.pictureBox14.Location = new System.Drawing.Point(256, 81);
-            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(173, 277);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -635,7 +634,7 @@
             // 
             this.pictureBox13.Image = global::HoofdschermProjectB.Properties.Resources.scapin_poster;
             this.pictureBox13.Location = new System.Drawing.Point(906, 436);
-            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(173, 277);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -648,7 +647,7 @@
             // 
             this.pictureBox12.Image = global::HoofdschermProjectB.Properties.Resources.no_time_to_die;
             this.pictureBox12.Location = new System.Drawing.Point(688, 436);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(173, 277);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -661,7 +660,7 @@
             // 
             this.pictureBox11.Image = global::HoofdschermProjectB.Properties.Resources.hors_normes_banner;
             this.pictureBox11.Location = new System.Drawing.Point(256, 436);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(173, 277);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -674,7 +673,7 @@
             // 
             this.pictureBox10.Image = global::HoofdschermProjectB.Properties.Resources.e28f8a0f43ee0d2e3932b30e2cf65627_2x;
             this.pictureBox10.Location = new System.Drawing.Point(34, 436);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(173, 277);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -687,7 +686,7 @@
             // 
             this.pictureBox9.Image = global::HoofdschermProjectB.Properties.Resources.the_nun_movie_reviews_1013906;
             this.pictureBox9.Location = new System.Drawing.Point(898, 808);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(173, 277);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -700,7 +699,7 @@
             // 
             this.pictureBox8.Image = global::HoofdschermProjectB.Properties.Resources.thefopreformed_poster;
             this.pictureBox8.Location = new System.Drawing.Point(688, 806);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(173, 277);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -713,7 +712,7 @@
             // 
             this.pictureBox7.Image = global::HoofdschermProjectB.Properties.Resources.MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM___V1_UY1200_CR90_0_630_1200_AL_;
             this.pictureBox7.Location = new System.Drawing.Point(473, 436);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(173, 277);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -726,7 +725,7 @@
             // 
             this.pictureBox5.Image = global::HoofdschermProjectB.Properties.Resources._29419_121971_ps_sd_high;
             this.pictureBox5.Location = new System.Drawing.Point(473, 81);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(173, 277);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -739,7 +738,7 @@
             // 
             this.pictureBox4.Image = global::HoofdschermProjectB.Properties.Resources.bad_boys_for_life;
             this.pictureBox4.Location = new System.Drawing.Point(906, 81);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(173, 277);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -768,7 +767,7 @@
             this.panelComedy.Controls.Add(this.label16);
             this.panelComedy.Controls.Add(this.pictureBox6);
             this.panelComedy.Location = new System.Drawing.Point(2, 114);
-            this.panelComedy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelComedy.Margin = new System.Windows.Forms.Padding(2);
             this.panelComedy.Name = "panelComedy";
             this.panelComedy.Size = new System.Drawing.Size(1110, 650);
             this.panelComedy.TabIndex = 34;
@@ -822,7 +821,7 @@
             "Action",
             "Comedy"});
             this.comboBoxComedy.Location = new System.Drawing.Point(109, 3);
-            this.comboBoxComedy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxComedy.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxComedy.Name = "comboBoxComedy";
             this.comboBoxComedy.Size = new System.Drawing.Size(98, 21);
             this.comboBoxComedy.TabIndex = 28;
@@ -845,7 +844,7 @@
             // 
             this.pictureBox30.Image = global::HoofdschermProjectB.Properties.Resources.hors_normes_banner;
             this.pictureBox30.Location = new System.Drawing.Point(18, 354);
-            this.pictureBox30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox30.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(173, 277);
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -871,7 +870,7 @@
             // 
             this.pictureBox29.Image = global::HoofdschermProjectB.Properties.Resources.bad_boys_for_life;
             this.pictureBox29.Location = new System.Drawing.Point(902, 51);
-            this.pictureBox29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox29.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(173, 277);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -897,7 +896,7 @@
             // 
             this.pictureBox19.Image = global::HoofdschermProjectB.Properties.Resources.scapin_poster;
             this.pictureBox19.Location = new System.Drawing.Point(679, 51);
-            this.pictureBox19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(173, 277);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -923,7 +922,7 @@
             // 
             this.pictureBox18.Image = global::HoofdschermProjectB.Properties.Resources.MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM___V1_UY1200_CR90_0_630_1200_AL_;
             this.pictureBox18.Location = new System.Drawing.Point(469, 51);
-            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(173, 277);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -949,7 +948,7 @@
             // 
             this.pictureBox17.Image = global::HoofdschermProjectB.Properties.Resources._29419_121971_ps_sd_high;
             this.pictureBox17.Location = new System.Drawing.Point(242, 51);
-            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(173, 277);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -975,7 +974,7 @@
             // 
             this.pictureBox6.Image = global::HoofdschermProjectB.Properties.Resources._51it0D0mX2L__SX336_BO1_204_203_200_;
             this.pictureBox6.Location = new System.Drawing.Point(23, 51);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(173, 277);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1000,7 +999,7 @@
             this.panelHorror.Controls.Add(this.label20);
             this.panelHorror.Controls.Add(this.pictureBox20);
             this.panelHorror.Location = new System.Drawing.Point(2, 115);
-            this.panelHorror.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelHorror.Margin = new System.Windows.Forms.Padding(2);
             this.panelHorror.Name = "panelHorror";
             this.panelHorror.Size = new System.Drawing.Size(1110, 569);
             this.panelHorror.TabIndex = 35;
@@ -1028,7 +1027,7 @@
             "Action",
             "Comedy"});
             this.comboBoxHorror.Location = new System.Drawing.Point(109, 3);
-            this.comboBoxHorror.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxHorror.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxHorror.Name = "comboBoxHorror";
             this.comboBoxHorror.Size = new System.Drawing.Size(98, 21);
             this.comboBoxHorror.TabIndex = 41;
@@ -1051,7 +1050,7 @@
             // 
             this.pictureBox24.Image = global::HoofdschermProjectB.Properties.Resources.the_nun_movie_reviews_1013906;
             this.pictureBox24.Location = new System.Drawing.Point(896, 51);
-            this.pictureBox24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(173, 277);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1077,7 +1076,7 @@
             // 
             this.pictureBox23.Image = global::HoofdschermProjectB.Properties.Resources.thefopreformed_poster;
             this.pictureBox23.Location = new System.Drawing.Point(669, 50);
-            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(173, 277);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1103,7 +1102,7 @@
             // 
             this.pictureBox22.Image = global::HoofdschermProjectB.Properties.Resources.AQP2_Dom_Online_Vertical_Family;
             this.pictureBox22.Location = new System.Drawing.Point(452, 50);
-            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(173, 277);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1129,7 +1128,7 @@
             // 
             this.pictureBox21.Image = global::HoofdschermProjectB.Properties.Resources.A124__;
             this.pictureBox21.Location = new System.Drawing.Point(242, 50);
-            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(173, 277);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1155,7 +1154,7 @@
             // 
             this.pictureBox20.Image = global::HoofdschermProjectB.Properties.Resources._8e74a3747c3cd965a0735f5a5ce1720b;
             this.pictureBox20.Location = new System.Drawing.Point(23, 51);
-            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(173, 277);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1179,7 +1178,7 @@
             this.panelAction.Controls.Add(this.label25);
             this.panelAction.Controls.Add(this.pictureBox25);
             this.panelAction.Location = new System.Drawing.Point(2, 114);
-            this.panelAction.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelAction.Margin = new System.Windows.Forms.Padding(2);
             this.panelAction.Name = "panelAction";
             this.panelAction.Size = new System.Drawing.Size(1110, 569);
             this.panelAction.TabIndex = 41;
@@ -1220,7 +1219,7 @@
             "Action",
             "Comedy"});
             this.comboBoxAction.Location = new System.Drawing.Point(109, 3);
-            this.comboBoxAction.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxAction.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxAction.Name = "comboBoxAction";
             this.comboBoxAction.Size = new System.Drawing.Size(98, 21);
             this.comboBoxAction.TabIndex = 26;
@@ -1243,7 +1242,7 @@
             // 
             this.pictureBox28.Image = global::HoofdschermProjectB.Properties.Resources.no_time_to_die;
             this.pictureBox28.Location = new System.Drawing.Point(855, 51);
-            this.pictureBox28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox28.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(173, 277);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1269,7 +1268,7 @@
             // 
             this.pictureBox27.Image = global::HoofdschermProjectB.Properties.Resources.e28f8a0f43ee0d2e3932b30e2cf65627_2x;
             this.pictureBox27.Location = new System.Drawing.Point(584, 52);
-            this.pictureBox27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(173, 277);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1295,7 +1294,7 @@
             // 
             this.pictureBox26.Image = global::HoofdschermProjectB.Properties.Resources._209192;
             this.pictureBox26.Location = new System.Drawing.Point(298, 52);
-            this.pictureBox26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(173, 277);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1321,7 +1320,7 @@
             // 
             this.pictureBox25.Image = global::HoofdschermProjectB.Properties.Resources._81aDHiDYcVL__AC_SL1200_;
             this.pictureBox25.Location = new System.Drawing.Point(23, 51);
-            this.pictureBox25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(173, 277);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1333,7 +1332,6 @@
             // MovieDescriptionPanel
             // 
             this.MovieDescriptionPanel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MovieDescriptionPanel.Controls.Add(this.label33);
             this.MovieDescriptionPanel.Controls.Add(this.Reserveerknop);
             this.MovieDescriptionPanel.Controls.Add(this.BioscoopDetails);
             this.MovieDescriptionPanel.Controls.Add(this.MovieDescription);
@@ -1341,23 +1339,10 @@
             this.MovieDescriptionPanel.Controls.Add(this.MovieDetails);
             this.MovieDescriptionPanel.Controls.Add(this.pictureBoxBeschrijving);
             this.MovieDescriptionPanel.Location = new System.Drawing.Point(0, 112);
-            this.MovieDescriptionPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MovieDescriptionPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MovieDescriptionPanel.Name = "MovieDescriptionPanel";
             this.MovieDescriptionPanel.Size = new System.Drawing.Size(1110, 569);
             this.MovieDescriptionPanel.TabIndex = 42;
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label33.Location = new System.Drawing.Point(532, 273);
-            this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(63, 24);
-            this.label33.TabIndex = 27;
-            this.label33.Text = "Genre";
             // 
             // Reserveerknop
             // 
@@ -1590,15 +1575,15 @@
             this.ClientSize = new System.Drawing.Size(1112, 693);
             this.Controls.Add(this.panelBoven2);
             this.Controls.Add(this.ReserveerStoel);
-            this.Controls.Add(this.panelHorror);
-            this.Controls.Add(this.panelMovies);
             this.Controls.Add(this.MovieDescriptionPanel);
             this.Controls.Add(this.panelAction);
             this.Controls.Add(this.panelComedy);
+            this.Controls.Add(this.panelHorror);
+            this.Controls.Add(this.panelMovies);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
@@ -1758,7 +1743,6 @@
         private System.Windows.Forms.ComboBox NumberofPeople;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.ComboBox comboBoxAction;
-        private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.ComboBox comboBoxComedy;
         private System.Windows.Forms.Label label35;
