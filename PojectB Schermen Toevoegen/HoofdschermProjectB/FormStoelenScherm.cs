@@ -26,7 +26,7 @@ namespace ProjectB
                       {
            
             InitializeComponent();
-            stoelNummer.Text = "Kiez stoel nummer " + chairCounter;
+            stoelNummer.Text = "Kies stoel nummer " + chairCounter;
             for (int countVertical = 1, buttonY=100; countVertical < 11; countVertical++,buttonY+=50)
             {
                 for ( int countHorizontal = 1, buttonX = 502; countHorizontal < 11; buttonX += 50,counter++, countHorizontal++)
@@ -62,6 +62,7 @@ namespace ProjectB
             Button Chair = (Button)sender;
             //reservedChairs[listCounter] = Chair;
             Chair.BackColor = Color.Blue;
+            Volgende.Enabled = true;
             reserved = Chair;
             RedChair = reserved;
         }
@@ -72,6 +73,8 @@ namespace ProjectB
             if (chairCounter < Form1.aantalTickets)
             {
                 RedChair.BackColor = Color.Red;
+                RedChair.Enabled = false;
+                Volgende.Enabled = false;
                 reserved = Helper;
                 chairCounter += 1;
                 stoelNummer.Text = "Kies stoel nummer " + chairCounter;
