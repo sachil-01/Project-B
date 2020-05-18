@@ -37,29 +37,29 @@
             this.iconMyAccount = new System.Windows.Forms.PictureBox();
             this.iconMovis = new System.Windows.Forms.PictureBox();
             this.panelAanmelden = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.username = new System.Windows.Forms.TextBox();
-            this.email = new System.Windows.Forms.TextBox();
-            this.password = new System.Windows.Forms.TextBox();
-            this.passwordrepeat = new System.Windows.Forms.TextBox();
+            this.buttonAccountMaken = new System.Windows.Forms.Button();
+            this.labelHerhaalWachtwoord = new System.Windows.Forms.Label();
+            this.labelWachtwoord = new System.Windows.Forms.Label();
+            this.labelEmailadres = new System.Windows.Forms.Label();
+            this.labelNaamm = new System.Windows.Forms.Label();
+            this.boxUsername = new System.Windows.Forms.TextBox();
+            this.boxEmail = new System.Windows.Forms.TextBox();
+            this.boxPassword = new System.Windows.Forms.TextBox();
+            this.boxPasswordrepeat = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonInloggen = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.wachtwoord = new System.Windows.Forms.TextBox();
-            this.gebruikersnaam = new System.Windows.Forms.TextBox();
+            this.boxWachtwoord = new System.Windows.Forms.TextBox();
+            this.boxGebruikersnaam = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.labelMyGegevens = new System.Windows.Forms.Label();
+            this.labelName = new System.Windows.Forms.Label();
+            this.labeEmail = new System.Windows.Forms.Label();
+            this.labelMyReseveringen = new System.Windows.Forms.Label();
             this.panelMyProfile = new System.Windows.Forms.Panel();
-            this.mail = new System.Windows.Forms.Label();
-            this.naam = new System.Windows.Forms.Label();
+            this.labelMail = new System.Windows.Forms.Label();
+            this.labelNaam = new System.Windows.Forms.Label();
             this.panelBoven.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconContact)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMyAccount)).BeginInit();
@@ -78,9 +78,9 @@
             this.panelBoven.Controls.Add(this.iconMyAccount);
             this.panelBoven.Controls.Add(this.iconMovis);
             this.panelBoven.Location = new System.Drawing.Point(-1, 0);
-            this.panelBoven.Margin = new System.Windows.Forms.Padding(2);
+            this.panelBoven.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelBoven.Name = "panelBoven";
-            this.panelBoven.Size = new System.Drawing.Size(1129, 106);
+            this.panelBoven.Size = new System.Drawing.Size(1505, 130);
             this.panelBoven.TabIndex = 0;
             // 
             // labelMyAccount
@@ -88,237 +88,229 @@
             this.labelMyAccount.AutoSize = true;
             this.labelMyAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelMyAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMyAccount.Location = new System.Drawing.Point(872, 37);
-            this.labelMyAccount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelMyAccount.Location = new System.Drawing.Point(1163, 46);
             this.labelMyAccount.Name = "labelMyAccount";
-            this.labelMyAccount.Size = new System.Drawing.Size(236, 46);
+            this.labelMyAccount.Size = new System.Drawing.Size(291, 58);
             this.labelMyAccount.TabIndex = 14;
             this.labelMyAccount.Text = "My account";
-            this.labelMyAccount.MouseLeave += new System.EventHandler(this.labelMyAccount_MouseLeave);
-            this.labelMyAccount.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMyAccount_MouseMove);
+            this.labelMyAccount.MouseLeave += new System.EventHandler(this.LabelMyAccountMouseLeave);
+            this.labelMyAccount.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMyAccountMouseMove);
             // 
             // labelContact
             // 
             this.labelContact.AutoSize = true;
             this.labelContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelContact.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelContact.Location = new System.Drawing.Point(491, 37);
-            this.labelContact.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelContact.Location = new System.Drawing.Point(655, 46);
             this.labelContact.Name = "labelContact";
-            this.labelContact.Size = new System.Drawing.Size(166, 46);
+            this.labelContact.Size = new System.Drawing.Size(205, 58);
             this.labelContact.TabIndex = 13;
             this.labelContact.Text = "Contact";
-            this.labelContact.Click += new System.EventHandler(this.labelContact_Click);
-            this.labelContact.MouseLeave += new System.EventHandler(this.labelContact_MouseLeave);
-            this.labelContact.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelContact_MouseMove);
+            this.labelContact.Click += new System.EventHandler(this.LabelContactClick);
+            this.labelContact.MouseLeave += new System.EventHandler(this.LabelContactMouseLeave);
+            this.labelContact.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelContactMouseMove);
             // 
             // labelMovis
             // 
             this.labelMovis.AutoSize = true;
             this.labelMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelMovis.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMovis.Location = new System.Drawing.Point(112, 37);
-            this.labelMovis.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelMovis.Location = new System.Drawing.Point(149, 46);
             this.labelMovis.Name = "labelMovis";
-            this.labelMovis.Size = new System.Drawing.Size(152, 46);
+            this.labelMovis.Size = new System.Drawing.Size(190, 58);
             this.labelMovis.TabIndex = 12;
             this.labelMovis.Tag = "";
             this.labelMovis.Text = "Movies";
-            this.labelMovis.Click += new System.EventHandler(this.labelMovis_Click);
-            this.labelMovis.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
-            this.labelMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
+            this.labelMovis.Click += new System.EventHandler(this.LabelMovisClick);
+            this.labelMovis.MouseLeave += new System.EventHandler(this.LabelMovisMouseLeave);
+            this.labelMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMovisMouseMove);
             // 
             // iconContact
             // 
             this.iconContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconContact.Image = global::HoofdschermProjectB.Properties.Resources.img_542845;
-            this.iconContact.Location = new System.Drawing.Point(381, 8);
-            this.iconContact.Margin = new System.Windows.Forms.Padding(2);
+            this.iconContact.Location = new System.Drawing.Point(508, 10);
+            this.iconContact.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconContact.Name = "iconContact";
-            this.iconContact.Size = new System.Drawing.Size(93, 88);
+            this.iconContact.Size = new System.Drawing.Size(124, 108);
             this.iconContact.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.iconContact.TabIndex = 11;
             this.iconContact.TabStop = false;
             this.iconContact.Tag = "";
-            this.iconContact.Click += new System.EventHandler(this.iconContact_Click);
-            this.iconContact.MouseLeave += new System.EventHandler(this.labelContact_MouseLeave);
-            this.iconContact.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelContact_MouseMove);
+            this.iconContact.Click += new System.EventHandler(this.IconContactClick);
+            this.iconContact.MouseLeave += new System.EventHandler(this.LabelContactMouseLeave);
+            this.iconContact.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelContactMouseMove);
             // 
             // iconMyAccount
             // 
             this.iconMyAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconMyAccount.Image = global::HoofdschermProjectB.Properties.Resources.img_568656;
-            this.iconMyAccount.Location = new System.Drawing.Point(761, 13);
-            this.iconMyAccount.Margin = new System.Windows.Forms.Padding(2);
+            this.iconMyAccount.Location = new System.Drawing.Point(1015, 16);
+            this.iconMyAccount.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconMyAccount.Name = "iconMyAccount";
-            this.iconMyAccount.Size = new System.Drawing.Size(93, 83);
+            this.iconMyAccount.Size = new System.Drawing.Size(124, 102);
             this.iconMyAccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.iconMyAccount.TabIndex = 10;
             this.iconMyAccount.TabStop = false;
             this.iconMyAccount.Tag = "";
-            this.iconMyAccount.MouseLeave += new System.EventHandler(this.labelMyAccount_MouseLeave);
-            this.iconMyAccount.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMyAccount_MouseMove);
+            this.iconMyAccount.MouseLeave += new System.EventHandler(this.LabelMyAccountMouseLeave);
+            this.iconMyAccount.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMyAccountMouseMove);
             // 
             // iconMovis
             // 
             this.iconMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconMovis.Image = global::HoofdschermProjectB.Properties.Resources._83519;
-            this.iconMovis.Location = new System.Drawing.Point(20, 6);
-            this.iconMovis.Margin = new System.Windows.Forms.Padding(2);
+            this.iconMovis.Location = new System.Drawing.Point(27, 7);
+            this.iconMovis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.iconMovis.Name = "iconMovis";
-            this.iconMovis.Size = new System.Drawing.Size(88, 93);
+            this.iconMovis.Size = new System.Drawing.Size(117, 114);
             this.iconMovis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.iconMovis.TabIndex = 9;
             this.iconMovis.TabStop = false;
             this.iconMovis.Tag = "";
-            this.iconMovis.Click += new System.EventHandler(this.iconMovis_Click);
-            this.iconMovis.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
-            this.iconMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
+            this.iconMovis.Click += new System.EventHandler(this.IconMovisClick);
+            this.iconMovis.MouseLeave += new System.EventHandler(this.LabelMovisMouseLeave);
+            this.iconMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMovisMouseMove);
             // 
             // panelAanmelden
             // 
             this.panelAanmelden.BackColor = System.Drawing.SystemColors.ControlText;
-            this.panelAanmelden.Controls.Add(this.button2);
-            this.panelAanmelden.Controls.Add(this.label8);
-            this.panelAanmelden.Controls.Add(this.label7);
-            this.panelAanmelden.Controls.Add(this.label6);
-            this.panelAanmelden.Controls.Add(this.label5);
-            this.panelAanmelden.Controls.Add(this.username);
-            this.panelAanmelden.Controls.Add(this.email);
-            this.panelAanmelden.Controls.Add(this.password);
-            this.panelAanmelden.Controls.Add(this.passwordrepeat);
+            this.panelAanmelden.Controls.Add(this.buttonAccountMaken);
+            this.panelAanmelden.Controls.Add(this.labelHerhaalWachtwoord);
+            this.panelAanmelden.Controls.Add(this.labelWachtwoord);
+            this.panelAanmelden.Controls.Add(this.labelEmailadres);
+            this.panelAanmelden.Controls.Add(this.labelNaamm);
+            this.panelAanmelden.Controls.Add(this.boxUsername);
+            this.panelAanmelden.Controls.Add(this.boxEmail);
+            this.panelAanmelden.Controls.Add(this.boxPassword);
+            this.panelAanmelden.Controls.Add(this.boxPasswordrepeat);
             this.panelAanmelden.Controls.Add(this.label4);
-            this.panelAanmelden.Controls.Add(this.button1);
+            this.panelAanmelden.Controls.Add(this.buttonInloggen);
             this.panelAanmelden.Controls.Add(this.label3);
             this.panelAanmelden.Controls.Add(this.label2);
-            this.panelAanmelden.Controls.Add(this.wachtwoord);
-            this.panelAanmelden.Controls.Add(this.gebruikersnaam);
+            this.panelAanmelden.Controls.Add(this.boxWachtwoord);
+            this.panelAanmelden.Controls.Add(this.boxGebruikersnaam);
             this.panelAanmelden.Controls.Add(this.label1);
-            this.panelAanmelden.Location = new System.Drawing.Point(0, 106);
-            this.panelAanmelden.Margin = new System.Windows.Forms.Padding(2);
+            this.panelAanmelden.Location = new System.Drawing.Point(0, 130);
+            this.panelAanmelden.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelAanmelden.Name = "panelAanmelden";
-            this.panelAanmelden.Size = new System.Drawing.Size(1141, 665);
+            this.panelAanmelden.Size = new System.Drawing.Size(1521, 818);
             this.panelAanmelden.TabIndex = 1;
             // 
-            // button2
+            // buttonAccountMaken
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(234, 409);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(179, 41);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "ACCOUNT AANMAKEN";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.buttonAccountMaken.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonAccountMaken.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAccountMaken.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonAccountMaken.Location = new System.Drawing.Point(312, 503);
+            this.buttonAccountMaken.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonAccountMaken.Name = "buttonAccountMaken";
+            this.buttonAccountMaken.Size = new System.Drawing.Size(239, 50);
+            this.buttonAccountMaken.TabIndex = 15;
+            this.buttonAccountMaken.Text = "ACCOUNT AANMAKEN";
+            this.buttonAccountMaken.UseVisualStyleBackColor = false;
+            this.buttonAccountMaken.Click += new System.EventHandler(this.ButtonAccountMakenClick);
             // 
-            // label8
+            // labelHerhaalWachtwoord
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(2, 325);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(136, 17);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "Herhaal wachtwoord";
+            this.labelHerhaalWachtwoord.AutoSize = true;
+            this.labelHerhaalWachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHerhaalWachtwoord.ForeColor = System.Drawing.Color.White;
+            this.labelHerhaalWachtwoord.Location = new System.Drawing.Point(3, 400);
+            this.labelHerhaalWachtwoord.Name = "labelHerhaalWachtwoord";
+            this.labelHerhaalWachtwoord.Size = new System.Drawing.Size(162, 20);
+            this.labelHerhaalWachtwoord.TabIndex = 14;
+            this.labelHerhaalWachtwoord.Text = "Herhaal wachtwoord";
             // 
-            // label7
+            // labelWachtwoord
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(47, 245);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(86, 17);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Wachtwoord";
+            this.labelWachtwoord.AutoSize = true;
+            this.labelWachtwoord.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWachtwoord.ForeColor = System.Drawing.Color.White;
+            this.labelWachtwoord.Location = new System.Drawing.Point(63, 302);
+            this.labelWachtwoord.Name = "labelWachtwoord";
+            this.labelWachtwoord.Size = new System.Drawing.Size(102, 20);
+            this.labelWachtwoord.TabIndex = 13;
+            this.labelWachtwoord.Text = "Wachtwoord";
             // 
-            // label6
+            // labelEmailadres
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(50, 165);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 17);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "E-mailadres";
+            this.labelEmailadres.AutoSize = true;
+            this.labelEmailadres.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEmailadres.ForeColor = System.Drawing.Color.White;
+            this.labelEmailadres.Location = new System.Drawing.Point(67, 203);
+            this.labelEmailadres.Name = "labelEmailadres";
+            this.labelEmailadres.Size = new System.Drawing.Size(99, 20);
+            this.labelEmailadres.TabIndex = 12;
+            this.labelEmailadres.Text = "E-mailadres";
             // 
-            // label5
+            // labelNaamm
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(84, 87);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 17);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Naam";
+            this.labelNaamm.AutoSize = true;
+            this.labelNaamm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNaamm.ForeColor = System.Drawing.Color.White;
+            this.labelNaamm.Location = new System.Drawing.Point(112, 107);
+            this.labelNaamm.Name = "labelNaamm";
+            this.labelNaamm.Size = new System.Drawing.Size(53, 20);
+            this.labelNaamm.TabIndex = 11;
+            this.labelNaamm.Text = "Naam";
             // 
-            // username
+            // boxUsername
             // 
-            this.username.Location = new System.Drawing.Point(145, 85);
-            this.username.Margin = new System.Windows.Forms.Padding(2);
-            this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(266, 20);
-            this.username.TabIndex = 10;
+            this.boxUsername.Location = new System.Drawing.Point(193, 105);
+            this.boxUsername.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.boxUsername.Name = "boxUsername";
+            this.boxUsername.Size = new System.Drawing.Size(353, 22);
+            this.boxUsername.TabIndex = 10;
             // 
-            // email
+            // boxEmail
             // 
-            this.email.Location = new System.Drawing.Point(148, 165);
-            this.email.Margin = new System.Windows.Forms.Padding(2);
-            this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(266, 20);
-            this.email.TabIndex = 9;
+            this.boxEmail.Location = new System.Drawing.Point(197, 203);
+            this.boxEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.boxEmail.Name = "boxEmail";
+            this.boxEmail.Size = new System.Drawing.Size(353, 22);
+            this.boxEmail.TabIndex = 9;
             // 
-            // password
+            // boxPassword
             // 
-            this.password.Location = new System.Drawing.Point(148, 244);
-            this.password.Margin = new System.Windows.Forms.Padding(2);
-            this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(266, 20);
-            this.password.TabIndex = 8;
+            this.boxPassword.Location = new System.Drawing.Point(197, 300);
+            this.boxPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.boxPassword.Name = "boxPassword";
+            this.boxPassword.Size = new System.Drawing.Size(353, 22);
+            this.boxPassword.TabIndex = 8;
             // 
-            // passwordrepeat
+            // boxPasswordrepeat
             // 
-            this.passwordrepeat.Location = new System.Drawing.Point(148, 325);
-            this.passwordrepeat.Margin = new System.Windows.Forms.Padding(2);
-            this.passwordrepeat.Name = "passwordrepeat";
-            this.passwordrepeat.Size = new System.Drawing.Size(266, 20);
-            this.passwordrepeat.TabIndex = 7;
+            this.boxPasswordrepeat.Location = new System.Drawing.Point(197, 400);
+            this.boxPasswordrepeat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.boxPasswordrepeat.Name = "boxPasswordrepeat";
+            this.boxPasswordrepeat.Size = new System.Drawing.Size(353, 22);
+            this.boxPasswordrepeat.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label4.Location = new System.Drawing.Point(140, 21);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(187, 26);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(306, 31);
+            this.label4.Size = new System.Drawing.Size(365, 38);
             this.label4.TabIndex = 6;
             this.label4.Text = "U kunt hier aanmelden";
             // 
-            // button1
+            // buttonInloggen
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(907, 232);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 41);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "INLOGGEN";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonInloggen.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonInloggen.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonInloggen.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.buttonInloggen.Location = new System.Drawing.Point(1209, 286);
+            this.buttonInloggen.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonInloggen.Name = "buttonInloggen";
+            this.buttonInloggen.Size = new System.Drawing.Size(159, 50);
+            this.buttonInloggen.TabIndex = 5;
+            this.buttonInloggen.Text = "INLOGGEN";
+            this.buttonInloggen.UseVisualStyleBackColor = false;
+            this.buttonInloggen.Click += new System.EventHandler(this.ButtonInloggenClick);
             // 
             // label3
             // 
@@ -326,10 +318,9 @@
             this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(664, 155);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(885, 191);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 17);
+            this.label3.Size = new System.Drawing.Size(102, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Wachtwoord";
             // 
@@ -338,139 +329,135 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(642, 85);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(856, 105);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 17);
+            this.label2.Size = new System.Drawing.Size(132, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Gebruikersnaam";
             // 
-            // wachtwoord
+            // boxWachtwoord
             // 
-            this.wachtwoord.Location = new System.Drawing.Point(760, 155);
-            this.wachtwoord.Margin = new System.Windows.Forms.Padding(2);
-            this.wachtwoord.Name = "wachtwoord";
-            this.wachtwoord.Size = new System.Drawing.Size(266, 20);
-            this.wachtwoord.TabIndex = 2;
+            this.boxWachtwoord.Location = new System.Drawing.Point(1013, 191);
+            this.boxWachtwoord.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.boxWachtwoord.Name = "boxWachtwoord";
+            this.boxWachtwoord.Size = new System.Drawing.Size(353, 22);
+            this.boxWachtwoord.TabIndex = 2;
             // 
-            // gebruikersnaam
+            // boxGebruikersnaam
             // 
-            this.gebruikersnaam.Location = new System.Drawing.Point(760, 85);
-            this.gebruikersnaam.Margin = new System.Windows.Forms.Padding(2);
-            this.gebruikersnaam.Name = "gebruikersnaam";
-            this.gebruikersnaam.Size = new System.Drawing.Size(266, 20);
-            this.gebruikersnaam.TabIndex = 1;
+            this.boxGebruikersnaam.Location = new System.Drawing.Point(1013, 105);
+            this.boxGebruikersnaam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.boxGebruikersnaam.Name = "boxGebruikersnaam";
+            this.boxGebruikersnaam.Size = new System.Drawing.Size(353, 22);
+            this.boxGebruikersnaam.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label1.Location = new System.Drawing.Point(766, 21);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(1021, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(292, 31);
+            this.label1.Size = new System.Drawing.Size(347, 38);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ik heb al een account";
             // 
-            // label9
+            // labelMyGegevens
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(15, 42);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(152, 26);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Mijn gegevens";
+            this.labelMyGegevens.AutoSize = true;
+            this.labelMyGegevens.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMyGegevens.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelMyGegevens.Location = new System.Drawing.Point(20, 52);
+            this.labelMyGegevens.Name = "labelMyGegevens";
+            this.labelMyGegevens.Size = new System.Drawing.Size(199, 32);
+            this.labelMyGegevens.TabIndex = 0;
+            this.labelMyGegevens.Text = "Mijn gegevens";
             // 
-            // label10
+            // labelName
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Location = new System.Drawing.Point(20, 130);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(59, 20);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "Naam: ";
+            this.labelName.AutoSize = true;
+            this.labelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelName.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.labelName.Location = new System.Drawing.Point(27, 160);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(75, 25);
+            this.labelName.TabIndex = 1;
+            this.labelName.Text = "Naam: ";
             // 
-            // label11
+            // labeEmail
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(20, 205);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(61, 20);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "E-mail: ";
+            this.labeEmail.AutoSize = true;
+            this.labeEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeEmail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labeEmail.Location = new System.Drawing.Point(27, 252);
+            this.labeEmail.Name = "labeEmail";
+            this.labeEmail.Size = new System.Drawing.Size(78, 25);
+            this.labeEmail.TabIndex = 2;
+            this.labeEmail.Text = "E-mail: ";
             // 
-            // label12
+            // labelMyReseveringen
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label12.Location = new System.Drawing.Point(682, 42);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(190, 26);
-            this.label12.TabIndex = 3;
-            this.label12.Text = "Mijn reserveringen";
+            this.labelMyReseveringen.AutoSize = true;
+            this.labelMyReseveringen.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMyReseveringen.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelMyReseveringen.Location = new System.Drawing.Point(909, 52);
+            this.labelMyReseveringen.Name = "labelMyReseveringen";
+            this.labelMyReseveringen.Size = new System.Drawing.Size(249, 32);
+            this.labelMyReseveringen.TabIndex = 3;
+            this.labelMyReseveringen.Text = "Mijn reserveringen";
             // 
             // panelMyProfile
             // 
             this.panelMyProfile.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panelMyProfile.Controls.Add(this.mail);
-            this.panelMyProfile.Controls.Add(this.naam);
-            this.panelMyProfile.Controls.Add(this.label12);
-            this.panelMyProfile.Controls.Add(this.label11);
-            this.panelMyProfile.Controls.Add(this.label10);
-            this.panelMyProfile.Controls.Add(this.label9);
-            this.panelMyProfile.Location = new System.Drawing.Point(0, 107);
-            this.panelMyProfile.Margin = new System.Windows.Forms.Padding(2);
+            this.panelMyProfile.Controls.Add(this.labelMail);
+            this.panelMyProfile.Controls.Add(this.labelNaam);
+            this.panelMyProfile.Controls.Add(this.labelMyReseveringen);
+            this.panelMyProfile.Controls.Add(this.labeEmail);
+            this.panelMyProfile.Controls.Add(this.labelName);
+            this.panelMyProfile.Controls.Add(this.labelMyGegevens);
+            this.panelMyProfile.Location = new System.Drawing.Point(0, 132);
+            this.panelMyProfile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelMyProfile.Name = "panelMyProfile";
-            this.panelMyProfile.Size = new System.Drawing.Size(1141, 665);
+            this.panelMyProfile.Size = new System.Drawing.Size(1521, 818);
             this.panelMyProfile.TabIndex = 16;
             // 
-            // mail
+            // labelMail
             // 
-            this.mail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.mail.Location = new System.Drawing.Point(97, 202);
-            this.mail.Name = "mail";
-            this.mail.Size = new System.Drawing.Size(389, 39);
-            this.mail.TabIndex = 5;
-            this.mail.Text = "label13";
+            this.labelMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMail.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelMail.Location = new System.Drawing.Point(129, 249);
+            this.labelMail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelMail.Name = "labelMail";
+            this.labelMail.Size = new System.Drawing.Size(519, 48);
+            this.labelMail.TabIndex = 5;
+            this.labelMail.Text = "label13";
             // 
-            // naam
+            // labelNaam
             // 
-            this.naam.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.naam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.naam.Location = new System.Drawing.Point(97, 127);
-            this.naam.Name = "naam";
-            this.naam.Size = new System.Drawing.Size(349, 35);
-            this.naam.TabIndex = 4;
-            this.naam.Text = "label13";
+            this.labelNaam.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNaam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelNaam.Location = new System.Drawing.Point(129, 156);
+            this.labelNaam.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelNaam.Name = "labelNaam";
+            this.labelNaam.Size = new System.Drawing.Size(465, 43);
+            this.labelNaam.TabIndex = 4;
+            this.labelNaam.Text = "label13";
             // 
             // FormProfiel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1127, 629);
+            this.ClientSize = new System.Drawing.Size(1503, 774);
             this.Controls.Add(this.panelBoven);
-            this.Controls.Add(this.panelMyProfile);
             this.Controls.Add(this.panelAanmelden);
+            this.Controls.Add(this.panelMyProfile);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormProfiel";
             this.Text = "Form1";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormProfiel_FormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormProfielFormClosed);
             this.panelBoven.ResumeLayout(false);
             this.panelBoven.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconContact)).EndInit();
@@ -494,29 +481,29 @@
         private System.Windows.Forms.PictureBox iconMyAccount;
         private System.Windows.Forms.PictureBox iconMovis;
         private System.Windows.Forms.Panel panelAanmelden;
-        private System.Windows.Forms.TextBox wachtwoord;
-        private System.Windows.Forms.TextBox gebruikersnaam;
+        private System.Windows.Forms.TextBox boxWachtwoord;
+        private System.Windows.Forms.TextBox boxGebruikersnaam;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox username;
-        private System.Windows.Forms.TextBox email;
-        private System.Windows.Forms.TextBox password;
-        private System.Windows.Forms.TextBox passwordrepeat;
+        private System.Windows.Forms.Button buttonInloggen;
+        private System.Windows.Forms.Button buttonAccountMaken;
+        private System.Windows.Forms.Label labelHerhaalWachtwoord;
+        private System.Windows.Forms.Label labelWachtwoord;
+        private System.Windows.Forms.Label labelEmailadres;
+        private System.Windows.Forms.Label labelNaamm;
+        private System.Windows.Forms.TextBox boxUsername;
+        private System.Windows.Forms.TextBox boxEmail;
+        private System.Windows.Forms.TextBox boxPassword;
+        private System.Windows.Forms.TextBox boxPasswordrepeat;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label labelMyGegevens;
+        private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.Label labeEmail;
+        private System.Windows.Forms.Label labelMyReseveringen;
         private System.Windows.Forms.Panel panelMyProfile;
-        private System.Windows.Forms.Label naam;
-        private System.Windows.Forms.Label mail;
+        private System.Windows.Forms.Label labelNaam;
+        private System.Windows.Forms.Label labelMail;
     }
 }
 

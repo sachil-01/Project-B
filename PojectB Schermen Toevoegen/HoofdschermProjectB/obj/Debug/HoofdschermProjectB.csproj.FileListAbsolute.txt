@@ -193,3 +193,7 @@ C:\Users\banano\Documents\GitHub\PorjectB\PojectB Schermen Toevoegen\Hoofdscherm
 C:\Users\banano\Documents\GitHub\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.CopyComplete
 C:\Users\banano\Documents\GitHub\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.exe
 C:\Users\banano\Documents\GitHub\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.pdb
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\bin\Debug\users.json
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\bin\Debug\Newtonsoft.Json.dll
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\bin\Debug\Newtonsoft.Json.xml
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.CopyComplete

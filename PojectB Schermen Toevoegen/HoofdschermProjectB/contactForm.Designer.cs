@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label4 = new System.Windows.Forms.Label();
+            this.labeInfo = new System.Windows.Forms.Label();
             this.labelContact = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.labelInfo2 = new System.Windows.Forms.Label();
             this.panelContact = new System.Windows.Forms.Panel();
             this.panelBoven2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelMyAccountt = new System.Windows.Forms.Label();
+            this.labelContactt = new System.Windows.Forms.Label();
             this.labelMovis = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -46,16 +46,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label4
+            // labeInfo
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(20, 263);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 51);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "label4";
+            this.labeInfo.AutoSize = true;
+            this.labeInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeInfo.ForeColor = System.Drawing.Color.White;
+            this.labeInfo.Location = new System.Drawing.Point(20, 263);
+            this.labeInfo.Name = "labeInfo";
+            this.labeInfo.Size = new System.Drawing.Size(138, 51);
+            this.labeInfo.TabIndex = 2;
+            this.labeInfo.Text = "label4";
             // 
             // labelContact
             // 
@@ -68,22 +68,22 @@
             this.labelContact.TabIndex = 0;
             this.labelContact.Text = "label3";
             // 
-            // label3
+            // labelInfo2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(953, 263);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(138, 51);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "label3";
+            this.labelInfo2.AutoSize = true;
+            this.labelInfo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInfo2.ForeColor = System.Drawing.Color.White;
+            this.labelInfo2.Location = new System.Drawing.Point(953, 263);
+            this.labelInfo2.Name = "labelInfo2";
+            this.labelInfo2.Size = new System.Drawing.Size(138, 51);
+            this.labelInfo2.TabIndex = 1;
+            this.labelInfo2.Text = "label3";
             // 
             // panelContact
             // 
             this.panelContact.BackColor = System.Drawing.Color.Black;
-            this.panelContact.Controls.Add(this.label4);
-            this.panelContact.Controls.Add(this.label3);
+            this.panelContact.Controls.Add(this.labeInfo);
+            this.panelContact.Controls.Add(this.labelInfo2);
             this.panelContact.Controls.Add(this.labelContact);
             this.panelContact.Location = new System.Drawing.Point(0, 127);
             this.panelContact.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -94,8 +94,8 @@
             // panelBoven2
             // 
             this.panelBoven2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panelBoven2.Controls.Add(this.label2);
-            this.panelBoven2.Controls.Add(this.label1);
+            this.panelBoven2.Controls.Add(this.labelMyAccountt);
+            this.panelBoven2.Controls.Add(this.labelContactt);
             this.panelBoven2.Controls.Add(this.labelMovis);
             this.panelBoven2.Controls.Add(this.pictureBox3);
             this.panelBoven2.Controls.Add(this.pictureBox2);
@@ -106,32 +106,32 @@
             this.panelBoven2.Size = new System.Drawing.Size(1500, 130);
             this.panelBoven2.TabIndex = 18;
             // 
-            // label2
+            // labelMyAccountt
             // 
-            this.label2.AutoSize = true;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(1163, 46);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(291, 58);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "My account";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            this.label2.MouseLeave += new System.EventHandler(this.label2_MouseLeave);
-            this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label2_MouseMove);
+            this.labelMyAccountt.AutoSize = true;
+            this.labelMyAccountt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelMyAccountt.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMyAccountt.Location = new System.Drawing.Point(1163, 46);
+            this.labelMyAccountt.Name = "labelMyAccountt";
+            this.labelMyAccountt.Size = new System.Drawing.Size(291, 58);
+            this.labelMyAccountt.TabIndex = 13;
+            this.labelMyAccountt.Text = "My account";
+            this.labelMyAccountt.Click += new System.EventHandler(this.LabelProfileClick);
+            this.labelMyAccountt.MouseLeave += new System.EventHandler(this.LabeProfileMouseLeave);
+            this.labelMyAccountt.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabeProfileMouseMove);
             // 
-            // label1
+            // labelContactt
             // 
-            this.label1.AutoSize = true;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(655, 46);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 58);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Contact";
-            this.label1.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
-            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
+            this.labelContactt.AutoSize = true;
+            this.labelContactt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelContactt.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelContactt.Location = new System.Drawing.Point(655, 46);
+            this.labelContactt.Name = "labelContactt";
+            this.labelContactt.Size = new System.Drawing.Size(205, 58);
+            this.labelContactt.TabIndex = 12;
+            this.labelContactt.Text = "Contact";
+            this.labelContactt.MouseLeave += new System.EventHandler(this.LabelContacMouseLeave);
+            this.labelContactt.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelContactMouseMove);
             // 
             // labelMovis
             // 
@@ -144,9 +144,9 @@
             this.labelMovis.TabIndex = 11;
             this.labelMovis.Tag = "";
             this.labelMovis.Text = "Movies";
-            this.labelMovis.Click += new System.EventHandler(this.labelMovis_Click);
-            this.labelMovis.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
-            this.labelMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
+            this.labelMovis.Click += new System.EventHandler(this.LabelMovisClick);
+            this.labelMovis.MouseLeave += new System.EventHandler(this.LabelMovisMouseLeave);
+            this.labelMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMovisMouseMove);
             // 
             // pictureBox3
             // 
@@ -159,9 +159,9 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            this.pictureBox3.MouseLeave += new System.EventHandler(this.label2_MouseLeave);
-            this.pictureBox3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label2_MouseMove);
+            this.pictureBox3.Click += new System.EventHandler(this.PictureBoxProfileClick);
+            this.pictureBox3.MouseLeave += new System.EventHandler(this.LabeProfileMouseLeave);
+            this.pictureBox3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabeProfileMouseMove);
             // 
             // pictureBox2
             // 
@@ -174,8 +174,8 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.MouseLeave += new System.EventHandler(this.label1_MouseLeave);
-            this.pictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
+            this.pictureBox2.MouseLeave += new System.EventHandler(this.LabelContacMouseLeave);
+            this.pictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelContactMouseMove);
             // 
             // pictureBox1
             // 
@@ -189,9 +189,9 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Tag = "";
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            this.pictureBox1.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
-            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBoxMovieClick);
+            this.pictureBox1.MouseLeave += new System.EventHandler(this.LabelMovisMouseLeave);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMovisMouseMove);
             // 
             // contactForm
             // 
@@ -207,7 +207,7 @@
             this.MinimizeBox = false;
             this.Name = "contactForm";
             this.Text = "contactForm";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.contactForm_FormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ContactFormFormClosed);
             this.panelContact.ResumeLayout(false);
             this.panelContact.PerformLayout();
             this.panelBoven2.ResumeLayout(false);
@@ -221,13 +221,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label labeInfo;
         private System.Windows.Forms.Label labelContact;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label labelInfo2;
         private System.Windows.Forms.Panel panelContact;
         private System.Windows.Forms.Panel panelBoven2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelMyAccountt;
+        private System.Windows.Forms.Label labelContactt;
         private System.Windows.Forms.Label labelMovis;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;

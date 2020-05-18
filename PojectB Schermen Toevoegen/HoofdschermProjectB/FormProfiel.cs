@@ -21,12 +21,12 @@ namespace ProjectB
             InitializeComponent();
             panelAanmelden.Show();
             panelMyProfile.Hide();
-            password.PasswordChar = '*';
-            passwordrepeat.PasswordChar = '*';
-            wachtwoord.PasswordChar = '*';
+            boxPassword.PasswordChar = '*';
+            boxPasswordrepeat.PasswordChar = '*';
+            boxWachtwoord.PasswordChar = '*';
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ButtonInloggenClick(object sender, EventArgs e)
         {
             bool checker = false;
             string fileName = "users.json";
@@ -36,14 +36,14 @@ namespace ProjectB
             
             foreach (var item in dynJson)
             {
-                if(item.username == gebruikersnaam.Text && item.password == wachtwoord.Text)
+                if(item.username == boxGebruikersnaam.Text && item.password == boxWachtwoord.Text)
                 {
                     MessageBox.Show("You are logged in now!");
                     panelMyProfile.Show();
                     panelAanmelden.Hide();
 
-                    naam.Text = gebruikersnaam.Text;
-                    mail.Text = item.email.ToString();
+                    labelNaam.Text = boxGebruikersnaam.Text;
+                    labelMail.Text = item.email.ToString();
                     checker = true;
                 }
                 
@@ -58,71 +58,71 @@ namespace ProjectB
         }
 
 
-        private void labelMyAccount_MouseLeave(object sender, EventArgs e)
+        private void LabelMyAccountMouseLeave(object sender, EventArgs e)
         {
             labelMyAccount.ForeColor = Color.Black;
         }
 
-        private void labelMyAccount_MouseMove(object sender, MouseEventArgs e)
+        private void LabelMyAccountMouseMove(object sender, MouseEventArgs e)
         {
             labelMyAccount.ForeColor = Color.White;
         }
 
-        private void labelContact_MouseMove(object sender, MouseEventArgs e)
+        private void LabelContactMouseMove(object sender, MouseEventArgs e)
         {
             labelContact.ForeColor = Color.White;
         }
 
-        private void labelContact_MouseLeave(object sender, EventArgs e)
+        private void LabelContactMouseLeave(object sender, EventArgs e)
         {
             labelContact.ForeColor = Color.Black;
         }
 
-        private void labelMovis_MouseMove(object sender, MouseEventArgs e)
+        private void LabelMovisMouseMove(object sender, MouseEventArgs e)
         {
             labelMovis.ForeColor = Color.White;
         }
 
-        private void labelMovis_MouseLeave(object sender, EventArgs e)
+        private void LabelMovisMouseLeave(object sender, EventArgs e)
         {
             labelMovis.ForeColor = Color.Black;
 
         }
 
-        private void labelContact_Click(object sender, EventArgs e)
+        private void LabelContactClick(object sender, EventArgs e)
         {
             this.Hide();
             contactForm contactform = new contactForm();
             contactform.Show();
         }
 
-        private void iconContact_Click(object sender, EventArgs e)
+        private void IconContactClick(object sender, EventArgs e)
         {
             this.Hide();
             contactForm contactform = new contactForm();
             contactform.Show();
         }
 
-        private void iconMovis_Click(object sender, EventArgs e)
+        private void IconMovisClick(object sender, EventArgs e)
         {
             this.Hide();
             Form1 Hoofdscherm = new Form1();
             Hoofdscherm.Show();
         }
 
-        private void labelMovis_Click(object sender, EventArgs e)
+        private void LabelMovisClick(object sender, EventArgs e)
         {
             this.Hide();
            Form1 Hoofdscherm = new Form1();
             Hoofdscherm.Show();
         }
 
-        private void FormProfiel_FormClosed(object sender, FormClosedEventArgs e)
+        private void FormProfielFormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void ButtonAccountMakenClick(object sender, EventArgs e)
         {
             string fileName = "users.json";
             string rawJson = File.ReadAllText(fileName);
@@ -131,7 +131,7 @@ namespace ProjectB
             bool checker2 = true;
             foreach (var item in dynJson)
             {
-                if (username.Text == item.username.ToString())
+                if (boxUsername.Text == item.username.ToString())
                 {
                     MessageBox.Show("Error: Gebruikersnaam al in gebruik");
                     checker2 = false;
@@ -140,7 +140,7 @@ namespace ProjectB
 
             foreach (var item in dynJson)
             {
-                if (email.Text == item.email.ToString())
+                if (boxEmail.Text == item.email.ToString())
                 {
                     MessageBox.Show("Error: Email al in gebruik");
                     checker2 = false;
@@ -149,14 +149,14 @@ namespace ProjectB
 
 
 
-            if (password.Text != passwordrepeat.Text)
+            if (boxPassword.Text != boxPasswordrepeat.Text)
             {
 
                 MessageBox.Show("Your password does not match!");
 
             }
             
-            else if(IsValidEmail(email.Text))
+            else if(IsValidEmail(boxEmail.Text))
             {
                 MessageBox.Show("This mail is not correct");
             }
@@ -167,9 +167,9 @@ namespace ProjectB
             {
                 Users newuser = new Users
                 {
-                    username = username.Text,
-                    password = password.Text,
-                    email = email.Text
+                    username = boxUsername.Text,
+                    password = boxPassword.Text,
+                    email = boxEmail.Text
 
                 };
 
@@ -195,8 +195,8 @@ namespace ProjectB
                 panelMyProfile.Show();
                 panelAanmelden.Hide();
 
-                naam.Text = username.Text;
-                mail.Text = email.Text;
+                labelNaam.Text = boxUsername.Text;
+                labelMail.Text = boxEmail.Text;
             }
         }
 
