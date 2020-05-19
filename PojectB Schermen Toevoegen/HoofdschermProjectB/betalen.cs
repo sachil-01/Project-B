@@ -17,27 +17,25 @@ namespace ProjectB
             InitializeComponent();
         }
 
-        private void IDEAL_Click(object sender, EventArgs e)
-        {
-            
-        }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("PayPal is geselecteerd.");
-            button2.Visible = true;
+            Betaalbutton.Visible = true;
+            Selcect2.Visible = true;
+            Selcect1.Visible = false;
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void pictureBox2_Click(object sender, EventArgs e)
-        {    
+        {
             MessageBox.Show("IDEAL is geselecteerd.");
-            button2.Visible = true;
+            Betaalbutton.Visible = true;
+            Selcect1.Visible = true;
+            Selcect2.Visible = false;
 
         }
 
@@ -53,13 +51,13 @@ namespace ProjectB
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Credit Card is geselecteerd.");
-            button2.Visible = true;
+            Betaalbutton.Visible = true;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             MessageBox.Show("American Express is geselecteerd.");
-            button2.Visible = true;
+            Betaalbutton.Visible = true;
         }
 
         private void labelMovis_MouseMove(object sender, MouseEventArgs e)
