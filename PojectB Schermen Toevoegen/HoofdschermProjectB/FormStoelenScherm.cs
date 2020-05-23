@@ -12,24 +12,25 @@ namespace ProjectB
 {
     public partial class FormStoelenScherm : Form
     {
-        List<Button> chairs = new List<Button>(), reservedChairs = new List<Button>(Form1.aantalTickets-1);
+        List<Button> chairs = new List<Button>();
+        //List<Button> reservedChairs = new List<Button>(Movie.aantalTickets - 1);
 
 
 
         const int ButtonWidth = 45, ButtonHeight = 45;
-        int counter = 1, chairCounter = 1, listCounter=0;
+        int counter = 1, chairCounter = 1;
         Button RedChair, reserved;
-        
-        
+
+
         public FormStoelenScherm()
 
-                      {
-           
+        {
+
             InitializeComponent();
             stoelNummer.Text = "Kies stoel nummer " + chairCounter;
-            for (int countVertical = 1, buttonY=100; countVertical < 11; countVertical++,buttonY+=50)
+            for (int countVertical = 1, buttonY = 100; countVertical < 11; countVertical++, buttonY += 50)
             {
-                for ( int countHorizontal = 1, buttonX = 502; countHorizontal < 11; buttonX += 50,counter++, countHorizontal++)
+                for (int countHorizontal = 1, buttonX = 502; countHorizontal < 11; buttonX += 50, counter++, countHorizontal++)
                 {
                     Button chair = new Button();
                     chair.Location = new Point(buttonX, buttonY);
@@ -44,19 +45,19 @@ namespace ProjectB
                     panelStoelen.Controls.Add(chair);
                     chairs.Add(chair);
                     chair.Click += new EventHandler(this.SelectChair);
-                    
+
 
                 }
 
                 reserved = Helper;
             }
-             
-             
+
+
 
         }
 
         private void SelectChair(object sender, EventArgs e)
-        {         
+        {
 
             reserved.BackColor = Color.PeachPuff;
             Button Chair = (Button)sender;
@@ -69,8 +70,8 @@ namespace ProjectB
 
         private void button1_Click(object sender, EventArgs e)
         {
-           
-            if (chairCounter < Form1.aantalTickets)
+
+            if (chairCounter < Movie.aantalTickets)
             {
                 RedChair.BackColor = Color.Red;
                 RedChair.Enabled = false;
@@ -80,8 +81,8 @@ namespace ProjectB
                 stoelNummer.Text = "Kies stoel nummer " + chairCounter;
             }
             else
-            {   
-                foreach(Button Chair in chairs)
+            {
+                foreach (Button Chair in chairs)
                 {
                     Chair.Enabled = false;
                 }
@@ -132,14 +133,14 @@ namespace ProjectB
 
         private void LabelMovisClick(object sender, EventArgs e)
         {
-            Form1 hoofdScherm = new Form1();
+            Movie hoofdScherm = new Movie();
             this.Hide();
             hoofdScherm.Show();
         }
 
         private void PictureBoxMovisClick(object sender, EventArgs e)
         {
-            Form1 hoofdScherm = new Form1();
+            Movie hoofdScherm = new Movie();
             this.Hide();
             hoofdScherm.Show();
         }
@@ -181,6 +182,6 @@ namespace ProjectB
 
 
     }
-    }
+}
 
 

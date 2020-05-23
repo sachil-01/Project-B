@@ -95,7 +95,6 @@
             this.Transactie.TabIndex = 13;
             this.Transactie.Text = "Transactie voltooid";
             this.Transactie.Visible = false;
-            this.Transactie.Click += new System.EventHandler(this.label7_Click);
             // 
             // check
             // 
@@ -108,7 +107,7 @@
             this.check.TabIndex = 14;
             this.check.TabStop = false;
             this.check.Visible = false;
-            this.check.Click += new System.EventHandler(this.pictureBox1_Click);
+
             // 
             // comboBox1
             // 
@@ -143,7 +142,6 @@
             this.label1.Size = new System.Drawing.Size(67, 29);
             this.label1.TabIndex = 4;
             this.label1.Text = "Bank";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -211,7 +209,7 @@
             this.Name = "IDEAL";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
+
             ((System.ComponentModel.ISupportInitialize)(this.check)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

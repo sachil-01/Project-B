@@ -29,7 +29,7 @@ namespace ProjectB
             
 
             this.Hide();
-            Form1 a = new Form1();
+            Movie a = new Movie();
             a.Show();
            
         }
@@ -37,7 +37,7 @@ namespace ProjectB
         private void LabelMovisClick(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 a = new Form1();
+            Movie a = new Movie();
             a.Show();
             
         }

@@ -106,14 +106,14 @@ namespace ProjectB
         private void IconMovisClick(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 Hoofdscherm = new Form1();
+            Movie Hoofdscherm = new Movie();
             Hoofdscherm.Show();
         }
 
         private void LabelMovisClick(object sender, EventArgs e)
         {
             this.Hide();
-           Form1 Hoofdscherm = new Form1();
+           Movie Hoofdscherm = new Movie();
             Hoofdscherm.Show();
         }
 

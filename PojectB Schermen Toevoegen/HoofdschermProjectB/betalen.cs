@@ -92,14 +92,14 @@ namespace ProjectB
 
         private void labelMovis_Click(object sender, EventArgs e)
         {
-            Form1 hoofdScherm = new Form1();
+            Movie hoofdScherm = new Movie();
             this.Hide();
             hoofdScherm.Show();
         }
 
         private void pictureBoxMovis_Click(object sender, EventArgs e)
         {
-            Form1 hoofdScherm = new Form1();
+            Movie hoofdScherm = new Movie();
             this.Hide();
             hoofdScherm.Show();
         }

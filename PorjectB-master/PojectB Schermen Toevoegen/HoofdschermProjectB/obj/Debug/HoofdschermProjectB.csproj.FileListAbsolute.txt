@@ -1,8 +1,0 @@
-D:\PorjectB\PorjectB-master\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csprojAssemblyReference.cache
-D:\PorjectB\PorjectB-master\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.betalen.resources
-D:\PorjectB\PorjectB-master\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.contactForm.resources
-D:\PorjectB\PorjectB-master\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Form1.resources
-D:\PorjectB\PorjectB-master\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.FormProfiel.resources
-D:\PorjectB\PorjectB-master\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.FormStoelenScherm.resources
-D:\PorjectB\PorjectB-master\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.IDEAL.resources
-D:\PorjectB\PorjectB-master\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.GenerateResource.cache

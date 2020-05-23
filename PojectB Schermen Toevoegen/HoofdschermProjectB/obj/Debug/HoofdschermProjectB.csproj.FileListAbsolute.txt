@@ -94,7 +94,6 @@ D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\Hoofdscherm
 D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.exe
 D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.pdb
 D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.contactForm.resources
-D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Form1.resources
 D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.FormProfiel.resources
 D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.FormStoelenScherm.resources
 D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.Properties.Resources.resources
@@ -197,3 +196,4 @@ C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\H
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\bin\Debug\Newtonsoft.Json.dll
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\bin\Debug\Newtonsoft.Json.xml
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.CopyComplete
+D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Movie.resources
