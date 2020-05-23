@@ -8,13 +8,13 @@ namespace ProjectB
     public partial class FormStoelenScherm : Form
     {
         List<Button> chairs = new List<Button>();
-        //List<Button> reservedChairs = new List<Button>(Movie.aantalTickets - 1);
+        List<Button> reservedChairs = new List<Button>();
 
 
 
         const int ButtonWidth = 45, ButtonHeight = 45;
         int counter = 1, chairCounter = 1;
-        Button RedChair, reserved;
+        Button redChair, reserved;
 
 
         public FormStoelenScherm()
@@ -55,12 +55,11 @@ namespace ProjectB
         {
 
             reserved.BackColor = Color.PeachPuff;
-            Button Chair = (Button)sender;
-            //reservedChairs[listCounter] = Chair;
+            Button Chair = (Button)sender;       
             Chair.BackColor = Color.Blue;
             buttonVolgende.Enabled = true;
             reserved = Chair;
-            RedChair = reserved;
+            redChair = reserved;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -68,8 +67,9 @@ namespace ProjectB
 
             if (chairCounter < Movie.aantalTickets)
             {
-                RedChair.BackColor = Color.Red;
-                RedChair.Enabled = false;
+                redChair.BackColor = Color.Red;
+                reservedChairs.Add(redChair);          
+                redChair.Enabled = false;
                 buttonVolgende.Enabled = false;
                 reserved = Helper;
                 chairCounter += 1;
@@ -81,7 +81,7 @@ namespace ProjectB
                 {
                     Chair.Enabled = false;
                 }
-                RedChair.BackColor = Color.Red;
+                redChair.BackColor = Color.Red;
                 stoelNummer.Visible = false;
                 buttonVolgende.Visible = false;
                 buttonReserveerKnop.Visible = true;

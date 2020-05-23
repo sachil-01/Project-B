@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Windows.Forms;
 
 namespace ProjectB
 
@@ -22,6 +18,11 @@ namespace ProjectB
             set;
         }
         public string email
+        {
+            get;
+            set;
+        }
+        public Button chair
         {
             get;
             set;
