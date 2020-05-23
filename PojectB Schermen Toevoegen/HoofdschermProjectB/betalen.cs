@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProjectB
 {
-    public partial class betalen : Form
+    public partial class Betalen : Form
     {
-        public betalen()
+        public Betalen()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace ProjectB
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("PayPal is geselecteerd.");
+        
             Betaalbutton.Visible = true;
             Selcect2.Visible = true;
             Selcect1.Visible = false;
@@ -32,7 +32,7 @@ namespace ProjectB
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("IDEAL is geselecteerd.");
+          
             Betaalbutton.Visible = true;
             Selcect1.Visible = true;
             Selcect2.Visible = false;
@@ -106,14 +106,14 @@ namespace ProjectB
 
         private void labelContact_Click(object sender, EventArgs e)
         {
-            contactForm contactPagina = new contactForm();
+            ContactForm contactPagina = new ContactForm();
             this.Hide();
             contactPagina.Show();
         }
 
         private void pictureBoxContact_Click(object sender, EventArgs e)
         {
-            contactForm contactPagina = new contactForm();
+            ContactForm contactPagina = new ContactForm();
             this.Hide();
             contactPagina.Show();
         }

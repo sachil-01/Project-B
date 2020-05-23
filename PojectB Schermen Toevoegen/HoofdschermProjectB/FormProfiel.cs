@@ -92,14 +92,14 @@ namespace ProjectB
         private void LabelContactClick(object sender, EventArgs e)
         {
             this.Hide();
-            contactForm contactform = new contactForm();
+            ContactForm contactform = new ContactForm();
             contactform.Show();
         }
 
         private void IconContactClick(object sender, EventArgs e)
         {
             this.Hide();
-            contactForm contactform = new contactForm();
+            ContactForm contactform = new ContactForm();
             contactform.Show();
         }
 

@@ -49,17 +49,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="betalen.cs">
+    <Compile Include="Betalen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="betalen.Designer.cs">
-      <DependentUpon>betalen.cs</DependentUpon>
+    <Compile Include="Betalen.Designer.cs">
+      <DependentUpon>Betalen.cs</DependentUpon>
     </Compile>
-    <Compile Include="contactForm.cs">
+    <Compile Include="ContactForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="contactForm.Designer.cs">
-      <DependentUpon>contactForm.cs</DependentUpon>
+    <Compile Include="ContactForm.Designer.cs">
+      <DependentUpon>ContactForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Movie.cs">
       <SubType>Form</SubType>
@@ -88,11 +88,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Users.cs" />
-    <EmbeddedResource Include="betalen.resx">
-      <DependentUpon>betalen.cs</DependentUpon>
+    <EmbeddedResource Include="Betalen.resx">
+      <DependentUpon>Betalen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="contactForm.resx">
-      <DependentUpon>contactForm.cs</DependentUpon>
+    <EmbeddedResource Include="ContactForm.resx">
+      <DependentUpon>ContactForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Movie.resx">
       <DependentUpon>Movie.cs</DependentUpon>

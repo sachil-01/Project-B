@@ -12,14 +12,14 @@ using System.Windows.Forms;
 namespace ProjectB
 
 {
-    public partial class contactForm : Form
+    public partial class ContactForm : Form
     {
-        public contactForm()
+        public ContactForm()
         {
             InitializeComponent();
-            labelContact.Text = "Bioscoop Kinepolis";
+            labelContact.Text = "Bioscoop CINEMA4U";
             labelInfo2.Text = "Plaats:\nKastanjeboom12\n3117HJ\nRotterdam";
-            labeInfo.Text = "Heeft u vragen of een suggestie?\nvoor contact kunt u bellen of mailen naar\n- 0107283453\n- kinepolis@cin.nl";
+            labeInfo.Text = "Heeft u vragen of een suggestie?\nvoor contact kunt u bellen of mailen naar\n- 0107283453\n- CINEMA4U@cin.nl";
         }
 
   

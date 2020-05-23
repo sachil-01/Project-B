@@ -1541,7 +1541,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Movie";
-            this.Text = "Form1";
+            this.Text = "CINEMA4U";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1FormClosed);
             this.panelBoven.ResumeLayout(false);
             this.panelBoven.PerformLayout();

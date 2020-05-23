@@ -1,6 +1,6 @@
 ﻿namespace ProjectB
 {
-    partial class betalen
+    partial class Betalen
     {
         /// <summary>
         /// Required designer variable.
@@ -64,7 +64,7 @@
             this.panel1.Controls.Add(this.Selcect1);
             this.panel1.Controls.Add(this.Selcect2);
             this.panel1.Location = new System.Drawing.Point(0, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1125, 731);
             this.panel1.TabIndex = 1;
@@ -92,7 +92,7 @@
             this.panelBoven2.Controls.Add(this.pictureBoxContact);
             this.panelBoven2.Controls.Add(this.pictureBoxMovis);
             this.panelBoven2.Location = new System.Drawing.Point(0, 1);
-            this.panelBoven2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelBoven2.Margin = new System.Windows.Forms.Padding(2);
             this.panelBoven2.Name = "panelBoven2";
             this.panelBoven2.Size = new System.Drawing.Size(1125, 110);
             this.panelBoven2.TabIndex = 14;
@@ -148,7 +148,7 @@
             this.pictureBoxMyaccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxMyaccount.Image = global::HoofdschermProjectB.Properties.Resources.img_568656;
             this.pictureBoxMyaccount.Location = new System.Drawing.Point(761, 13);
-            this.pictureBoxMyaccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBoxMyaccount.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxMyaccount.Name = "pictureBoxMyaccount";
             this.pictureBoxMyaccount.Size = new System.Drawing.Size(93, 83);
             this.pictureBoxMyaccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -163,7 +163,7 @@
             this.pictureBoxContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxContact.Image = global::HoofdschermProjectB.Properties.Resources.img_542845;
             this.pictureBoxContact.Location = new System.Drawing.Point(381, 8);
-            this.pictureBoxContact.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBoxContact.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxContact.Name = "pictureBoxContact";
             this.pictureBoxContact.Size = new System.Drawing.Size(93, 88);
             this.pictureBoxContact.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -178,7 +178,7 @@
             this.pictureBoxMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxMovis.Image = global::HoofdschermProjectB.Properties.Resources._83519;
             this.pictureBoxMovis.Location = new System.Drawing.Point(20, 6);
-            this.pictureBoxMovis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBoxMovis.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBoxMovis.Name = "pictureBoxMovis";
             this.pictureBoxMovis.Size = new System.Drawing.Size(88, 93);
             this.pictureBoxMovis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -194,7 +194,7 @@
             this.Betaalbutton.BackColor = System.Drawing.Color.Lime;
             this.Betaalbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Betaalbutton.Location = new System.Drawing.Point(468, 402);
-            this.Betaalbutton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Betaalbutton.Margin = new System.Windows.Forms.Padding(2);
             this.Betaalbutton.Name = "Betaalbutton";
             this.Betaalbutton.Size = new System.Drawing.Size(189, 76);
             this.Betaalbutton.TabIndex = 10;
@@ -217,7 +217,7 @@
             // 
             this.pictureBox1.Image = global::HoofdschermProjectB.Properties.Resources.PAYPAL_ICON;
             this.pictureBox1.Location = new System.Drawing.Point(608, 284);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(66, 65);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -229,7 +229,7 @@
             // 
             this.IDEAL.Image = global::HoofdschermProjectB.Properties.Resources.iDEAL_1024x1024;
             this.IDEAL.Location = new System.Drawing.Point(457, 284);
-            this.IDEAL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IDEAL.Margin = new System.Windows.Forms.Padding(2);
             this.IDEAL.Name = "IDEAL";
             this.IDEAL.Size = new System.Drawing.Size(60, 65);
             this.IDEAL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -260,7 +260,7 @@
             this.Selcect2.UseVisualStyleBackColor = false;
             this.Selcect2.Visible = false;
             // 
-            // betalen
+            // Betalen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -268,12 +268,12 @@
             this.ClientSize = new System.Drawing.Size(1112, 693);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "betalen";
+            this.Name = "Betalen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "CINEMA4U";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.betalen_FormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

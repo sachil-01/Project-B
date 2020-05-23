@@ -67,9 +67,8 @@
             this.panel2.Controls.Add(this.pictureBoxMovies);
             this.panel2.Controls.Add(this.pictureBoxMyProfile);
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(2000, 160);
+            this.panel2.Size = new System.Drawing.Size(1500, 130);
             this.panel2.TabIndex = 0;
             // 
             // labelMyaccount
@@ -78,9 +77,10 @@
             this.labelMyaccount.AutoSize = true;
             this.labelMyaccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelMyaccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMyaccount.Location = new System.Drawing.Point(1568, 46);
+            this.labelMyaccount.Location = new System.Drawing.Point(1176, 37);
+            this.labelMyaccount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMyaccount.Name = "labelMyaccount";
-            this.labelMyaccount.Size = new System.Drawing.Size(291, 58);
+            this.labelMyaccount.Size = new System.Drawing.Size(236, 46);
             this.labelMyaccount.TabIndex = 133;
             this.labelMyaccount.Text = "My account";
             this.labelMyaccount.Click += new System.EventHandler(this.LabelMyaccountClick);
@@ -93,9 +93,10 @@
             this.labelContact.AutoSize = true;
             this.labelContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelContact.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelContact.Location = new System.Drawing.Point(947, 46);
+            this.labelContact.Location = new System.Drawing.Point(710, 37);
+            this.labelContact.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelContact.Name = "labelContact";
-            this.labelContact.Size = new System.Drawing.Size(205, 58);
+            this.labelContact.Size = new System.Drawing.Size(166, 46);
             this.labelContact.TabIndex = 132;
             this.labelContact.Text = "Contact";
             this.labelContact.Click += new System.EventHandler(this.LabelContactClick);
@@ -108,9 +109,10 @@
             this.labelMovis.AutoSize = true;
             this.labelMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelMovis.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMovis.Location = new System.Drawing.Point(327, 46);
+            this.labelMovis.Location = new System.Drawing.Point(245, 37);
+            this.labelMovis.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelMovis.Name = "labelMovis";
-            this.labelMovis.Size = new System.Drawing.Size(190, 58);
+            this.labelMovis.Size = new System.Drawing.Size(152, 46);
             this.labelMovis.TabIndex = 131;
             this.labelMovis.Tag = "";
             this.labelMovis.Text = "Movies";
@@ -123,10 +125,9 @@
             this.pictureBoxContact.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBoxContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxContact.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxContact.Image")));
-            this.pictureBoxContact.Location = new System.Drawing.Point(788, 14);
-            this.pictureBoxContact.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxContact.Location = new System.Drawing.Point(591, 11);
             this.pictureBoxContact.Name = "pictureBoxContact";
-            this.pictureBoxContact.Size = new System.Drawing.Size(124, 108);
+            this.pictureBoxContact.Size = new System.Drawing.Size(93, 88);
             this.pictureBoxContact.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxContact.TabIndex = 130;
             this.pictureBoxContact.TabStop = false;
@@ -139,10 +140,9 @@
             this.pictureBoxMovies.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.pictureBoxMovies.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxMovies.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMovies.Image")));
-            this.pictureBoxMovies.Location = new System.Drawing.Point(183, 14);
-            this.pictureBoxMovies.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxMovies.Location = new System.Drawing.Point(137, 11);
             this.pictureBoxMovies.Name = "pictureBoxMovies";
-            this.pictureBoxMovies.Size = new System.Drawing.Size(117, 114);
+            this.pictureBoxMovies.Size = new System.Drawing.Size(88, 93);
             this.pictureBoxMovies.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxMovies.TabIndex = 129;
             this.pictureBoxMovies.TabStop = false;
@@ -155,10 +155,9 @@
             this.pictureBoxMyProfile.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.pictureBoxMyProfile.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxMyProfile.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMyProfile.Image")));
-            this.pictureBoxMyProfile.Location = new System.Drawing.Point(1412, 20);
-            this.pictureBoxMyProfile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxMyProfile.Location = new System.Drawing.Point(1059, 16);
             this.pictureBoxMyProfile.Name = "pictureBoxMyProfile";
-            this.pictureBoxMyProfile.Size = new System.Drawing.Size(124, 102);
+            this.pictureBoxMyProfile.Size = new System.Drawing.Size(93, 83);
             this.pictureBoxMyProfile.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxMyProfile.TabIndex = 128;
             this.pictureBoxMyProfile.TabStop = false;
@@ -171,40 +170,36 @@
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.panel3.Location = new System.Drawing.Point(500, 37);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Location = new System.Drawing.Point(375, 30);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1000, 62);
+            this.panel3.Size = new System.Drawing.Size(750, 50);
             this.panel3.TabIndex = 121;
             // 
             // panelKleurVrij
             // 
             this.panelKleurVrij.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panelKleurVrij.BackColor = System.Drawing.Color.PeachPuff;
-            this.panelKleurVrij.Location = new System.Drawing.Point(60, 128);
-            this.panelKleurVrij.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelKleurVrij.Location = new System.Drawing.Point(45, 104);
             this.panelKleurVrij.Name = "panelKleurVrij";
-            this.panelKleurVrij.Size = new System.Drawing.Size(60, 55);
+            this.panelKleurVrij.Size = new System.Drawing.Size(45, 45);
             this.panelKleurVrij.TabIndex = 122;
             // 
             // panelKleurBezet
             // 
             this.panelKleurBezet.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panelKleurBezet.BackColor = System.Drawing.Color.Red;
-            this.panelKleurBezet.Location = new System.Drawing.Point(60, 207);
-            this.panelKleurBezet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelKleurBezet.Location = new System.Drawing.Point(45, 168);
             this.panelKleurBezet.Name = "panelKleurBezet";
-            this.panelKleurBezet.Size = new System.Drawing.Size(60, 55);
+            this.panelKleurBezet.Size = new System.Drawing.Size(45, 45);
             this.panelKleurBezet.TabIndex = 123;
             // 
             // panelKleurJouwStoel
             // 
             this.panelKleurJouwStoel.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.panelKleurJouwStoel.BackColor = System.Drawing.Color.Blue;
-            this.panelKleurJouwStoel.Location = new System.Drawing.Point(60, 286);
-            this.panelKleurJouwStoel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelKleurJouwStoel.Location = new System.Drawing.Point(45, 232);
             this.panelKleurJouwStoel.Name = "panelKleurJouwStoel";
-            this.panelKleurJouwStoel.Size = new System.Drawing.Size(60, 55);
+            this.panelKleurJouwStoel.Size = new System.Drawing.Size(45, 45);
             this.panelKleurJouwStoel.TabIndex = 123;
             // 
             // buttonReserveerKnop
@@ -212,10 +207,9 @@
             this.buttonReserveerKnop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonReserveerKnop.BackColor = System.Drawing.Color.GreenYellow;
             this.buttonReserveerKnop.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonReserveerKnop.Location = new System.Drawing.Point(1581, 452);
-            this.buttonReserveerKnop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonReserveerKnop.Location = new System.Drawing.Point(1186, 367);
             this.buttonReserveerKnop.Name = "buttonReserveerKnop";
-            this.buttonReserveerKnop.Size = new System.Drawing.Size(301, 110);
+            this.buttonReserveerKnop.Size = new System.Drawing.Size(226, 89);
             this.buttonReserveerKnop.TabIndex = 127;
             this.buttonReserveerKnop.Text = "Bestellen";
             this.buttonReserveerKnop.UseVisualStyleBackColor = false;
@@ -239,10 +233,9 @@
             this.panelStoelen.Controls.Add(this.panelKleurBezet);
             this.panelStoelen.Controls.Add(this.panelKleurVrij);
             this.panelStoelen.Controls.Add(this.panel3);
-            this.panelStoelen.Location = new System.Drawing.Point(0, 160);
-            this.panelStoelen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelStoelen.Location = new System.Drawing.Point(0, 130);
             this.panelStoelen.Name = "panelStoelen";
-            this.panelStoelen.Size = new System.Drawing.Size(2000, 1108);
+            this.panelStoelen.Size = new System.Drawing.Size(1500, 900);
             this.panelStoelen.TabIndex = 0;
             // 
             // stoelNummer
@@ -251,10 +244,9 @@
             this.stoelNummer.BackColor = System.Drawing.SystemColors.Desktop;
             this.stoelNummer.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stoelNummer.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.stoelNummer.Location = new System.Drawing.Point(1500, 160);
-            this.stoelNummer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.stoelNummer.Location = new System.Drawing.Point(1125, 130);
             this.stoelNummer.Name = "stoelNummer";
-            this.stoelNummer.Size = new System.Drawing.Size(0, 46);
+            this.stoelNummer.Size = new System.Drawing.Size(0, 37);
             this.stoelNummer.TabIndex = 133;
             // 
             // Helper
@@ -262,10 +254,9 @@
             this.Helper.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Helper.BackColor = System.Drawing.Color.LightYellow;
             this.Helper.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Helper.Location = new System.Drawing.Point(60, 482);
-            this.Helper.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Helper.Location = new System.Drawing.Point(45, 392);
             this.Helper.Name = "Helper";
-            this.Helper.Size = new System.Drawing.Size(55, 55);
+            this.Helper.Size = new System.Drawing.Size(41, 45);
             this.Helper.TabIndex = 132;
             this.Helper.UseVisualStyleBackColor = false;
             this.Helper.Visible = false;
@@ -276,10 +267,9 @@
             this.buttonVolgende.BackColor = System.Drawing.Color.GreenYellow;
             this.buttonVolgende.Enabled = false;
             this.buttonVolgende.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonVolgende.Location = new System.Drawing.Point(1579, 261);
-            this.buttonVolgende.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonVolgende.Location = new System.Drawing.Point(1184, 212);
             this.buttonVolgende.Name = "buttonVolgende";
-            this.buttonVolgende.Size = new System.Drawing.Size(207, 55);
+            this.buttonVolgende.Size = new System.Drawing.Size(155, 45);
             this.buttonVolgende.TabIndex = 131;
             this.buttonVolgende.Text = "Volgende";
             this.buttonVolgende.UseVisualStyleBackColor = false;
@@ -290,9 +280,10 @@
             this.labelJouwStoel.AutoSize = true;
             this.labelJouwStoel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelJouwStoel.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelJouwStoel.Location = new System.Drawing.Point(129, 305);
+            this.labelJouwStoel.Location = new System.Drawing.Point(97, 248);
+            this.labelJouwStoel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelJouwStoel.Name = "labelJouwStoel";
-            this.labelJouwStoel.Size = new System.Drawing.Size(326, 36);
+            this.labelJouwStoel.Size = new System.Drawing.Size(266, 29);
             this.labelJouwStoel.TabIndex = 130;
             this.labelJouwStoel.Text = "Deze stoel is jouw stoel";
             // 
@@ -301,9 +292,10 @@
             this.labelStoelBezet.AutoSize = true;
             this.labelStoelBezet.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStoelBezet.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelStoelBezet.Location = new System.Drawing.Point(129, 217);
+            this.labelStoelBezet.Location = new System.Drawing.Point(97, 176);
+            this.labelStoelBezet.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelStoelBezet.Name = "labelStoelBezet";
-            this.labelStoelBezet.Size = new System.Drawing.Size(264, 36);
+            this.labelStoelBezet.Size = new System.Drawing.Size(216, 29);
             this.labelStoelBezet.TabIndex = 129;
             this.labelStoelBezet.Text = "Deze stoel is bezet";
             // 
@@ -312,25 +304,25 @@
             this.labelStoelVrij.AutoSize = true;
             this.labelStoelVrij.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelStoelVrij.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.labelStoelVrij.Location = new System.Drawing.Point(129, 138);
+            this.labelStoelVrij.Location = new System.Drawing.Point(97, 112);
+            this.labelStoelVrij.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelStoelVrij.Name = "labelStoelVrij";
-            this.labelStoelVrij.Size = new System.Drawing.Size(231, 36);
+            this.labelStoelVrij.Size = new System.Drawing.Size(188, 29);
             this.labelStoelVrij.TabIndex = 128;
             this.labelStoelVrij.Text = "Deze stoel is vrij";
             // 
             // FormStoelenScherm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1924, 937);
+            this.ClientSize = new System.Drawing.Size(1443, 761);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panelStoelen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormStoelenScherm";
-            this.Text = "Form1";
+            this.Text = "CINEMA4U";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormStoelenSchermFormClosed);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

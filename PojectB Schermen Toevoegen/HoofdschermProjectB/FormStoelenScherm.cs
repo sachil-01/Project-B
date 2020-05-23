@@ -96,7 +96,7 @@ namespace ProjectB
         private void ReserveerKnopClick(object sender, EventArgs e)
         {
             this.Hide();
-            betalen BetalenScherm = new betalen();
+            Betalen BetalenScherm = new Betalen();
             BetalenScherm.Show();
 
         }
@@ -147,14 +147,14 @@ namespace ProjectB
 
         private void LabelContactClick(object sender, EventArgs e)
         {
-            contactForm contactScherm = new contactForm();
+            ContactForm contactScherm = new ContactForm();
             this.Hide();
             contactScherm.Show();
         }
 
         private void PictureBoxContactClick(object sender, EventArgs e)
         {
-            contactForm contactScherm = new contactForm();
+            ContactForm contactScherm = new ContactForm();
             this.Hide();
             contactScherm.Show();
         }

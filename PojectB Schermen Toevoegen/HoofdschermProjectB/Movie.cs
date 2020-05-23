@@ -166,7 +166,7 @@ namespace ProjectB
         {
             this.Hide();
             
-           contactForm ContactPagina = new contactForm();
+           ContactForm ContactPagina = new ContactForm();
             ContactPagina.Show();
             
 
@@ -181,7 +181,7 @@ namespace ProjectB
         {
             this.Hide();
 
-            contactForm ContactPagina = new contactForm();
+            ContactForm ContactPagina = new ContactForm();
             ContactPagina.Show();
             
         }
