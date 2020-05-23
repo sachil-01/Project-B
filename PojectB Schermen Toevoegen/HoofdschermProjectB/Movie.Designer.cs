@@ -1375,7 +1375,7 @@
             this.ReserveerStoel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.ReserveerStoel.Location = new System.Drawing.Point(0, 1316);
             this.ReserveerStoel.Name = "ReserveerStoel";
-            this.ReserveerStoel.Size = new System.Drawing.Size(1129, 569);
+            this.ReserveerStoel.Size = new System.Drawing.Size(1127, 569);
             this.ReserveerStoel.TabIndex = 9;
             this.ReserveerStoel.Visible = false;
             // 

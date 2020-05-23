@@ -60,6 +60,7 @@
             this.panelMyProfile = new System.Windows.Forms.Panel();
             this.labelMail = new System.Windows.Forms.Label();
             this.labelNaam = new System.Windows.Forms.Label();
+            this.logoutbutton = new System.Windows.Forms.Button();
             this.panelBoven.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconContact)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMyAccount)).BeginInit();
@@ -78,7 +79,7 @@
             this.panelBoven.Controls.Add(this.iconMyAccount);
             this.panelBoven.Controls.Add(this.iconMovis);
             this.panelBoven.Location = new System.Drawing.Point(-1, 0);
-            this.panelBoven.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelBoven.Margin = new System.Windows.Forms.Padding(2);
             this.panelBoven.Name = "panelBoven";
             this.panelBoven.Size = new System.Drawing.Size(1129, 106);
             this.panelBoven.TabIndex = 0;
@@ -133,7 +134,7 @@
             this.iconContact.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconContact.Image = global::HoofdschermProjectB.Properties.Resources.img_542845;
             this.iconContact.Location = new System.Drawing.Point(381, 8);
-            this.iconContact.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconContact.Margin = new System.Windows.Forms.Padding(2);
             this.iconContact.Name = "iconContact";
             this.iconContact.Size = new System.Drawing.Size(93, 88);
             this.iconContact.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,7 +150,7 @@
             this.iconMyAccount.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconMyAccount.Image = global::HoofdschermProjectB.Properties.Resources.img_568656;
             this.iconMyAccount.Location = new System.Drawing.Point(761, 13);
-            this.iconMyAccount.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconMyAccount.Margin = new System.Windows.Forms.Padding(2);
             this.iconMyAccount.Name = "iconMyAccount";
             this.iconMyAccount.Size = new System.Drawing.Size(93, 83);
             this.iconMyAccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -164,7 +165,7 @@
             this.iconMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconMovis.Image = global::HoofdschermProjectB.Properties.Resources._83519;
             this.iconMovis.Location = new System.Drawing.Point(20, 6);
-            this.iconMovis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.iconMovis.Margin = new System.Windows.Forms.Padding(2);
             this.iconMovis.Name = "iconMovis";
             this.iconMovis.Size = new System.Drawing.Size(88, 93);
             this.iconMovis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -195,7 +196,7 @@
             this.panelAanmelden.Controls.Add(this.boxGebruikersnaam);
             this.panelAanmelden.Controls.Add(this.label1);
             this.panelAanmelden.Location = new System.Drawing.Point(0, 106);
-            this.panelAanmelden.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelAanmelden.Margin = new System.Windows.Forms.Padding(2);
             this.panelAanmelden.Name = "panelAanmelden";
             this.panelAanmelden.Size = new System.Drawing.Size(1141, 665);
             this.panelAanmelden.TabIndex = 1;
@@ -206,7 +207,7 @@
             this.buttonAccountMaken.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAccountMaken.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonAccountMaken.Location = new System.Drawing.Point(234, 409);
-            this.buttonAccountMaken.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAccountMaken.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAccountMaken.Name = "buttonAccountMaken";
             this.buttonAccountMaken.Size = new System.Drawing.Size(179, 41);
             this.buttonAccountMaken.TabIndex = 15;
@@ -265,7 +266,7 @@
             // boxUsername
             // 
             this.boxUsername.Location = new System.Drawing.Point(145, 85);
-            this.boxUsername.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.boxUsername.Margin = new System.Windows.Forms.Padding(2);
             this.boxUsername.Name = "boxUsername";
             this.boxUsername.Size = new System.Drawing.Size(266, 20);
             this.boxUsername.TabIndex = 10;
@@ -273,7 +274,7 @@
             // boxEmail
             // 
             this.boxEmail.Location = new System.Drawing.Point(148, 165);
-            this.boxEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.boxEmail.Margin = new System.Windows.Forms.Padding(2);
             this.boxEmail.Name = "boxEmail";
             this.boxEmail.Size = new System.Drawing.Size(266, 20);
             this.boxEmail.TabIndex = 9;
@@ -281,7 +282,7 @@
             // boxPassword
             // 
             this.boxPassword.Location = new System.Drawing.Point(148, 244);
-            this.boxPassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.boxPassword.Margin = new System.Windows.Forms.Padding(2);
             this.boxPassword.Name = "boxPassword";
             this.boxPassword.Size = new System.Drawing.Size(266, 20);
             this.boxPassword.TabIndex = 8;
@@ -289,7 +290,7 @@
             // boxPasswordrepeat
             // 
             this.boxPasswordrepeat.Location = new System.Drawing.Point(148, 325);
-            this.boxPasswordrepeat.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.boxPasswordrepeat.Margin = new System.Windows.Forms.Padding(2);
             this.boxPasswordrepeat.Name = "boxPasswordrepeat";
             this.boxPasswordrepeat.Size = new System.Drawing.Size(266, 20);
             this.boxPasswordrepeat.TabIndex = 7;
@@ -312,7 +313,7 @@
             this.buttonInloggen.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonInloggen.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.buttonInloggen.Location = new System.Drawing.Point(907, 232);
-            this.buttonInloggen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonInloggen.Margin = new System.Windows.Forms.Padding(2);
             this.buttonInloggen.Name = "buttonInloggen";
             this.buttonInloggen.Size = new System.Drawing.Size(119, 41);
             this.buttonInloggen.TabIndex = 5;
@@ -348,7 +349,7 @@
             // boxWachtwoord
             // 
             this.boxWachtwoord.Location = new System.Drawing.Point(760, 155);
-            this.boxWachtwoord.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.boxWachtwoord.Margin = new System.Windows.Forms.Padding(2);
             this.boxWachtwoord.Name = "boxWachtwoord";
             this.boxWachtwoord.Size = new System.Drawing.Size(266, 20);
             this.boxWachtwoord.TabIndex = 2;
@@ -356,7 +357,7 @@
             // boxGebruikersnaam
             // 
             this.boxGebruikersnaam.Location = new System.Drawing.Point(760, 85);
-            this.boxGebruikersnaam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.boxGebruikersnaam.Margin = new System.Windows.Forms.Padding(2);
             this.boxGebruikersnaam.Name = "boxGebruikersnaam";
             this.boxGebruikersnaam.Size = new System.Drawing.Size(266, 20);
             this.boxGebruikersnaam.TabIndex = 1;
@@ -424,6 +425,7 @@
             // panelMyProfile
             // 
             this.panelMyProfile.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelMyProfile.Controls.Add(this.logoutbutton);
             this.panelMyProfile.Controls.Add(this.labelMail);
             this.panelMyProfile.Controls.Add(this.labelNaam);
             this.panelMyProfile.Controls.Add(this.labelMyReseveringen);
@@ -431,7 +433,7 @@
             this.panelMyProfile.Controls.Add(this.labelName);
             this.panelMyProfile.Controls.Add(this.labelMyGegevens);
             this.panelMyProfile.Location = new System.Drawing.Point(0, 107);
-            this.panelMyProfile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelMyProfile.Margin = new System.Windows.Forms.Padding(2);
             this.panelMyProfile.Name = "panelMyProfile";
             this.panelMyProfile.Size = new System.Drawing.Size(1141, 665);
             this.panelMyProfile.TabIndex = 16;
@@ -456,6 +458,19 @@
             this.labelNaam.TabIndex = 4;
             this.labelNaam.Text = "label13";
             // 
+            // logoutbutton
+            // 
+            this.logoutbutton.BackColor = System.Drawing.Color.Red;
+            this.logoutbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutbutton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.logoutbutton.Location = new System.Drawing.Point(943, 423);
+            this.logoutbutton.Name = "logoutbutton";
+            this.logoutbutton.Size = new System.Drawing.Size(164, 74);
+            this.logoutbutton.TabIndex = 6;
+            this.logoutbutton.Text = "Uitloggen";
+            this.logoutbutton.UseVisualStyleBackColor = false;
+            this.logoutbutton.Click += new System.EventHandler(this.logoutbutton_Click);
+            // 
             // FormProfiel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -465,7 +480,7 @@
             this.Controls.Add(this.panelAanmelden);
             this.Controls.Add(this.panelMyProfile);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormProfiel";
@@ -517,6 +532,7 @@
         private System.Windows.Forms.Panel panelMyProfile;
         private System.Windows.Forms.Label labelNaam;
         private System.Windows.Forms.Label labelMail;
+        private System.Windows.Forms.Button logoutbutton;
     }
 }
 

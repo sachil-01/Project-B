@@ -180,9 +180,21 @@ namespace ProjectB
         }
         private void LabelMyaccount_Click(object sender, EventArgs e)
         {
-            FormProfiel profielPagina = new FormProfiel();
-            this.Hide();
-            profielPagina.Show();
+
+            if (FormProfiel.loggedin)
+            {
+                FormProfiel profielPagina = new FormProfiel();
+                this.Hide();
+                profielPagina.Show();
+            }
+
+            else
+            {
+
+                FormProfiel profielPagina = new FormProfiel();
+                this.Hide();
+                profielPagina.Show();
+            }
         }
 
 
@@ -890,6 +902,5 @@ namespace ProjectB
             Application.Exit();
         }
 
-   
     }
 }

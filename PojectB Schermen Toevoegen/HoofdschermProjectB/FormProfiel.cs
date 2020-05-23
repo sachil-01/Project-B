@@ -10,12 +10,37 @@ namespace ProjectB
 {
     public partial class FormProfiel : Form
     {
-        bool loggedin = false;
+
+        public static bool loggedin = false;
+
+        
+
+
+
+        public static string username = "";
+        public static string email = "";
         public FormProfiel()
         {
             InitializeComponent();
-            panelAanmelden.Show();
-            panelMyProfile.Hide();
+            if (loggedin)
+            {
+                panelAanmelden.Hide();
+                panelMyProfile.Show();
+                labelNaam.Text = username;
+                labelMail.Text = email;
+            }
+
+
+
+
+
+            else
+            {
+                panelAanmelden.Show();
+                panelMyProfile.Hide();
+
+            }
+            
             boxPassword.PasswordChar = '*';
             boxPasswordrepeat.PasswordChar = '*';
             boxWachtwoord.PasswordChar = '*';
@@ -39,6 +64,9 @@ namespace ProjectB
 
                     labelNaam.Text = boxGebruikersnaam.Text;
                     labelMail.Text = item.email.ToString();
+                    loggedin = true;
+                    username = item.username.ToString();
+                    email = item.email;
                     checker = true;
                 }
                 
@@ -208,5 +236,18 @@ namespace ProjectB
             }
         }
 
+        private void logoutbutton_Click(object sender, EventArgs e)
+        {
+            loggedin = false;
+            MessageBox.Show("U bent nu uitgelogd!");
+            panelMyProfile.Hide();
+            panelAanmelden.Show();
+            boxGebruikersnaam.Clear();
+            boxPassword.Clear();
+            boxWachtwoord.Clear();
+            boxUsername.Clear();
+            boxEmail.Clear();
+            boxPasswordrepeat.Clear();
+        }
     }
 }
