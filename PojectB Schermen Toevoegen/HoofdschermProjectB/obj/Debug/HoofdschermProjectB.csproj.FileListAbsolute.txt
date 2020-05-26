@@ -110,7 +110,6 @@ C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\H
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csprojAssemblyReference.cache
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.betalen.resources
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.contactForm.resources
-C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Form1.resources
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.FormProfiel.resources
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.FormStoelenScherm.resources
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.IDEAL.resources
@@ -197,3 +196,4 @@ C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\H
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\HoofdschermProjectB.csproj.CopyComplete
 D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Movie.resources
 C:\Users\Admin\Documents\GitHub\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Movie.resources
+C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Movie.resources
