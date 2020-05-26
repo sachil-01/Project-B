@@ -58,9 +58,9 @@
             this.labeEmail = new System.Windows.Forms.Label();
             this.labelMyReseveringen = new System.Windows.Forms.Label();
             this.panelMyProfile = new System.Windows.Forms.Panel();
+            this.logoutbutton = new System.Windows.Forms.Button();
             this.labelMail = new System.Windows.Forms.Label();
             this.labelNaam = new System.Windows.Forms.Label();
-            this.logoutbutton = new System.Windows.Forms.Button();
             this.panelBoven.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconContact)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMyAccount)).BeginInit();
@@ -256,12 +256,12 @@
             this.labelNaamm.AutoSize = true;
             this.labelNaamm.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNaamm.ForeColor = System.Drawing.Color.White;
-            this.labelNaamm.Location = new System.Drawing.Point(84, 87);
+            this.labelNaamm.Location = new System.Drawing.Point(17, 85);
             this.labelNaamm.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelNaamm.Name = "labelNaamm";
-            this.labelNaamm.Size = new System.Drawing.Size(45, 17);
+            this.labelNaamm.Size = new System.Drawing.Size(113, 17);
             this.labelNaamm.TabIndex = 11;
-            this.labelNaamm.Text = "Naam";
+            this.labelNaamm.Text = "Gebruikersnaam";
             // 
             // boxUsername
             // 
@@ -438,6 +438,19 @@
             this.panelMyProfile.Size = new System.Drawing.Size(1141, 665);
             this.panelMyProfile.TabIndex = 16;
             // 
+            // logoutbutton
+            // 
+            this.logoutbutton.BackColor = System.Drawing.Color.Red;
+            this.logoutbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutbutton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.logoutbutton.Location = new System.Drawing.Point(943, 423);
+            this.logoutbutton.Name = "logoutbutton";
+            this.logoutbutton.Size = new System.Drawing.Size(164, 74);
+            this.logoutbutton.TabIndex = 6;
+            this.logoutbutton.Text = "Uitloggen";
+            this.logoutbutton.UseVisualStyleBackColor = false;
+            this.logoutbutton.Click += new System.EventHandler(this.logoutbutton_Click);
+            // 
             // labelMail
             // 
             this.labelMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -457,19 +470,6 @@
             this.labelNaam.Size = new System.Drawing.Size(349, 35);
             this.labelNaam.TabIndex = 4;
             this.labelNaam.Text = "label13";
-            // 
-            // logoutbutton
-            // 
-            this.logoutbutton.BackColor = System.Drawing.Color.Red;
-            this.logoutbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutbutton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.logoutbutton.Location = new System.Drawing.Point(943, 423);
-            this.logoutbutton.Name = "logoutbutton";
-            this.logoutbutton.Size = new System.Drawing.Size(164, 74);
-            this.logoutbutton.TabIndex = 6;
-            this.logoutbutton.Text = "Uitloggen";
-            this.logoutbutton.UseVisualStyleBackColor = false;
-            this.logoutbutton.Click += new System.EventHandler(this.logoutbutton_Click);
             // 
             // FormProfiel
             // 
