@@ -154,6 +154,13 @@ namespace ProjectB
             contactScherm.Show();
         }
 
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Movie movie = new Movie();
+            this.Hide();
+            movie.Show();
+        }
+
         private void LabelMyaccountClick(object sender, EventArgs e)
         {
             FormProfiel profielScherm = new FormProfiel();
