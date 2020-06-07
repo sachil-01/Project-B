@@ -1,9 +1,10 @@
-﻿using System.Windows.Forms;
+﻿using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace ProjectB
 
 {
-    class Users
+    public class Users
     {
 
         public string username
@@ -22,10 +23,11 @@ namespace ProjectB
             get;
             set;
         }
-        public Button chair
+        public string [] chair
         {
             get;
             set;
         }
+
     }
 }

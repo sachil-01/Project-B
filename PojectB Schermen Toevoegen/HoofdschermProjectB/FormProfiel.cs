@@ -12,13 +12,13 @@ namespace ProjectB
     {
 
         public static bool loggedin = false;
-
-        
-
-
-
+        public static Users itemJson;
         public static string username = "";
         public static string email = "";
+        public static string fileName = "users.json";
+        public static string rawJson = File.ReadAllText(fileName);
+        public static List<Users> dynJson = JsonConvert.DeserializeObject<List<Users>>(rawJson);
+
         public FormProfiel()
         {
             InitializeComponent();
@@ -26,8 +26,8 @@ namespace ProjectB
             {
                 panelAanmelden.Hide();
                 panelMyProfile.Show();
-                labelNaam.Text = username;
-                labelMail.Text = email;
+                labelNaam.Text = itemJson.username.ToString();
+                labelMail.Text = itemJson.email.ToString();
             }
 
 
@@ -45,38 +45,46 @@ namespace ProjectB
             boxPasswordrepeat.PasswordChar = '*';
             boxWachtwoord.PasswordChar = '*';
         }
+        public static bool LogIn(TextBox boxNaam, TextBox boxWachtword)
+        {
+            bool checker = false;
+            fileName = "users.json";
+            rawJson = File.ReadAllText(fileName);
+            dynJson = JsonConvert.DeserializeObject<List<Users>>(rawJson);
+            foreach (var item in dynJson)
+            {
+                if (item.username == boxNaam.Text && item.password == boxWachtword.Text)
+                {
+                    MessageBox.Show("You are logged in now!");
+
+                    FormProfiel.loggedin = true;
+                    FormProfiel.username = item.username.ToString();
+                    FormProfiel.email = item.email;
+                    FormProfiel.itemJson = item;
+
+                    checker = true;
+                    return true;
+                }
+
+
+            }
+            if (checker == false)
+            {
+                MessageBox.Show("Username or password are not correct!");
+                return false;
+            }
+            return false;
+        }
 
         private void ButtonInloggenClick(object sender, EventArgs e)
         {
-            bool checker = false;
-            string fileName = "users.json";
-            string rawJson = File.ReadAllText(fileName);
-            
-            dynamic dynJson = JsonConvert.DeserializeObject(rawJson);
-            
-            foreach (var item in dynJson)
+            if(LogIn(boxGebruikersnaam, boxWachtwoord))
             {
-                if(item.username == boxGebruikersnaam.Text && item.password == boxWachtwoord.Text)
-                {
-                    MessageBox.Show("You are logged in now!");
-                    panelMyProfile.Show();
-                    panelAanmelden.Hide();
-
-                    labelNaam.Text = boxGebruikersnaam.Text;
-                    labelMail.Text = item.email.ToString();
-                    loggedin = true;
-                    username = item.username.ToString();
-                    email = item.email;
-                    checker = true;
-                }
-                
-                
+                panelMyProfile.Show();
+                panelAanmelden.Hide();
+                labelNaam.Text= boxGebruikersnaam.Text;
+                labelMail.Text= email.ToString();
             }
-            if(checker == false)
-            {
-                MessageBox.Show("Username or password are not correct!");
-            }
-
 
         }
 
@@ -149,7 +157,6 @@ namespace ProjectB
         {
             string fileName = "users.json";
             string rawJson = File.ReadAllText(fileName);
-
             dynamic dynJson = JsonConvert.DeserializeObject(rawJson);
             bool checker2 = true;
             foreach (var item in dynJson)
@@ -192,31 +199,22 @@ namespace ProjectB
                 {
                     username = boxUsername.Text,
                     password = boxPassword.Text,
-                    email = boxEmail.Text
+                    email = boxEmail.Text,
+                    chair = new string [0],
 
                 };
-
-
-
                 fileName = "users.json";
-
                 rawJson = File.ReadAllText(fileName);
-
                 List<Users> users = JsonConvert.DeserializeObject<List<Users>>(rawJson);
-
-
                 users.Add(newuser);
-
                 string newJson = JsonConvert.SerializeObject(users);
-
-
+                dynJson = JsonConvert.DeserializeObject<List<Users>>(rawJson);
                 File.WriteAllText(fileName, newJson);
-
-
                 MessageBox.Show("Your account has been made!");
                 loggedin = true;
                 panelMyProfile.Show();
                 panelAanmelden.Hide();
+                itemJson = newuser;
 
                 labelNaam.Text = boxUsername.Text;
                 labelMail.Text = boxEmail.Text;

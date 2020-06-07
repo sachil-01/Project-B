@@ -8,8 +8,8 @@ namespace ProjectB
     public partial class FormStoelenScherm : Form
     {
         List<Button> chairs = new List<Button>();
-        List<Button> reservedChairs = new List<Button>();
-
+        List<string> reservedChairsList = new List<string>();
+        public static string[] reservedChairs;
 
 
         const int ButtonWidth = 45, ButtonHeight = 45;
@@ -46,6 +46,18 @@ namespace ProjectB
 
                 reserved = Helper;
             }
+            foreach (var item in FormProfiel.dynJson)
+            {
+                foreach(var chair in item.chair)
+                {
+                   foreach(Button c in chairs)
+                        if(c.Name == chair)
+                    {
+                            c.BackColor = Color.Red;
+                            c.Enabled = false;
+                    }
+                }
+            }
 
 
 
@@ -68,12 +80,13 @@ namespace ProjectB
             if (chairCounter < Movie.aantalTickets)
             {
                 redChair.BackColor = Color.Red;
-                reservedChairs.Add(redChair);          
+                reservedChairsList.Add(redChair.Name);          
                 redChair.Enabled = false;
                 buttonVolgende.Enabled = false;
                 reserved = Helper;
                 chairCounter += 1;
                 stoelNummer.Text = "Kies stoel nummer " + chairCounter;
+
             }
             else
             {
@@ -81,6 +94,7 @@ namespace ProjectB
                 {
                     Chair.Enabled = false;
                 }
+                reservedChairsList.Add(redChair.Name);
                 redChair.BackColor = Color.Red;
                 stoelNummer.Visible = false;
                 buttonVolgende.Visible = false;
@@ -93,7 +107,7 @@ namespace ProjectB
             this.Hide();
             Betalen BetalenScherm = new Betalen();
             BetalenScherm.Show();
-
+            reservedChairs = reservedChairsList.ToArray();
         }
 
         private void LabelMovisMouseMove(object sender, MouseEventArgs e)

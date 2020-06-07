@@ -200,6 +200,7 @@
             this.Betaalbutton.TabIndex = 10;
             this.Betaalbutton.Text = "Betalen";
             this.Betaalbutton.UseVisualStyleBackColor = false;
+            this.Betaalbutton.Visible = false;
             this.Betaalbutton.Click += new System.EventHandler(this.button2_Click);
             // 
             // label2
