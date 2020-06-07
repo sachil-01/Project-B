@@ -130,5 +130,12 @@ namespace ProjectB
         {
             Application.Exit();
         }
+
+        private void btnBackBetalen_Click(object sender, EventArgs e)
+        {
+            FormStoelenScherm formStoelenScherm = new FormStoelenScherm();
+            this.Hide();
+            formStoelenScherm.Show();
+        }
     }
 }
