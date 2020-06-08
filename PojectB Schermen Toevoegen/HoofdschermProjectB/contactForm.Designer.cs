@@ -51,10 +51,9 @@
             this.labeInfo.AutoSize = true;
             this.labeInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeInfo.ForeColor = System.Drawing.Color.White;
-            this.labeInfo.Location = new System.Drawing.Point(15, 214);
-            this.labeInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labeInfo.Location = new System.Drawing.Point(20, 263);
             this.labeInfo.Name = "labeInfo";
-            this.labeInfo.Size = new System.Drawing.Size(109, 39);
+            this.labeInfo.Size = new System.Drawing.Size(138, 51);
             this.labeInfo.TabIndex = 2;
             this.labeInfo.Text = "label4";
             // 
@@ -63,10 +62,9 @@
             this.labelContact.AutoSize = true;
             this.labelContact.Font = new System.Drawing.Font("Segoe Print", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelContact.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelContact.Location = new System.Drawing.Point(7, 32);
-            this.labelContact.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelContact.Location = new System.Drawing.Point(9, 39);
             this.labelContact.Name = "labelContact";
-            this.labelContact.Size = new System.Drawing.Size(179, 84);
+            this.labelContact.Size = new System.Drawing.Size(224, 105);
             this.labelContact.TabIndex = 0;
             this.labelContact.Text = "label3";
             // 
@@ -75,10 +73,9 @@
             this.labelInfo2.AutoSize = true;
             this.labelInfo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelInfo2.ForeColor = System.Drawing.Color.White;
-            this.labelInfo2.Location = new System.Drawing.Point(715, 214);
-            this.labelInfo2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelInfo2.Location = new System.Drawing.Point(953, 263);
             this.labelInfo2.Name = "labelInfo2";
-            this.labelInfo2.Size = new System.Drawing.Size(109, 39);
+            this.labelInfo2.Size = new System.Drawing.Size(138, 51);
             this.labelInfo2.TabIndex = 1;
             this.labelInfo2.Text = "label3";
             // 
@@ -88,10 +85,10 @@
             this.panelContact.Controls.Add(this.labeInfo);
             this.panelContact.Controls.Add(this.labelInfo2);
             this.panelContact.Controls.Add(this.labelContact);
-            this.panelContact.Location = new System.Drawing.Point(0, 103);
-            this.panelContact.Margin = new System.Windows.Forms.Padding(2);
+            this.panelContact.Location = new System.Drawing.Point(0, 127);
+            this.panelContact.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelContact.Name = "panelContact";
-            this.panelContact.Size = new System.Drawing.Size(1141, 667);
+            this.panelContact.Size = new System.Drawing.Size(1521, 821);
             this.panelContact.TabIndex = 17;
             // 
             // panelBoven2
@@ -103,10 +100,10 @@
             this.panelBoven2.Controls.Add(this.pictureBox3);
             this.panelBoven2.Controls.Add(this.pictureBox2);
             this.panelBoven2.Controls.Add(this.pictureBox1);
-            this.panelBoven2.Location = new System.Drawing.Point(2, -2);
-            this.panelBoven2.Margin = new System.Windows.Forms.Padding(2);
+            this.panelBoven2.Location = new System.Drawing.Point(3, -2);
+            this.panelBoven2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelBoven2.Name = "panelBoven2";
-            this.panelBoven2.Size = new System.Drawing.Size(1125, 106);
+            this.panelBoven2.Size = new System.Drawing.Size(1500, 130);
             this.panelBoven2.TabIndex = 18;
             // 
             // labelMyAccountt
@@ -114,10 +111,9 @@
             this.labelMyAccountt.AutoSize = true;
             this.labelMyAccountt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelMyAccountt.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMyAccountt.Location = new System.Drawing.Point(872, 37);
-            this.labelMyAccountt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelMyAccountt.Location = new System.Drawing.Point(1163, 46);
             this.labelMyAccountt.Name = "labelMyAccountt";
-            this.labelMyAccountt.Size = new System.Drawing.Size(236, 46);
+            this.labelMyAccountt.Size = new System.Drawing.Size(291, 58);
             this.labelMyAccountt.TabIndex = 13;
             this.labelMyAccountt.Text = "My account";
             this.labelMyAccountt.Click += new System.EventHandler(this.LabelProfileClick);
@@ -129,10 +125,9 @@
             this.labelContactt.AutoSize = true;
             this.labelContactt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelContactt.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelContactt.Location = new System.Drawing.Point(491, 37);
-            this.labelContactt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelContactt.Location = new System.Drawing.Point(655, 46);
             this.labelContactt.Name = "labelContactt";
-            this.labelContactt.Size = new System.Drawing.Size(166, 46);
+            this.labelContactt.Size = new System.Drawing.Size(205, 58);
             this.labelContactt.TabIndex = 12;
             this.labelContactt.Text = "Contact";
             this.labelContactt.MouseLeave += new System.EventHandler(this.LabelContacMouseLeave);
@@ -143,10 +138,9 @@
             this.labelMovis.AutoSize = true;
             this.labelMovis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelMovis.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMovis.Location = new System.Drawing.Point(112, 37);
-            this.labelMovis.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelMovis.Location = new System.Drawing.Point(149, 46);
             this.labelMovis.Name = "labelMovis";
-            this.labelMovis.Size = new System.Drawing.Size(152, 46);
+            this.labelMovis.Size = new System.Drawing.Size(190, 58);
             this.labelMovis.TabIndex = 11;
             this.labelMovis.Tag = "";
             this.labelMovis.Text = "Movies";
@@ -158,10 +152,10 @@
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::HoofdschermProjectB.Properties.Resources.img_568656;
-            this.pictureBox3.Location = new System.Drawing.Point(761, 13);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Location = new System.Drawing.Point(1015, 16);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(93, 83);
+            this.pictureBox3.Size = new System.Drawing.Size(124, 102);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
@@ -173,10 +167,10 @@
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::HoofdschermProjectB.Properties.Resources.img_542845;
-            this.pictureBox2.Location = new System.Drawing.Point(381, 8);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Location = new System.Drawing.Point(508, 10);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(93, 88);
+            this.pictureBox2.Size = new System.Drawing.Size(124, 108);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
@@ -187,10 +181,10 @@
             // 
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::HoofdschermProjectB.Properties.Resources._83519;
-            this.pictureBox1.Location = new System.Drawing.Point(20, 6);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Location = new System.Drawing.Point(27, 7);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(88, 93);
+            this.pictureBox1.Size = new System.Drawing.Size(117, 114);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -201,18 +195,18 @@
             // 
             // ContactForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1112, 693);
+            this.ClientSize = new System.Drawing.Size(1483, 853);
             this.Controls.Add(this.panelContact);
             this.Controls.Add(this.panelBoven2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ContactForm";
-            this.Text = "CINEMA4U";
+            this.Text = "CINEMA4ALL";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ContactFormFormClosed);
             this.panelContact.ResumeLayout(false);
             this.panelContact.PerformLayout();

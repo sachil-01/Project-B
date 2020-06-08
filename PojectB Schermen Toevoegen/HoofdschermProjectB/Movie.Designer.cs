@@ -1270,7 +1270,7 @@
             this.reserveerknop.BackColor = System.Drawing.Color.Lime;
             this.reserveerknop.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
             this.reserveerknop.Location = new System.Drawing.Point(1211, 583);
-            this.reserveerknop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.reserveerknop.Margin = new System.Windows.Forms.Padding(4);
             this.reserveerknop.Name = "reserveerknop";
             this.reserveerknop.Size = new System.Drawing.Size(243, 101);
             this.reserveerknop.TabIndex = 8;
@@ -1328,7 +1328,7 @@
             // pictureBoxBeschrijving
             // 
             this.pictureBoxBeschrijving.Location = new System.Drawing.Point(11, 37);
-            this.pictureBoxBeschrijving.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxBeschrijving.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxBeschrijving.Name = "pictureBoxBeschrijving";
             this.pictureBoxBeschrijving.Size = new System.Drawing.Size(311, 425);
             this.pictureBoxBeschrijving.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1347,7 +1347,7 @@
             this.ReserveerStoel.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.ReserveerStoel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.ReserveerStoel.Location = new System.Drawing.Point(0, 1620);
-            this.ReserveerStoel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ReserveerStoel.Margin = new System.Windows.Forms.Padding(4);
             this.ReserveerStoel.Name = "ReserveerStoel";
             this.ReserveerStoel.Size = new System.Drawing.Size(1600, 700);
             this.ReserveerStoel.TabIndex = 9;
@@ -1370,7 +1370,7 @@
             this.ButtonKiesStoel.Font = new System.Drawing.Font("Calibri", 20.25F, System.Drawing.FontStyle.Bold);
             this.ButtonKiesStoel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ButtonKiesStoel.Location = new System.Drawing.Point(1211, 583);
-            this.ButtonKiesStoel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ButtonKiesStoel.Margin = new System.Windows.Forms.Padding(4);
             this.ButtonKiesStoel.Name = "ButtonKiesStoel";
             this.ButtonKiesStoel.Size = new System.Drawing.Size(243, 101);
             this.ButtonKiesStoel.TabIndex = 6;
@@ -1392,7 +1392,7 @@
             // moviePicture
             // 
             this.moviePicture.Location = new System.Drawing.Point(1085, 6);
-            this.moviePicture.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.moviePicture.Margin = new System.Windows.Forms.Padding(4);
             this.moviePicture.Name = "moviePicture";
             this.moviePicture.Size = new System.Drawing.Size(277, 385);
             this.moviePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -1405,7 +1405,7 @@
             this.panel2.Controls.Add(this.labeltotal);
             this.panel2.Controls.Add(this.labelTotalprice);
             this.panel2.Location = new System.Drawing.Point(528, 554);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(228, 82);
             this.panel2.TabIndex = 4;
@@ -1440,7 +1440,7 @@
             this.panel3.Controls.Add(this.Labelvolwassenen);
             this.panel3.Controls.Add(this.NumberofPeople);
             this.panel3.Location = new System.Drawing.Point(61, 190);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(613, 130);
             this.panel3.TabIndex = 7;
@@ -1501,7 +1501,7 @@
             "4",
             "5"});
             this.NumberofPeople.Location = new System.Drawing.Point(399, 53);
-            this.NumberofPeople.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NumberofPeople.Margin = new System.Windows.Forms.Padding(4);
             this.NumberofPeople.Name = "NumberofPeople";
             this.NumberofPeople.Size = new System.Drawing.Size(120, 24);
             this.NumberofPeople.TabIndex = 0;
@@ -1528,7 +1528,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Movie";
-            this.Text = "CINEMA4U";
+            this.Text = "CINEMA4ALL";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1FormClosed);
             this.panelBoven.ResumeLayout(false);
             this.panelBoven.PerformLayout();
