@@ -28,6 +28,7 @@ namespace ProjectB
                 panelMyProfile.Show();
                 labelNaam.Text = itemJson.username.ToString();
                 labelMail.Text = itemJson.email.ToString();
+                getReserveringen();
             }
 
 
@@ -61,7 +62,6 @@ namespace ProjectB
                     FormProfiel.username = item.username.ToString();
                     FormProfiel.email = item.email;
                     FormProfiel.itemJson = item;
-
                     checker = true;
                     return true;
                 }
@@ -84,6 +84,8 @@ namespace ProjectB
                 panelAanmelden.Hide();
                 labelNaam.Text= boxGebruikersnaam.Text;
                 labelMail.Text= email.ToString();
+                getReserveringen();
+
             }
 
         }
@@ -201,6 +203,7 @@ namespace ProjectB
                     password = boxPassword.Text,
                     email = boxEmail.Text,
                     chair = new string [0],
+                    
 
                 };
                 fileName = "users.json";
@@ -215,7 +218,7 @@ namespace ProjectB
                 panelMyProfile.Show();
                 panelAanmelden.Hide();
                 itemJson = newuser;
-
+                getReserveringen();
                 labelNaam.Text = boxUsername.Text;
                 labelMail.Text = boxEmail.Text;
             }
@@ -246,6 +249,21 @@ namespace ProjectB
             boxUsername.Clear();
             boxEmail.Clear();
             boxPasswordrepeat.Clear();
+        }
+        public void getReserveringen()
+        {
+            if (itemJson.chair.Length == 0)
+            {
+                reserveringen.Text = "U hebt geen reserveringen";
+            }
+            else
+            {
+                reserveringen.Text = "";
+                foreach (var item in itemJson.chair)
+                {
+                    reserveringen.Text += item + "\n";
+                }
+            }
         }
     }
 }

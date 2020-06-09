@@ -5,10 +5,12 @@ using System.Windows.Forms;
 
 namespace ProjectB
 {
+    
     public partial class Movie : Form
 
 
     {
+        public static string movieChosen;
         public static int aantalTickets;
         public Movie()
         {
@@ -238,6 +240,7 @@ namespace ProjectB
 
 
             movieTitle.Text = "Onward";
+            movieChosen = "Onward";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "De nieuwe Disney en Pixar film Onward vertelt het\n" +
                 "verhaal van twee tiener elvenbroers.\n" +
@@ -273,6 +276,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "Brooklyn Affairs";
+            movieChosen = "Brooklyn Affairs";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Motherless Brooklyn is een Amerikaanse neo-noir misdaadfilm\n" +
                 "uit 2019, geschreven,geproduceerd en geregisseerd door Edward Norton,\n" +
@@ -300,7 +304,7 @@ namespace ProjectB
                 "(Zaal 1)\n\n" +
                 "Tijdstip:\n\n" +
                 "14 april 2020\n" +
-                "14:00 - 17:00";
+                "16:00 - 19:00";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
 
@@ -314,6 +318,7 @@ namespace ProjectB
             ShowPanel(movieDescriptionPanel);
 
             movieTitle.Text = "LIKE A BOSS";
+            movieChosen = "LIKE A BOSS";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "In de hilarische nieuwe komedie Like a Boss lijkt het \n" +
                 "de beste vriendinnen Mia en Mel\n" +
@@ -333,10 +338,10 @@ namespace ProjectB
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
             bioscoopDetails.Text = "Bioscoop kinepolis\n" +
-                "(Zaal 2)\n\n" +
+                "(Zaal 1)\n\n" +
                 "Tijdstip:\n\n" +
                 "14 april 2020\n" +
-                "16:00 - 17:30";
+                "19:30 - 21:00";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
 
@@ -348,6 +353,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "MIDWAY";
+            movieChosen = "MIDWAY";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Midway is een oorlogsfilm uit 2019,\n" +
                 "geregisseerd door Roland Emmerich.\n" +
@@ -368,10 +374,10 @@ namespace ProjectB
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
             bioscoopDetails.Text = "Bioscoop kinepolis\n" +
-                "(Zaal 3)\n\n" +
+                "(Zaal 1)\n\n" +
                 "Tijdstip:\n\n" +
                 "15 april 2020\n" +
-                "16:00 - 17:30";
+                "22:00 - 00:30";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
 
@@ -383,6 +389,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "Bad Boys for Life";
+            movieChosen = "Bad Boys for Life";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Terwijl Mike Lowrey in een midlifecrisis zit is Marcus Burnett opgeklommen tot\n" +
                 "politie-inspecteur.De twee herenigen wanneer ze tot de ontdekking komen dat\n" +
@@ -405,7 +412,7 @@ namespace ProjectB
                 "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
                 "16 april 2020\n" +
-                "16:00 - 17:30";
+                "13:00 - 15:00";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
 
@@ -417,6 +424,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "Training Day";
+            movieChosen = "Training Day";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Jake Hoyt begint aan zijn eerste dag bij de narcoticabrigade.\n" +
                 "lonzo Harris, de leider van het team, blijkt niet alles volgens het boekje te doen.\n" +
@@ -436,10 +444,10 @@ namespace ProjectB
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
             bioscoopDetails.Text = "Bioscoop kinepolis\n" +
-                "(Zaal 1)\n\n" +
+                "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
                 "17 april 2020\n" +
-                "16:00 - 17:30";
+                "16:00 - 18:00";
             reserveerknop.Text = "Reserveer\n" + "een plek";
             pictureBoxBeschrijving.Image = Image.FromFile("resources\\trainingday.png");
             moviePicture.Image = Image.FromFile("resources\\trainingday.png");
@@ -449,6 +457,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "Hors Normes";
+            movieChosen = "Hors Normes";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Bruno en Malik houden zich reeds 20 jaar op in de leefwereld van de kinderen\n" +
                 "en jongvolwassenen met autisme.Ze hebben de leiding over twee non-profitorganisaties\n" +
@@ -473,7 +482,7 @@ namespace ProjectB
                 "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
                 "17 april 2020\n" +
-                "16:00 - 17:30";
+                "19:00 - 21:30";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
             pictureBoxBeschrijving.Image = Image.FromFile("resources\\hors_normes_banner.jpg");
@@ -484,6 +493,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "Aladdin";
+            movieChosen = "Aladdin";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Aladdin is een straatschoffie dat steelt om te overleven en verliefd is op een prinses,\n" +
                 "de dochter van de Sultan. Vervolgens vindt hij een magische lamp, waaruit een Geest\n" +
@@ -503,10 +513,10 @@ namespace ProjectB
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
             bioscoopDetails.Text = "Bioscoop kinepolis\n" +
-                "(Zaal 3)\n\n" +
+                "(Zaal 2)\n\n" +
                 "Tijdstip:\n\n" +
                 "18 april 2020\n" +
-                "16:00 - 17:30";
+                "22:00 - 00:30";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
 
@@ -518,6 +528,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "No Time To Die";
+            movieChosen = "No Time To Die";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "In 'No Time to Die' heeft James Bond zijn turbulente leven als geheim agent\n" +
                 "achter zich gelaten en leidt hij een rustig bestaan op Jamaica.\n" +
@@ -541,7 +552,7 @@ namespace ProjectB
                 "(Zaal 3)\n\n" +
                 "Tijdstip:\n\n" +
                 "18 april 2020\n" +
-                "16:00 - 17:30";
+                "13:00 - 16:00";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
 
@@ -553,6 +564,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "Scapin the schemer";
+            movieChosen = "Scapin the schemer";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "De amoureuze bedoelingen van Octave en Léandre worden gedwarsboomd door twee\n" +
                 "autoritaire vaders die net zijn teruggekeerd van een reis, vastbesloten om hun\n" +
@@ -575,7 +587,7 @@ namespace ProjectB
                 "(Zaal 3)\n\n" +
                 "Tijdstip:\n\n" +
                 "18 april 2020\n" +
-                "16:00 - 17:30";
+                "17:00 - 20:00";
             reserveerknop.Text = "Reserveer\n" + "een plek";
             pictureBoxBeschrijving.Image = Image.FromFile("resources\\scapin_poster.jpg");
             moviePicture.Image = Image.FromFile("resources\\scapin_poster.jpg");
@@ -585,6 +597,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "Muse";
+            movieChosen = "Muse";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Een treurende Engelse literatuurprofessor die lijdt aan een vreselijk terugkerende\n" +
                 "nachtmerrie, zal al snel worden ondergedompeld in een macabere wereld\n" +
@@ -604,10 +617,10 @@ namespace ProjectB
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
             bioscoopDetails.Text = "Bioscoop kinepolis\n" +
-                "(Zaal 2)\n\n" +
+                "(Zaal 3)\n\n" +
                 "Tijdstip:\n\n" +
                 "19 april 2020\n" +
-                "16:00 - 17:30";
+                "20:30 - 22:30";
             reserveerknop.Text = "Reserveer\n" + "een plek";
             pictureBoxBeschrijving.Image = Image.FromFile("resources\\Muse.png");
             moviePicture.Image = Image.FromFile("resources\\Muse.png");
@@ -617,6 +630,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "Dachra";
+            movieChosen = "Dachra";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "De studente Yassmine doet samen met Walid en Bilel onderzoek naar de onopgeloste\n" +
                 "zaak van Mongia, een vrouw die ruim twee decennia geleden verminkt teruggevonden\n" +
@@ -639,10 +653,10 @@ namespace ProjectB
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
             bioscoopDetails.Text = "Bioscoop kinepolis\n" +
-                "(Zaal 2)\n\n" +
+                "(Zaal 3)\n\n" +
                 "Tijdstip:\n\n" +
                 "20 april 2020\n" +
-                "16:00 - 17:30";
+                "23:00 - 01:00";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
 
@@ -654,6 +668,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "A quiet place";
+            movieChosen = "A quiet place";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Een gezin moet sluipend, lippend en gebarend door het leven gaan.\n" +
                 "Het minste geluid kan hen overleveren aan geheimzinnige wezens die\n" +
@@ -674,10 +689,10 @@ namespace ProjectB
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
             bioscoopDetails.Text = "Bioscoop kinepolis\n" +
-                "(Zaal 2)\n\n" +
+                "(Zaal 4)\n\n" +
                 "Tijdstip:\n\n" +
                 "21 april 2020\n" +
-                "16:00 - 17:30";
+                "15:00 - 16:30";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
             pictureBoxBeschrijving.Image = Image.FromFile("resources\\aquietplace.jpg");
@@ -688,6 +703,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "The fop reformed";
+            movieChosen = "The fop reformed";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Het verhaal is dat van een jonge Parijzenaar wiens ouders een goede\n" +
                 "match voor hem hebben gevonden,de dochter van een graaf. Maar wanneer hij\n" +
@@ -709,10 +725,10 @@ namespace ProjectB
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
             bioscoopDetails.Text = "Bioscoop kinepolis\n" +
-                "(Zaal 1)\n\n" +
+                "(Zaal 4)\n\n" +
                 "Tijdstip:\n\n" +
                 "22 april 2020\n" +
-                "16:00 - 17:30";
+                "17:00 - 19:30";
             reserveerknop.Text = "Reserveer\n" + "een plek";
 
 
@@ -724,6 +740,7 @@ namespace ProjectB
         {
             ShowPanel(movieDescriptionPanel);
             movieTitle.Text = "The Nun";
+            movieChosen = "The Nun";
             movieDescription.Text = "Film beschrijving:\n\n" +
                 "Het Vaticaan stuurt een priester met een spookachtig verleden en een novice\n" +
                 "op de drempel van haar laatste geloften om de dood van een jonge non\n" +
@@ -743,10 +760,10 @@ namespace ProjectB
                 "Te zien in: 3D, IMAX, Dolby Cinema";
 
             bioscoopDetails.Text = "Bioscoop kinepolis\n" +
-                "(Zaal 1)\n\n" +
+                "(Zaal 4)\n\n" +
                 "Tijdstip:\n\n" +
                 "23 april 2020\n" +
-                "16:00 - 17:30";
+                "20:00 - 22:00";
             reserveerknop.Text = "Reserveer\n" + "een plek";
             pictureBoxBeschrijving.Image = Image.FromFile("resources\\thenun.jpg");
             moviePicture.Image = Image.FromFile("resources\\thenun.jpg");

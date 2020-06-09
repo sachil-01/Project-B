@@ -30,7 +30,7 @@ namespace ProjectB
                     Button chair = new Button();
                     chair.Location = new Point(buttonX, buttonY);
                     chair.Size = new Size(ButtonWidth, ButtonHeight);
-                    chair.Name = "chair " + counter;
+                    chair.Name = "chair " + counter+", Movie: "+ Movie.movieChosen;
                     chair.Text = "" + counter;
                     chair.TabStop = false;
                     chair.FlatStyle = FlatStyle.Flat;

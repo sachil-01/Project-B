@@ -61,6 +61,7 @@
             this.logoutbutton = new System.Windows.Forms.Button();
             this.labelMail = new System.Windows.Forms.Label();
             this.labelNaam = new System.Windows.Forms.Label();
+            this.reserveringen = new System.Windows.Forms.Label();
             this.panelBoven.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.iconContact)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.iconMyAccount)).BeginInit();
@@ -425,6 +426,7 @@
             // panelMyProfile
             // 
             this.panelMyProfile.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.panelMyProfile.Controls.Add(this.reserveringen);
             this.panelMyProfile.Controls.Add(this.logoutbutton);
             this.panelMyProfile.Controls.Add(this.labelMail);
             this.panelMyProfile.Controls.Add(this.labelNaam);
@@ -471,14 +473,26 @@
             this.labelNaam.TabIndex = 4;
             this.labelNaam.Text = "label13";
             // 
+            // reserveringen
+            // 
+            this.reserveringen.AutoSize = true;
+            this.reserveringen.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.reserveringen.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.reserveringen.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.reserveringen.Location = new System.Drawing.Point(704, 101);
+            this.reserveringen.Name = "reserveringen";
+            this.reserveringen.Size = new System.Drawing.Size(152, 25);
+            this.reserveringen.TabIndex = 7;
+            this.reserveringen.Text = "Reserveringen";
+            // 
             // FormProfiel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1127, 629);
             this.Controls.Add(this.panelBoven);
-            this.Controls.Add(this.panelAanmelden);
             this.Controls.Add(this.panelMyProfile);
+            this.Controls.Add(this.panelAanmelden);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
@@ -533,6 +547,7 @@
         private System.Windows.Forms.Label labelNaam;
         private System.Windows.Forms.Label labelMail;
         private System.Windows.Forms.Button logoutbutton;
+        private System.Windows.Forms.Label reserveringen;
     }
 }
 
