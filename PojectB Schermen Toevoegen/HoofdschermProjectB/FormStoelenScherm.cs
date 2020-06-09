@@ -168,7 +168,7 @@ namespace ProjectB
             contactScherm.Show();
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
+        private void BtnBackClick(object sender, EventArgs e)
         {
             Movie movie = new Movie();
             this.Hide();

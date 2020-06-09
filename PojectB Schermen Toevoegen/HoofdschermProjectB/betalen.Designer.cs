@@ -83,7 +83,7 @@
             this.btnBackBetalen.TabIndex = 19;
             this.btnBackBetalen.Text = "Terug";
             this.btnBackBetalen.UseVisualStyleBackColor = false;
-            this.btnBackBetalen.Click += new System.EventHandler(this.btnBackBetalen_Click);
+            this.btnBackBetalen.Click += new System.EventHandler(this.BtnBackBetalenClick);
             // 
             // label1
             // 

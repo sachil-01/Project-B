@@ -259,7 +259,7 @@
             this.btnBack.TabIndex = 134;
             this.btnBack.Text = "Terug";
             this.btnBack.UseVisualStyleBackColor = false;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            this.btnBack.Click += new System.EventHandler(this.BtnBackClick);
             // 
             // stoelNummer
             // 
