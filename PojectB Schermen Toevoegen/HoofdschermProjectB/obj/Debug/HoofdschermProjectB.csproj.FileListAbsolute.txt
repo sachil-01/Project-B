@@ -197,3 +197,4 @@ C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\H
 D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Movie.resources
 C:\Users\Admin\Documents\GitHub\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Movie.resources
 C:\Users\moham\Documents\GitHub\New folder\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\obj\Debug\ProjectB.Movie.resources
+D:\PorjectB\PojectB Schermen Toevoegen\HoofdschermProjectB\bin\Debug\EASendMail.dll

@@ -11,7 +11,7 @@ namespace ProjectB
     public partial class FormProfiel : Form
     {
 
-        public static bool loggedin = false;
+        public static bool loggedIn = false;
         public static Users itemJson;
         public static string username = "";
         public static string email = "";
@@ -22,7 +22,7 @@ namespace ProjectB
         public FormProfiel()
         {
             InitializeComponent();
-            if (loggedin)
+            if (loggedIn)
             {
                 panelAanmelden.Hide();
                 panelMyProfile.Show();
@@ -30,10 +30,6 @@ namespace ProjectB
                 labelMail.Text = itemJson.email.ToString();
                 getReserveringen();
             }
-
-
-
-
 
             else
             {
@@ -58,7 +54,7 @@ namespace ProjectB
                 {
                     MessageBox.Show("You are logged in now!");
 
-                    FormProfiel.loggedin = true;
+                    FormProfiel.loggedIn = true;
                     FormProfiel.username = item.username.ToString();
                     FormProfiel.email = item.email;
                     FormProfiel.itemJson = item;
@@ -179,21 +175,15 @@ namespace ProjectB
                 }
             }
 
-
-
             if (boxPassword.Text != boxPasswordrepeat.Text)
             {
-
                 MessageBox.Show("Your password does not match!");
-
             }
             
             else if(IsValidEmail(boxEmail.Text))
             {
                 MessageBox.Show("This mail is not correct");
             }
-                   
-
 
             else if(checker2)
             {
@@ -203,7 +193,6 @@ namespace ProjectB
                     password = boxPassword.Text,
                     email = boxEmail.Text,
                     chair = new string [0],
-                    
 
                 };
                 fileName = "users.json";
@@ -214,7 +203,7 @@ namespace ProjectB
                 dynJson = JsonConvert.DeserializeObject<List<Users>>(rawJson);
                 File.WriteAllText(fileName, newJson);
                 MessageBox.Show("Your account has been made!");
-                loggedin = true;
+                loggedIn = true;
                 panelMyProfile.Show();
                 panelAanmelden.Hide();
                 itemJson = newuser;
@@ -237,9 +226,9 @@ namespace ProjectB
             }
         }
 
-        private void logoutbutton_Click(object sender, EventArgs e)
+        private void LogoutbuttonClick(object sender, EventArgs e)
         {
-            loggedin = false;
+            loggedIn = false;
             MessageBox.Show("U bent nu uitgelogd!");
             panelMyProfile.Hide();
             panelAanmelden.Show();

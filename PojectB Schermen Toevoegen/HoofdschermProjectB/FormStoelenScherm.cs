@@ -10,17 +10,13 @@ namespace ProjectB
         List<Button> chairs = new List<Button>();
         List<string> reservedChairsList = new List<string>();
         public static string[] reservedChairs;
-
-
         const int ButtonWidth = 45, ButtonHeight = 45;
         int counter = 1, chairCounter = 1;
         Button redChair, reserved;
 
-
         public FormStoelenScherm()
 
         {
-
             InitializeComponent();
             stoelNummer.Text = "Kies stoel nummer " + chairCounter;
             for (int countVertical = 1, buttonY = 100; countVertical < 11; countVertical++, buttonY += 50)
@@ -40,8 +36,6 @@ namespace ProjectB
                     panelStoelen.Controls.Add(chair);
                     chairs.Add(chair);
                     chair.Click += new EventHandler(this.SelectChair);
-
-
                 }
 
                 reserved = Helper;
@@ -58,14 +52,10 @@ namespace ProjectB
                     }
                 }
             }
-
-
-
         }
 
         private void SelectChair(object sender, EventArgs e)
         {
-
             reserved.BackColor = Color.PeachPuff;
             Button Chair = (Button)sender;       
             Chair.BackColor = Color.Blue;
@@ -74,7 +64,7 @@ namespace ProjectB
             redChair = reserved;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ButtonVolgendeClick(object sender, EventArgs e)
         {
 
             if (chairCounter < Movie.aantalTickets)

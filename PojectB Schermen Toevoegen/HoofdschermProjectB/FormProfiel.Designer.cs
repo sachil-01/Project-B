@@ -437,7 +437,7 @@
             this.logoutbutton.TabIndex = 6;
             this.logoutbutton.Text = "Uitloggen";
             this.logoutbutton.UseVisualStyleBackColor = false;
-            this.logoutbutton.Click += new System.EventHandler(this.logoutbutton_Click);
+            this.logoutbutton.Click += new System.EventHandler(this.LogoutbuttonClick);
             // 
             // labelMail
             // 

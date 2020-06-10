@@ -20,12 +20,9 @@ namespace ProjectB
 
         private void PictureBoxMovieClick(object sender, EventArgs e)
         {
-            
-
             this.Hide();
             Movie movies = new Movie();
             movies.Show();
-           
         }
 
         private void LabelMovisClick(object sender, EventArgs e)
@@ -33,7 +30,6 @@ namespace ProjectB
             this.Hide();
             Movie movies = new Movie();
             movies.Show();
-            
         }
 
         private void LabeProfileMouseMove(object sender, MouseEventArgs e)
@@ -66,13 +62,8 @@ namespace ProjectB
             labelMovis.ForeColor = Color.Black;
         }
 
-
-
         private void LabelProfileClick(object sender, EventArgs e)
-        {
-         
-            
-            
+        { 
             FormProfiel formProfiel = new FormProfiel();
             this.Hide();
             formProfiel.Show();

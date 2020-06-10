@@ -7,8 +7,6 @@ namespace ProjectB
 {
     
     public partial class Movie : Form
-
-
     {
         public static string movieChosen;
         public static int aantalTickets;
@@ -51,96 +49,21 @@ namespace ProjectB
             LabelMovis.ForeColor = Color.Black;
         }
 
-
-
         private void ComboBox1SelectedValueChanged(object sender, EventArgs e)
         {
-            string cBname = comboBoxAll.SelectedItem.ToString();
-            
-            if (cBname == "Horror")
-            {
-                ShowPanel(panelHorror);
-
-            }
-            else if (cBname == "Comedy")
-            {
-                ShowPanel(panelComedy);
-            }
-            else if (cBname == "Action")
-            {
-                ShowPanel(panelAction);
-            }
-            else if (cBname == "All")
-            {
-                ShowPanel(panelMovies);
-            }
-
+            ChooseGenre(comboBoxAll.SelectedItem.ToString());
         }
         private void ComboBox2SelectedValueChanged(object sender, EventArgs e)
         {
-            string cBname = comboBoxAction.SelectedItem.ToString();
-
-            if (cBname == "Horror")
-            {
-                ShowPanel(panelHorror);
-
-            }
-            else if (cBname == "Comedy")
-            {
-                ShowPanel(panelComedy);
-            }
-            else if (cBname == "Action")
-            {
-                ShowPanel(panelAction);
-            }
-            else if (cBname == "All")
-            {
-                ShowPanel(panelMovies);
-            }
+            ChooseGenre(comboBoxAction.SelectedItem.ToString());
         }
         private void ComboBox3SelectedValueChanged(object sender, EventArgs e)
         {
-            string cBname = comboBoxComedy.SelectedItem.ToString();
-
-            if (cBname == "Horror")
-            {
-                ShowPanel(panelHorror);
-
-            }
-            else if (cBname == "Comedy")
-            {
-                ShowPanel(panelComedy);
-            }
-            else if (cBname == "Action")
-            {
-                ShowPanel(panelAction);
-            }
-            else if (cBname == "All")
-            {
-                ShowPanel(panelMovies);
-            }
+            ChooseGenre(comboBoxComedy.SelectedItem.ToString());
         }
         private void ComboBox4SelectedValueChanged(object sender, EventArgs e)
         {
-            string cBname = comboBoxHorror.SelectedItem.ToString();
-
-            if (cBname == "Horror")
-            {
-                ShowPanel(panelHorror);
-
-            }
-            else if (cBname == "Comedy")
-            {
-                ShowPanel(panelComedy);
-            }
-            else if (cBname == "Action")
-            {
-                ShowPanel(panelAction);
-            }
-            else if (cBname == "All")
-            {
-                ShowPanel(panelMovies);
-            }
+            ChooseGenre(comboBoxHorror.SelectedItem.ToString());
         }
         private void ShowPanel(Panel panel)
         {
@@ -166,11 +89,24 @@ namespace ProjectB
             
 
         }
-
-
-
-
-
+        public void ChooseGenre(string genre)
+        {
+            switch(genre)
+            {
+                case "Horror":
+                    ShowPanel(panelHorror);
+                    break;
+                case "Comedy":
+                    ShowPanel(panelComedy);
+                    break;
+                case "Action":
+                    ShowPanel(panelAction);
+                    break;
+                case "All":
+                    ShowPanel(panelMovies);
+                    break;
+            }
+        }
 
         private void PictureBoxContactClick1(object sender, EventArgs e)
         {
@@ -180,10 +116,10 @@ namespace ProjectB
             ContactPagina.Show();
             
         }
-        private void LabelMyaccount_Click(object sender, EventArgs e)
+        private void LabelMyaccountClick(object sender, EventArgs e)
         {
 
-            if (FormProfiel.loggedin)
+            if (FormProfiel.loggedIn)
             {
                 FormProfiel profielPagina = new FormProfiel();
                 this.Hide();
@@ -199,40 +135,23 @@ namespace ProjectB
             }
         }
 
-
-
-
-        private void LabelMovis_Click(object sender, EventArgs e)
+        private void LabelMovisClick(object sender, EventArgs e)
         {
             ShowPanel(panelMovies);
         }
 
-        private void PictureBoxMovis_Click(object sender, EventArgs e)
+        private void PictureBoxMovisClick(object sender, EventArgs e)
         {
             ShowPanel(panelMovies);
         }
 
 
-
-        
-
-
-
-
-        private void BtnQuit_Click(object sender, EventArgs e)
+        private void BtnQuitClick(object sender, EventArgs e)
         {
             Close();
         }
 
-
-
-
-
-
         // Sachil Code
-
-
-
         private void PictureBoxOnwardClick(object sender, EventArgs e)
         {
             ShowPanel(movieDescriptionPanel);
@@ -592,7 +511,6 @@ namespace ProjectB
             pictureBoxBeschrijving.Image = Image.FromFile("resources\\scapin_poster.jpg");
             moviePicture.Image = Image.FromFile("resources\\scapin_poster.jpg");
         }
-
         private void PictureBoxMuseClick(object sender, EventArgs e)
         {
             ShowPanel(movieDescriptionPanel);
@@ -735,7 +653,6 @@ namespace ProjectB
             pictureBoxBeschrijving.Image = Image.FromFile("resources\\thefopreformed_poster.jpg");
             moviePicture.Image = Image.FromFile("resources\\thefopreformed_poster.jpg");
         }
-
         private void PictureBoxTheNunClick(object sender, EventArgs e)
         {
             ShowPanel(movieDescriptionPanel);
@@ -768,8 +685,6 @@ namespace ProjectB
             pictureBoxBeschrijving.Image = Image.FromFile("resources\\thenun.jpg");
             moviePicture.Image = Image.FromFile("resources\\thenun.jpg");
         }
-
-
         private void PictureBoxBrooklClick(object sender, EventArgs e)
         {
             PictureBoxBrooklynClick(sender, e);
@@ -844,14 +759,7 @@ namespace ProjectB
         {
             PictureBoxTheNunClick(sender, e);
         }
-       
-        
-        
-        
-        
-        
-        
-        
+
         // panel ReserveerStoel
 
         private void ReserveerknopClick(object sender, EventArgs e)
@@ -870,8 +778,6 @@ namespace ProjectB
             {
                 total = 12;
                 labelTotalprice.Text = "$" + total;
-
-
             }
             else if (numberOfPeople == "2")
             {
@@ -893,11 +799,9 @@ namespace ProjectB
                 total = 60;
                 labelTotalprice.Text = "$" + total;
             }
-
             aantalTickets = Int32.Parse(numberOfPeople);
         }
         
-
         private void ButtonKiesStoelClick(object sender, EventArgs e)
         {
             if (total < 12)

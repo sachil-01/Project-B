@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.BankBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.BankNrLabel = new System.Windows.Forms.Label();
             this.BevestigenKnop = new System.Windows.Forms.Button();
@@ -44,17 +43,9 @@
             this.WachtWoordBox = new System.Windows.Forms.TextBox();
             this.WachtwoordLabel = new System.Windows.Forms.Label();
             this.LogInKnop = new System.Windows.Forms.Button();
+            this.BankBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.check)).BeginInit();
             this.SuspendLayout();
-            // 
-            // BankBox
-            // 
-            this.BankBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BankBox.Location = new System.Drawing.Point(489, 428);
-            this.BankBox.Margin = new System.Windows.Forms.Padding(5);
-            this.BankBox.Name = "BankBox";
-            this.BankBox.Size = new System.Drawing.Size(531, 34);
-            this.BankBox.TabIndex = 0;
             // 
             // label2
             // 
@@ -63,7 +54,7 @@
             this.label2.Location = new System.Drawing.Point(201, 291);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 29);
+            this.label2.Size = new System.Drawing.Size(0, 24);
             this.label2.TabIndex = 5;
             // 
             // BankNrLabel
@@ -73,7 +64,7 @@
             this.BankNrLabel.Location = new System.Drawing.Point(65, 522);
             this.BankNrLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.BankNrLabel.Name = "BankNrLabel";
-            this.BankNrLabel.Size = new System.Drawing.Size(255, 29);
+            this.BankNrLabel.Size = new System.Drawing.Size(202, 24);
             this.BankNrLabel.TabIndex = 8;
             this.BankNrLabel.Text = "Bankrekening nummer";
             // 
@@ -120,7 +111,7 @@
             this.BankLabel.Location = new System.Drawing.Point(65, 431);
             this.BankLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.BankLabel.Name = "BankLabel";
-            this.BankLabel.Size = new System.Drawing.Size(67, 29);
+            this.BankLabel.Size = new System.Drawing.Size(52, 24);
             this.BankLabel.TabIndex = 4;
             this.BankLabel.Text = "Bank";
             // 
@@ -131,7 +122,7 @@
             this.label3.Location = new System.Drawing.Point(65, 179);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(203, 29);
+            this.label3.Size = new System.Drawing.Size(159, 24);
             this.label3.TabIndex = 16;
             this.label3.Text = "Gebruikersnaam: ";
             // 
@@ -142,7 +133,7 @@
             this.MailLabel.Location = new System.Drawing.Point(65, 270);
             this.MailLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.MailLabel.Name = "MailLabel";
-            this.MailLabel.Size = new System.Drawing.Size(88, 29);
+            this.MailLabel.Size = new System.Drawing.Size(68, 24);
             this.MailLabel.TabIndex = 17;
             this.MailLabel.Text = "E-mail:";
             // 
@@ -152,7 +143,7 @@
             this.BankNrBox.Location = new System.Drawing.Point(489, 519);
             this.BankNrBox.Margin = new System.Windows.Forms.Padding(5);
             this.BankNrBox.Name = "BankNrBox";
-            this.BankNrBox.Size = new System.Drawing.Size(531, 34);
+            this.BankNrBox.Size = new System.Drawing.Size(531, 28);
             this.BankNrBox.TabIndex = 18;
             // 
             // GebruikersNaamLabel
@@ -162,7 +153,7 @@
             this.GebruikersNaamLabel.Location = new System.Drawing.Point(484, 179);
             this.GebruikersNaamLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.GebruikersNaamLabel.Name = "GebruikersNaamLabel";
-            this.GebruikersNaamLabel.Size = new System.Drawing.Size(191, 29);
+            this.GebruikersNaamLabel.Size = new System.Drawing.Size(149, 24);
             this.GebruikersNaamLabel.TabIndex = 19;
             this.GebruikersNaamLabel.Text = "Gebruikersnaam";
             // 
@@ -173,7 +164,7 @@
             this.EmailLabel.Location = new System.Drawing.Point(484, 270);
             this.EmailLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.EmailLabel.Name = "EmailLabel";
-            this.EmailLabel.Size = new System.Drawing.Size(82, 29);
+            this.EmailLabel.Size = new System.Drawing.Size(63, 24);
             this.EmailLabel.TabIndex = 20;
             this.EmailLabel.Text = "E-mail";
             // 
@@ -183,7 +174,7 @@
             this.GebruikersNaamBox.Location = new System.Drawing.Point(489, 176);
             this.GebruikersNaamBox.Margin = new System.Windows.Forms.Padding(5);
             this.GebruikersNaamBox.Name = "GebruikersNaamBox";
-            this.GebruikersNaamBox.Size = new System.Drawing.Size(531, 34);
+            this.GebruikersNaamBox.Size = new System.Drawing.Size(531, 28);
             this.GebruikersNaamBox.TabIndex = 21;
             this.GebruikersNaamBox.Visible = false;
             // 
@@ -193,7 +184,7 @@
             this.WachtWoordBox.Location = new System.Drawing.Point(489, 265);
             this.WachtWoordBox.Margin = new System.Windows.Forms.Padding(5);
             this.WachtWoordBox.Name = "WachtWoordBox";
-            this.WachtWoordBox.Size = new System.Drawing.Size(531, 34);
+            this.WachtWoordBox.Size = new System.Drawing.Size(531, 28);
             this.WachtWoordBox.TabIndex = 22;
             this.WachtWoordBox.Visible = false;
             // 
@@ -204,7 +195,7 @@
             this.WachtwoordLabel.Location = new System.Drawing.Point(65, 270);
             this.WachtwoordLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.WachtwoordLabel.Name = "WachtwoordLabel";
-            this.WachtwoordLabel.Size = new System.Drawing.Size(153, 29);
+            this.WachtwoordLabel.Size = new System.Drawing.Size(121, 24);
             this.WachtwoordLabel.TabIndex = 23;
             this.WachtwoordLabel.Text = "Wachtwoord:";
             this.WachtwoordLabel.Visible = false;
@@ -222,12 +213,31 @@
             this.LogInKnop.Visible = false;
             this.LogInKnop.Click += new System.EventHandler(this.LogInKnopClick);
             // 
+            // BankBox
+            // 
+            this.BankBox.Cursor = System.Windows.Forms.Cursors.Default;
+            this.BankBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.BankBox.FormattingEnabled = true;
+            this.BankBox.Items.AddRange(new object[] {
+            "ABN AMRO",
+            "Rabobank",
+            "ING",
+            "bunq",
+            "SNS Bank",
+            "ASN Bank",
+            "Triodos"});
+            this.BankBox.Location = new System.Drawing.Point(489, 435);
+            this.BankBox.Name = "BankBox";
+            this.BankBox.Size = new System.Drawing.Size(531, 21);
+            this.BankBox.TabIndex = 25;
+            // 
             // IDEAL
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(1483, 853);
+            this.Controls.Add(this.BankBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.WachtwoordLabel);
             this.Controls.Add(this.LogInKnop);
@@ -237,7 +247,6 @@
             this.Controls.Add(this.Transactie);
             this.Controls.Add(this.BevestigenKnop);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.BankBox);
             this.Controls.Add(this.BankLabel);
             this.Controls.Add(this.BankNrLabel);
             this.Controls.Add(this.GebruikersNaamBox);
@@ -259,8 +268,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox BankBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label BankNrLabel;
         private System.Windows.Forms.Button BevestigenKnop;
@@ -276,5 +283,6 @@
         private System.Windows.Forms.TextBox WachtWoordBox;
         private System.Windows.Forms.Label WachtwoordLabel;
         private System.Windows.Forms.Button LogInKnop;
+        private System.Windows.Forms.ComboBox BankBox;
     }
 }

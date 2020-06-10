@@ -21,9 +21,6 @@ namespace ProjectB
             Selcect1.Visible = false;
 
         }
-
-
-
         private void PictureBox2Click(object sender, EventArgs e)
         {
           

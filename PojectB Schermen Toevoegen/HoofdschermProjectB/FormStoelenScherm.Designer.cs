@@ -299,7 +299,7 @@
             this.buttonVolgende.TabIndex = 131;
             this.buttonVolgende.Text = "Volgende";
             this.buttonVolgende.UseVisualStyleBackColor = false;
-            this.buttonVolgende.Click += new System.EventHandler(this.button1_Click);
+            this.buttonVolgende.Click += new System.EventHandler(this.ButtonVolgendeClick);
             // 
             // labelJouwStoel
             // 
