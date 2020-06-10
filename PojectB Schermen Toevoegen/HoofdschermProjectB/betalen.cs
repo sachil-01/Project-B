@@ -13,7 +13,7 @@ namespace ProjectB
 
 
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void PictureBox1Click(object sender, EventArgs e)
         {
         
             Betaalbutton.Visible = true;
@@ -24,7 +24,7 @@ namespace ProjectB
 
 
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void PictureBox2Click(object sender, EventArgs e)
         {
           
             Betaalbutton.Visible = true;
@@ -33,7 +33,7 @@ namespace ProjectB
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2Click(object sender, EventArgs e)
         {
            
             var newForm = new IDEAL();
@@ -42,91 +42,91 @@ namespace ProjectB
 
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void PictureBox3Click(object sender, EventArgs e)
         {
             MessageBox.Show("Credit Card is geselecteerd.");
             Betaalbutton.Visible = true;
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
+        private void PictureBox4Click(object sender, EventArgs e)
         {
             MessageBox.Show("American Express is geselecteerd.");
             Betaalbutton.Visible = true;
         }
 
-        private void labelMovis_MouseMove(object sender, MouseEventArgs e)
+        private void LabelMovisMouseMove(object sender, MouseEventArgs e)
         {
             labelMovis.ForeColor = Color.White;
         }
 
-        private void labelMovis_MouseLeave(object sender, EventArgs e)
+        private void LabelMovisMouseLeave(object sender, EventArgs e)
         {
             labelMovis.ForeColor = Color.Black;
         }
 
-        private void labelContact_MouseMove(object sender, MouseEventArgs e)
+        private void LabelContactMouseMove(object sender, MouseEventArgs e)
         {
             labelContact.ForeColor = Color.White;
         }
 
-        private void labelContact_MouseLeave(object sender, EventArgs e)
+        private void LabelContactMouseLeave(object sender, EventArgs e)
         {
             labelContact.ForeColor = Color.Black;
         }
 
-        private void labelMyaccount_MouseMove(object sender, MouseEventArgs e)
+        private void LabelMyaccountMouseMove(object sender, MouseEventArgs e)
         {
             labelMyaccount.ForeColor = Color.White;
         }
 
-        private void labelMyaccount_MouseLeave(object sender, EventArgs e)
+        private void LabelMyaccountMouseLeave(object sender, EventArgs e)
         {
             labelMyaccount.ForeColor = Color.Black;
         }
 
-        private void labelMovis_Click(object sender, EventArgs e)
+        private void LabelMovisClick(object sender, EventArgs e)
         {
             Movie hoofdScherm = new Movie();
             this.Hide();
             hoofdScherm.Show();
         }
 
-        private void pictureBoxMovis_Click(object sender, EventArgs e)
+        private void PictureBoxMovisClick(object sender, EventArgs e)
         {
             Movie hoofdScherm = new Movie();
             this.Hide();
             hoofdScherm.Show();
         }
 
-        private void labelContact_Click(object sender, EventArgs e)
+        private void LabelContactClick(object sender, EventArgs e)
         {
             ContactForm contactPagina = new ContactForm();
             this.Hide();
             contactPagina.Show();
         }
 
-        private void pictureBoxContact_Click(object sender, EventArgs e)
+        private void PictureBoxContactClick(object sender, EventArgs e)
         {
             ContactForm contactPagina = new ContactForm();
             this.Hide();
             contactPagina.Show();
         }
 
-        private void labelMyaccount_Click(object sender, EventArgs e)
+        private void LabelMyaccountClick(object sender, EventArgs e)
         {
             FormProfiel profielPagina = new FormProfiel();
             this.Hide();
             profielPagina.Show();
         }
 
-        private void pictureBoxMyaccount_Click(object sender, EventArgs e)
+        private void PictureBoxMyaccountClick(object sender, EventArgs e)
         {
             FormProfiel profielPagina = new FormProfiel();
             this.Hide();
             profielPagina.Show();
         }
 
-        private void betalen_FormClosed(object sender, FormClosedEventArgs e)
+        private void BetalenFormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }

@@ -23,16 +23,16 @@ namespace ProjectB
             
 
             this.Hide();
-            Movie a = new Movie();
-            a.Show();
+            Movie movies = new Movie();
+            movies.Show();
            
         }
 
         private void LabelMovisClick(object sender, EventArgs e)
         {
             this.Hide();
-            Movie a = new Movie();
-            a.Show();
+            Movie movies = new Movie();
+            movies.Show();
             
         }
 

@@ -124,9 +124,9 @@
             this.labelMyaccount.Size = new System.Drawing.Size(291, 58);
             this.labelMyaccount.TabIndex = 13;
             this.labelMyaccount.Text = "My account";
-            this.labelMyaccount.Click += new System.EventHandler(this.labelMyaccount_Click);
-            this.labelMyaccount.MouseLeave += new System.EventHandler(this.labelMyaccount_MouseLeave);
-            this.labelMyaccount.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMyaccount_MouseMove);
+            this.labelMyaccount.Click += new System.EventHandler(this.LabelMyaccountClick);
+            this.labelMyaccount.MouseLeave += new System.EventHandler(this.LabelMyaccountMouseLeave);
+            this.labelMyaccount.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMyaccountMouseMove);
             // 
             // labelContact
             // 
@@ -138,9 +138,9 @@
             this.labelContact.Size = new System.Drawing.Size(205, 58);
             this.labelContact.TabIndex = 12;
             this.labelContact.Text = "Contact";
-            this.labelContact.Click += new System.EventHandler(this.labelContact_Click);
-            this.labelContact.MouseLeave += new System.EventHandler(this.labelContact_MouseLeave);
-            this.labelContact.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelContact_MouseMove);
+            this.labelContact.Click += new System.EventHandler(this.LabelContactClick);
+            this.labelContact.MouseLeave += new System.EventHandler(this.LabelContactMouseLeave);
+            this.labelContact.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelContactMouseMove);
             // 
             // labelMovis
             // 
@@ -153,9 +153,9 @@
             this.labelMovis.TabIndex = 11;
             this.labelMovis.Tag = "";
             this.labelMovis.Text = "Movies";
-            this.labelMovis.Click += new System.EventHandler(this.labelMovis_Click);
-            this.labelMovis.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
-            this.labelMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
+            this.labelMovis.Click += new System.EventHandler(this.LabelMovisClick);
+            this.labelMovis.MouseLeave += new System.EventHandler(this.LabelMovisMouseLeave);
+            this.labelMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMovisMouseMove);
             // 
             // pictureBoxMyaccount
             // 
@@ -168,9 +168,9 @@
             this.pictureBoxMyaccount.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxMyaccount.TabIndex = 10;
             this.pictureBoxMyaccount.TabStop = false;
-            this.pictureBoxMyaccount.Click += new System.EventHandler(this.pictureBoxMyaccount_Click);
-            this.pictureBoxMyaccount.MouseLeave += new System.EventHandler(this.labelMyaccount_MouseLeave);
-            this.pictureBoxMyaccount.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMyaccount_MouseMove);
+            this.pictureBoxMyaccount.Click += new System.EventHandler(this.PictureBoxMyaccountClick);
+            this.pictureBoxMyaccount.MouseLeave += new System.EventHandler(this.LabelMyaccountMouseLeave);
+            this.pictureBoxMyaccount.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMyaccountMouseMove);
             // 
             // pictureBoxContact
             // 
@@ -183,9 +183,9 @@
             this.pictureBoxContact.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxContact.TabIndex = 9;
             this.pictureBoxContact.TabStop = false;
-            this.pictureBoxContact.Click += new System.EventHandler(this.pictureBoxContact_Click);
-            this.pictureBoxContact.MouseLeave += new System.EventHandler(this.labelContact_MouseLeave);
-            this.pictureBoxContact.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelContact_MouseMove);
+            this.pictureBoxContact.Click += new System.EventHandler(this.PictureBoxContactClick);
+            this.pictureBoxContact.MouseLeave += new System.EventHandler(this.LabelContactMouseLeave);
+            this.pictureBoxContact.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelContactMouseMove);
             // 
             // pictureBoxMovis
             // 
@@ -199,9 +199,9 @@
             this.pictureBoxMovis.TabIndex = 8;
             this.pictureBoxMovis.TabStop = false;
             this.pictureBoxMovis.Tag = "";
-            this.pictureBoxMovis.Click += new System.EventHandler(this.pictureBoxMovis_Click);
-            this.pictureBoxMovis.MouseLeave += new System.EventHandler(this.labelMovis_MouseLeave);
-            this.pictureBoxMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.labelMovis_MouseMove);
+            this.pictureBoxMovis.Click += new System.EventHandler(this.PictureBoxMovisClick);
+            this.pictureBoxMovis.MouseLeave += new System.EventHandler(this.LabelMovisMouseLeave);
+            this.pictureBoxMovis.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LabelMovisMouseMove);
             // 
             // Betaalbutton
             // 
@@ -215,7 +215,7 @@
             this.Betaalbutton.Text = "Betalen";
             this.Betaalbutton.UseVisualStyleBackColor = false;
             this.Betaalbutton.Visible = false;
-            this.Betaalbutton.Click += new System.EventHandler(this.button2_Click);
+            this.Betaalbutton.Click += new System.EventHandler(this.Button2Click);
             // 
             // label2
             // 
@@ -237,7 +237,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBox1.Click += new System.EventHandler(this.PictureBox1Click);
             // 
             // IDEAL
             // 
@@ -249,7 +249,7 @@
             this.IDEAL.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.IDEAL.TabIndex = 3;
             this.IDEAL.TabStop = false;
-            this.IDEAL.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.IDEAL.Click += new System.EventHandler(this.PictureBox2Click);
             // 
             // Selcect1
             // 
@@ -288,7 +288,7 @@
             this.Name = "Betalen";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CINEMA4ALL";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.betalen_FormClosed);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BetalenFormClosed);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panelBoven2.ResumeLayout(false);

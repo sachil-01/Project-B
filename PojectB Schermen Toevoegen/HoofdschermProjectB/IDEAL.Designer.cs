@@ -50,8 +50,8 @@
             // BankBox
             // 
             this.BankBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BankBox.Location = new System.Drawing.Point(877, 426);
-            this.BankBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.BankBox.Location = new System.Drawing.Point(489, 428);
+            this.BankBox.Margin = new System.Windows.Forms.Padding(5);
             this.BankBox.Name = "BankBox";
             this.BankBox.Size = new System.Drawing.Size(531, 34);
             this.BankBox.TabIndex = 0;
@@ -60,7 +60,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(201, 274);
+            this.label2.Location = new System.Drawing.Point(201, 291);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 29);
@@ -70,7 +70,7 @@
             // 
             this.BankNrLabel.AutoSize = true;
             this.BankNrLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BankNrLabel.Location = new System.Drawing.Point(201, 527);
+            this.BankNrLabel.Location = new System.Drawing.Point(65, 522);
             this.BankNrLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.BankNrLabel.Name = "BankNrLabel";
             this.BankNrLabel.Size = new System.Drawing.Size(255, 29);
@@ -81,7 +81,7 @@
             // 
             this.BevestigenKnop.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BevestigenKnop.Location = new System.Drawing.Point(892, 662);
-            this.BevestigenKnop.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.BevestigenKnop.Margin = new System.Windows.Forms.Padding(5);
             this.BevestigenKnop.Name = "BevestigenKnop";
             this.BevestigenKnop.Size = new System.Drawing.Size(421, 129);
             this.BevestigenKnop.TabIndex = 12;
@@ -93,7 +93,7 @@
             // 
             this.Transactie.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.Transactie.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Transactie.Location = new System.Drawing.Point(1651, 575);
+            this.Transactie.Location = new System.Drawing.Point(1146, 545);
             this.Transactie.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.Transactie.Name = "Transactie";
             this.Transactie.Size = new System.Drawing.Size(409, 62);
@@ -104,8 +104,8 @@
             // check
             // 
             this.check.Image = global::HoofdschermProjectB.Properties.Resources.confirm_icon_png;
-            this.check.Location = new System.Drawing.Point(1580, 254);
-            this.check.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.check.Location = new System.Drawing.Point(1082, 226);
+            this.check.Margin = new System.Windows.Forms.Padding(5);
             this.check.Name = "check";
             this.check.Size = new System.Drawing.Size(356, 303);
             this.check.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -117,7 +117,7 @@
             // 
             this.BankLabel.AutoSize = true;
             this.BankLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BankLabel.Location = new System.Drawing.Point(201, 431);
+            this.BankLabel.Location = new System.Drawing.Point(65, 431);
             this.BankLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.BankLabel.Name = "BankLabel";
             this.BankLabel.Size = new System.Drawing.Size(67, 29);
@@ -128,7 +128,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(201, 183);
+            this.label3.Location = new System.Drawing.Point(65, 179);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(203, 29);
@@ -139,7 +139,7 @@
             // 
             this.MailLabel.AutoSize = true;
             this.MailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MailLabel.Location = new System.Drawing.Point(201, 276);
+            this.MailLabel.Location = new System.Drawing.Point(65, 270);
             this.MailLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.MailLabel.Name = "MailLabel";
             this.MailLabel.Size = new System.Drawing.Size(88, 29);
@@ -149,8 +149,8 @@
             // BankNrBox
             // 
             this.BankNrBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BankNrBox.Location = new System.Drawing.Point(877, 522);
-            this.BankNrBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.BankNrBox.Location = new System.Drawing.Point(489, 519);
+            this.BankNrBox.Margin = new System.Windows.Forms.Padding(5);
             this.BankNrBox.Name = "BankNrBox";
             this.BankNrBox.Size = new System.Drawing.Size(531, 34);
             this.BankNrBox.TabIndex = 18;
@@ -159,7 +159,7 @@
             // 
             this.GebruikersNaamLabel.AutoSize = true;
             this.GebruikersNaamLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GebruikersNaamLabel.Location = new System.Drawing.Point(887, 178);
+            this.GebruikersNaamLabel.Location = new System.Drawing.Point(484, 179);
             this.GebruikersNaamLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.GebruikersNaamLabel.Name = "GebruikersNaamLabel";
             this.GebruikersNaamLabel.Size = new System.Drawing.Size(191, 29);
@@ -170,7 +170,7 @@
             // 
             this.EmailLabel.AutoSize = true;
             this.EmailLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmailLabel.Location = new System.Drawing.Point(887, 274);
+            this.EmailLabel.Location = new System.Drawing.Point(484, 270);
             this.EmailLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.EmailLabel.Name = "EmailLabel";
             this.EmailLabel.Size = new System.Drawing.Size(82, 29);
@@ -180,8 +180,8 @@
             // GebruikersNaamBox
             // 
             this.GebruikersNaamBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GebruikersNaamBox.Location = new System.Drawing.Point(877, 174);
-            this.GebruikersNaamBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.GebruikersNaamBox.Location = new System.Drawing.Point(489, 176);
+            this.GebruikersNaamBox.Margin = new System.Windows.Forms.Padding(5);
             this.GebruikersNaamBox.Name = "GebruikersNaamBox";
             this.GebruikersNaamBox.Size = new System.Drawing.Size(531, 34);
             this.GebruikersNaamBox.TabIndex = 21;
@@ -190,8 +190,8 @@
             // WachtWoordBox
             // 
             this.WachtWoordBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WachtWoordBox.Location = new System.Drawing.Point(877, 270);
-            this.WachtWoordBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.WachtWoordBox.Location = new System.Drawing.Point(489, 265);
+            this.WachtWoordBox.Margin = new System.Windows.Forms.Padding(5);
             this.WachtWoordBox.Name = "WachtWoordBox";
             this.WachtWoordBox.Size = new System.Drawing.Size(531, 34);
             this.WachtWoordBox.TabIndex = 22;
@@ -201,7 +201,7 @@
             // 
             this.WachtwoordLabel.AutoSize = true;
             this.WachtwoordLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.WachtwoordLabel.Location = new System.Drawing.Point(201, 276);
+            this.WachtwoordLabel.Location = new System.Drawing.Point(65, 270);
             this.WachtwoordLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.WachtwoordLabel.Name = "WachtwoordLabel";
             this.WachtwoordLabel.Size = new System.Drawing.Size(153, 29);
@@ -212,41 +212,41 @@
             // LogInKnop
             // 
             this.LogInKnop.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LogInKnop.Location = new System.Drawing.Point(1044, 378);
-            this.LogInKnop.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.LogInKnop.Location = new System.Drawing.Point(645, 365);
+            this.LogInKnop.Margin = new System.Windows.Forms.Padding(5);
             this.LogInKnop.Name = "LogInKnop";
             this.LogInKnop.Size = new System.Drawing.Size(196, 65);
             this.LogInKnop.TabIndex = 24;
             this.LogInKnop.Text = "LogIn";
             this.LogInKnop.UseVisualStyleBackColor = true;
             this.LogInKnop.Visible = false;
-            this.LogInKnop.Click += new System.EventHandler(this.LogInKnop_Click);
+            this.LogInKnop.Click += new System.EventHandler(this.LogInKnopClick);
             // 
             // IDEAL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(1961, 919);
-            this.Controls.Add(this.LogInKnop);
+            this.ClientSize = new System.Drawing.Size(1483, 853);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.WachtwoordLabel);
-            this.Controls.Add(this.WachtWoordBox);
-            this.Controls.Add(this.GebruikersNaamBox);
-            this.Controls.Add(this.EmailLabel);
-            this.Controls.Add(this.GebruikersNaamLabel);
+            this.Controls.Add(this.LogInKnop);
             this.Controls.Add(this.BankNrBox);
             this.Controls.Add(this.MailLabel);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.check);
             this.Controls.Add(this.Transactie);
             this.Controls.Add(this.BevestigenKnop);
-            this.Controls.Add(this.BankNrLabel);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.BankLabel);
             this.Controls.Add(this.BankBox);
+            this.Controls.Add(this.BankLabel);
+            this.Controls.Add(this.BankNrLabel);
+            this.Controls.Add(this.GebruikersNaamBox);
+            this.Controls.Add(this.WachtWoordBox);
+            this.Controls.Add(this.EmailLabel);
+            this.Controls.Add(this.GebruikersNaamLabel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "IDEAL";

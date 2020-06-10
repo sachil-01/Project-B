@@ -57,7 +57,7 @@ namespace ProjectB
             check.Visible = true;     
         }
 
-        private void LogInKnop_Click(object sender, EventArgs e)
+        private void LogInKnopClick(object sender, EventArgs e)
         {
             if(FormProfiel.LogIn(GebruikersNaamBox,WachtWoordBox))
             {
